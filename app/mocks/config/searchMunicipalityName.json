@@ -1,0 +1,76 @@
+{
+    "payload": {
+      "cities": [
+        {
+          "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtCity",
+          "district": "EE",
+          "countryCode": "10419",
+          "name": "GAZA (TERRITORIO DI)",
+          "landRegister": "Z218"
+        },
+        {
+          "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtCity",
+          "district": "MN",
+          "countryCode": "2609",
+          "name": "GAZOLDO DEGLI IPPOLITI",
+          "landRegister": "D949"
+        },
+        {
+          "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtCity",
+          "district": "VA",
+          "countryCode": "8935",
+          "name": "GAZZADA",
+          "landRegister": "D950"
+        },
+        {
+          "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtCity",
+          "district": "VA",
+          "countryCode": "2610",
+          "name": "GAZZADA SCHIANNO",
+          "landRegister": "D951"
+        },
+        {
+          "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtCity",
+          "district": "BG",
+          "countryCode": "2611",
+          "name": "GAZZANIGA",
+          "landRegister": "D952"
+        },
+        {
+          "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtCity",
+          "district": "RE",
+          "countryCode": "8936",
+          "name": "GAZZANO",
+          "landRegister": "D953"
+        },
+        {
+          "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtCity",
+          "district": "IM",
+          "countryCode": "8937",
+          "name": "GAZZELLI",
+          "landRegister": "D954"
+        },
+        {
+          "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtCity",
+          "district": "CR",
+          "countryCode": "8938",
+          "name": "GAZZO",
+          "landRegister": "D955"
+        },
+        {
+          "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtCity",
+          "district": "PD",
+          "countryCode": "2612",
+          "name": "GAZZO PADOVANO",
+          "landRegister": "D956"
+        },
+        {
+          "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtCity",
+          "district": "VR",
+          "countryCode": "2613",
+          "name": "GAZZO VERONESE",
+          "landRegister": "D957"
+        }
+      ]
+    }
+}

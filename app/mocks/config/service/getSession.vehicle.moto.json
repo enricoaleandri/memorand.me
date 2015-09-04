@@ -1,0 +1,39 @@
+[{
+	"ssoResponseId":{
+		"dialogName":"quote",
+		"objectName": "vehicle"
+	},
+	"objectValue":{
+      "eClass": "http://allianz.com/it.allianz.genialloyd.extvehicle#//ExtVehicle",
+      "usage": "01",
+      "lastYearClaims": 0,
+      "licensePlateNumber": "CV19474",
+      "initialRegistrationDate": "2005-10-01T00:00:00",
+      "lloydClass": "6",
+      "freeDrivingFormula": "01",
+      "characteristics": {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extvehicle#//ExtVehicleCharacteristics",
+        "propertyType": "0002",
+        "vehicleType": "1140",
+        "originalPrice": 10695,
+        "power": "78.1",
+        "cubicCapacity": "1251",
+        "vehicleBrand": "YAMAHA",
+        "vehicleModel": "XJR 1300 (2004)",
+        "fuelType": "1",
+        "mainCode": "000516",
+        "alarmProtection": true,
+        "box": "S",
+        "flagOfficialEdition": "S",
+        "progModelBrand": "4079",
+        "modelCode": "00299",
+        "plateType": "00",
+        "id": "9001",
+        "code": "0004",
+        "codeAlarmProtection": "02",
+        "atrClass": 6,
+        "plateHomologationCode": "3",
+        "flagHomeDeliveries": "N"
+        }
+	}
+}]

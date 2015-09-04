@@ -1,0 +1,32 @@
+[
+	{
+		"ssoResponseId": {
+			"dialogName": "quote",
+			"objectName": "addresses"
+		},
+		"objectValue":
+				[
+					{
+						"jsonType": "real",
+						"addressType": "03",
+						"self": null,
+						"countryCode": null,
+						"city": "ANGRI",
+						"zipCode": "84012",
+						"street": null,
+						"streetNumber": null,
+						"stairwayNumber": null,
+						"doorNumber": null,
+						"type": "_UNSPECIFIED_",
+						"localityCode": "199",
+						"province": "SA",
+						"building": null,
+						"toponymCode": null,
+						"toponymCode4Desc": "Via",
+						"urban": null,
+						"contacts": []
+					}
+				]
+
+	}
+]

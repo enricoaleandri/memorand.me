@@ -1,0 +1,5040 @@
+{
+	"parties": [
+		{
+			"occupation": "0009",
+			"nationality": "1",
+			"dateOfBirth": "1970-03-24T00:00:00",
+			"gender": "MALE",
+			"roleCode": "02",
+			"mainFlag": "S",
+			"addresses": [
+				{
+					"city": "Civitanova Marche",
+					"zipCode": "62012",
+					"type": "_UNSPECIFIED_",
+					"localityCode": "1704",
+					"province": "MC"
+				}
+			]
+		}
+	],
+	"vehicle": {
+		"usage": "01",
+		"lastTwoYearsClaims": 1,
+		"lastYearClaims": 1,
+		"licensePlateNumber": "DE343DE",
+		"initialRegistrationDate": "2007-01-01T00:00:00",
+		"driverFormula": "N",
+		"lastYearsLloydClaims": "01",
+		"lloydClass": "S1",
+		"characteristics": {
+			"propertyType": "0002",
+			"vehicleType": "0001",
+			"originalPrice": 22600,
+			"power": "74.00",
+			"cubicCapacity": "1700",
+			"vehicleBrand": "OPEL",
+			"vehicleModel": "Astra 1.7 CDTI 101CV SW Cosmo (2004)",
+			"fuelType": "2",
+			"alarmProtection": false,
+			"box": "S",
+			"mileage": 2,
+			"stateOfBirthCode": 1,
+			"flagOfficialEdition": "S",
+			"progModelBrand": "26528",
+			"modelCode": "003425",
+			"plateType": "00",
+			"flagGpl": "N",
+			"taxHorsepower": 18,
+			"ID": "9001",
+			"code": "0002"
+		}
+	},
+	"policies": [
+		{
+			"paymentFrequency": "0001",
+			"netPremium": "811.09",
+			"grossPremium": "1018.00",
+			"partyInCharge": "_UNSPECIFIED_",
+			"name": "Auto personalizzato",
+			"code": "10",
+			"initiativeDiscountPoints": "0,00",
+			"codPracticeLiving": "03",
+			"renewalNum": 0,
+			"previousPolicyExpirationDate": "2015-07-15T00:00:00",
+			"absoluteQuotProg": "143839466",
+			"quotationProg": "548390940",
+			"ratingDate": "2015-07-15T00:00:00",
+			"effectDate": "2015-07-15T00:00:00",
+			"contractType": 1,
+			"ID": "37",
+			"objectRatingRefDate": "2015-07-15T00:00:00",
+			"assignementReason": "0500",
+			"gainability": "S",
+			"ssnPremium": "78.36",
+			"taxPremium": "128.55",
+			"version": "13",
+			"reductions": [
+				{
+					"type": "ABBUONO",
+					"percentage": true,
+					"value": "0.00"
+				},
+				{
+					"percentage": false,
+					"value": "2.96"
+				}
+			],
+			"coverages": [
+				{
+					"name": "Responsabilità Civile",
+					"netPremium": "736.25",
+					"grossPremium": "931.37",
+					"guarantyCode": "97",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "S",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "3,00",
+					"taxRates": "16,00",
+					"ID": "1",
+					"ssnPremium": "77,31",
+					"taxPremium": "117,81",
+					"selection": {
+						"selected": true
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "3.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2014-10-01T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0003",
+							"value": "0001",
+							"description": "Nessuna",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "Nessuna",
+									"value": "0001"
+								}
+							]
+						},
+						{
+							"typology": "0001",
+							"value": "0055",
+							"description": "12MIL (6+6)",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "12MIL (6+6)",
+									"value": "0055"
+								},
+								{
+									"description": "40MIL (20+20)",
+									"value": "0063"
+								},
+								{
+									"description": "100MIL (50+50)",
+									"value": "0051"
+								}
+							]
+						},
+						{
+							"typology": "0005",
+							"value": "0018",
+							"description": "5000 per conducenti a maggior rischio",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "5000 per conducenti a maggior rischio",
+									"value": "0018"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Assistenza Stradale",
+					"netPremium": "11.36",
+					"grossPremium": "12.50",
+					"guarantyCode": "98",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "S",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "10,00",
+					"ID": "2",
+					"ssnPremium": "0,00",
+					"taxPremium": "1,14",
+					"selection": {
+						"selected": true
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2010-07-03T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "Assistenza Stradale Plus",
+					"netPremium": "14.00",
+					"grossPremium": "15.40",
+					"guarantyCode": "157",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "N",
+					"idSubversion": "2",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "10,00",
+					"ID": "3",
+					"ssnPremium": "0,00",
+					"taxPremium": "1,40",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-05-24T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "Assistenza VIP",
+					"netPremium": "73.54",
+					"grossPremium": "80.90",
+					"guarantyCode": "179",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "10,00",
+					"ID": "4",
+					"ssnPremium": "0,00",
+					"taxPremium": "7,36",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2014-09-13T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "ProtPremio Plus - Malattia",
+					"netPremium": "1.00",
+					"grossPremium": "1.03",
+					"guarantyCode": "197",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "2,50",
+					"ID": "5",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,03",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-03-06T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "ProtPremio Plus - PerditePecuniarie",
+					"netPremium": "0.77",
+					"grossPremium": "0.94",
+					"guarantyCode": "198",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "21,25",
+					"ID": "6",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,17",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-03-06T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "ProtPremio Plus - Infortuni",
+					"netPremium": "1.00",
+					"grossPremium": "1.03",
+					"guarantyCode": "199",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "2,50",
+					"ID": "7",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,03",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-03-06T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "ProtPremio Vip - Malattia",
+					"netPremium": "1.84",
+					"grossPremium": "1.89",
+					"guarantyCode": "200",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "2,50",
+					"ID": "8",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,05",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-03-06T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "ProtPremio Vip - PerditePecuniarie",
+					"netPremium": "1.00",
+					"grossPremium": "1.22",
+					"guarantyCode": "201",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "21,25",
+					"ID": "9",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,22",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-03-06T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "ProtPremio Vip - Infortuni",
+					"netPremium": "1.84",
+					"grossPremium": "1.89",
+					"guarantyCode": "202",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "2,50",
+					"ID": "10",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,05",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-03-06T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "Assistenza Stradale ZeroPensieri",
+					"netPremium": "7.27",
+					"grossPremium": "8.00",
+					"guarantyCode": "204",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "10,00",
+					"ID": "11",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,73",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-05-24T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "Auto sostitutiva",
+					"netPremium": "3.60",
+					"grossPremium": "3.96",
+					"guarantyCode": "99",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "10,00",
+					"ID": "12",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,36",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2010-02-13T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "Protezione Rivalse",
+					"netPremium": "10.00",
+					"grossPremium": "12.65",
+					"guarantyCode": "228",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "S",
+					"idSubversion": "2",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "16,00",
+					"ID": "13",
+					"ssnPremium": "1,05",
+					"taxPremium": "1,60",
+					"selection": {
+						"selected": true
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2014-05-12T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "Bonus Protetto (condizione particolare RCA)",
+					"netPremium": "24.50",
+					"grossPremium": "31.00",
+					"guarantyCode": "162",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "30,00",
+					"taxRates": "16,00",
+					"ID": "14",
+					"ssnPremium": "2,58",
+					"taxPremium": "3,92",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "30.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2014-05-12T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "Rimborso premio RCA e Bollo a seguito di furto",
+					"netPremium": "8.25",
+					"grossPremium": "10.01",
+					"guarantyCode": "156",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "21,25",
+					"ID": "15",
+					"ssnPremium": "0,00",
+					"taxPremium": "1,76",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2006-01-01T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "Infortunio Guidatore",
+					"netPremium": "17.07",
+					"grossPremium": "17.50",
+					"guarantyCode": "76",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "50,00",
+					"taxRates": "2,50",
+					"ID": "16",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,43",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "50.01"
+						}
+					],
+					"coverageInterval": {
+						"start": "2015-02-02T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0001",
+							"value": "0015",
+							"description": "50.000",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "50.000",
+									"value": "0015"
+								},
+								{
+									"description": "100.000",
+									"value": "0016"
+								},
+								{
+									"description": "200.000",
+									"value": "0017"
+								}
+							]
+						},
+						{
+							"typology": "0003",
+							"value": "0018",
+							"description": "3%",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "10%",
+									"value": "0017"
+								},
+								{
+									"description": "3%",
+									"value": "0018"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Tutela Legale",
+					"netPremium": "6.22",
+					"grossPremium": "7.00",
+					"guarantyCode": "106",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "12,50",
+					"ID": "17",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,78",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "61.13"
+						}
+					],
+					"coverageInterval": {
+						"start": "2014-09-13T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0001",
+							"value": "10000,00",
+							"description": "10.000,00",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "10.000,00",
+									"value": "10000,00"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Protezione Patente",
+					"netPremium": "12.37",
+					"grossPremium": "15.00",
+					"guarantyCode": "155",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "21,25",
+					"ID": "18",
+					"ssnPremium": "0,00",
+					"taxPremium": "2,63",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-05-24T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0001",
+							"value": "0006",
+							"description": "15",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "15",
+									"value": "0006"
+								},
+								{
+									"description": "25",
+									"value": "0007"
+								},
+								{
+									"description": "50",
+									"value": "0008"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Furto e Incendio",
+					"netPremium": "43.58",
+					"grossPremium": "49.47",
+					"guarantyCode": "101",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "S",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "5,00",
+					"taxRates": "13,50",
+					"ID": "19",
+					"ssnPremium": "0,00",
+					"taxPremium": "5,89",
+					"selection": {
+						"selected": true
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "4.99"
+						}
+					],
+					"coverageInterval": {
+						"start": "2014-03-30T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0006",
+							"value": "0002",
+							"description": "250,00 - 10%",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "250,00 - 10%",
+									"value": "0002"
+								},
+								{
+									"description": "500,00 - 10%",
+									"value": "0006"
+								}
+							]
+						},
+						{
+							"typology": "0002",
+							"value": "4800,00",
+							"description": "4.800,00",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "4.800,00",
+									"value": "4800,00"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Estensioni in caso di Furto e Incendio",
+					"netPremium": "9.90",
+					"grossPremium": "12.01",
+					"guarantyCode": "158",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "S",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "21,25",
+					"ID": "20",
+					"ssnPremium": "0,00",
+					"taxPremium": "2,11",
+					"selection": {
+						"selected": true
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-05-24T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "Eventi Naturali",
+					"netPremium": "37.83",
+					"grossPremium": "42.94",
+					"guarantyCode": "108",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "13,50",
+					"ID": "21",
+					"ssnPremium": "0,00",
+					"taxPremium": "5,11",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2014-07-14T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0003",
+							"value": "0010",
+							"description": "500,00",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "500,00",
+									"value": "0010"
+								}
+							]
+						},
+						{
+							"typology": "0002",
+							"value": "4800,00",
+							"description": "4.800,00",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "4.800,00",
+									"value": "4800,00"
+								}
+							]
+						},
+						{
+							"typology": "0004",
+							"value": "0,10",
+							"description": "10%",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "10%",
+									"value": "0,10"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Cristalli",
+					"netPremium": "21.01",
+					"grossPremium": "23.85",
+					"guarantyCode": "107",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "13,50",
+					"ID": "22",
+					"ssnPremium": "0,00",
+					"taxPremium": "2,84",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2015-02-12T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0003",
+							"value": "0011",
+							"description": "150,00",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "150,00",
+									"value": "0011"
+								}
+							]
+						},
+						{
+							"typology": "0001",
+							"value": "2500,00",
+							"description": "2.500,00",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "2.500,00",
+									"value": "2500,00"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Collisione Light Con Veicolo Identificato",
+					"netPremium": "94.54",
+					"grossPremium": "107.31",
+					"guarantyCode": "227",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "13,50",
+					"ID": "23",
+					"ssnPremium": "0,00",
+					"taxPremium": "12,77",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2011-02-19T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0001",
+							"value": "0066",
+							"description": "3.000",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "3.000",
+									"value": "0066"
+								},
+								{
+									"description": "5.000",
+									"value": "0067"
+								}
+							]
+						},
+						{
+							"typology": "0003",
+							"value": "0009",
+							"description": "250,00",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "250,00",
+									"value": "0009"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Collisione",
+					"netPremium": "115.49",
+					"grossPremium": "131.09",
+					"guarantyCode": "103",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "13,50",
+					"ID": "24",
+					"ssnPremium": "0,00",
+					"taxPremium": "15,60",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2013-09-07T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0003",
+							"value": "0009",
+							"description": "250,00",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "250,00",
+									"value": "0009"
+								}
+							]
+						},
+						{
+							"typology": "0002",
+							"value": "4800,00",
+							"description": "4.800,00",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "4.800,00",
+									"value": "4800,00"
+								}
+							]
+						},
+						{
+							"typology": "0004",
+							"value": "0,10",
+							"description": "10%",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "10%",
+									"value": "0,10"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Estensione Kasko Completa",
+					"netPremium": "154.78",
+					"grossPremium": "175.68",
+					"guarantyCode": "154",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "13,50",
+					"ID": "25",
+					"ssnPremium": "0,00",
+					"taxPremium": "20,90",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2013-09-07T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0003",
+							"value": "0010",
+							"description": "500,00",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "500,00",
+									"value": "0010"
+								}
+							]
+						},
+						{
+							"typology": "0002",
+							"value": "4800,00",
+							"description": "4.800,00",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "4.800,00",
+									"value": "4800,00"
+								}
+							]
+						},
+						{
+							"typology": "0004",
+							"value": "0,10",
+							"description": "10%",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "10%",
+									"value": "0,10"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Eventi Socio Politici-Atti Vandalici",
+					"netPremium": "67.42",
+					"grossPremium": "76.53",
+					"guarantyCode": "109",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"idSubversion": "2",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "13,50",
+					"ID": "26",
+					"ssnPremium": "0,00",
+					"taxPremium": "9,11",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2015-02-12T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0003",
+							"value": "0010",
+							"description": "500,00",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "500,00",
+									"value": "0010"
+								}
+							]
+						},
+						{
+							"typology": "0002",
+							"value": "4800,00",
+							"description": "4.800,00",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "4.800,00",
+									"value": "4800,00"
+								}
+							]
+						},
+						{
+							"typology": "0004",
+							"value": "0,10",
+							"description": "10%",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "10%",
+									"value": "0,10"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Responsabilità Civile",
+					"netPremium": "736.25",
+					"grossPremium": "931.37",
+					"guarantyCode": "97",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "S",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "3,00",
+					"taxRates": "16,00",
+					"ID": "1",
+					"ssnPremium": "77,31",
+					"taxPremium": "117,81",
+					"selection": {
+						"selected": true
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "3.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2014-10-01T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0003",
+							"value": "0001",
+							"description": "Nessuna",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "Nessuna",
+									"value": "0001"
+								}
+							]
+						},
+						{
+							"typology": "0001",
+							"value": "0055",
+							"description": "12MIL (6+6)",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "12MIL (6+6)",
+									"value": "0055"
+								},
+								{
+									"description": "40MIL (20+20)",
+									"value": "0063"
+								},
+								{
+									"description": "100MIL (50+50)",
+									"value": "0051"
+								}
+							]
+						},
+						{
+							"typology": "0005",
+							"value": "0018",
+							"description": "5000 per conducenti a maggior rischio",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "5000 per conducenti a maggior rischio",
+									"value": "0018"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Assistenza Stradale",
+					"netPremium": "11.36",
+					"grossPremium": "12.50",
+					"guarantyCode": "98",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "S",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "10,00",
+					"ID": "2",
+					"ssnPremium": "0,00",
+					"taxPremium": "1,14",
+					"selection": {
+						"selected": true
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2010-07-03T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "Assistenza Stradale Plus",
+					"netPremium": "14.00",
+					"grossPremium": "15.40",
+					"guarantyCode": "157",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "N",
+					"automaticSelection": "N",
+					"typeHierarchy": "OR",
+					"idSubversion": "2",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "10,00",
+					"ID": "3",
+					"ssnPremium": "0,00",
+					"taxPremium": "1,40",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-05-24T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"coverageItems": [
+						{
+							"code": "98",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						}
+					]
+				},
+				{
+					"name": "Assistenza VIP",
+					"netPremium": "73.54",
+					"grossPremium": "80.90",
+					"guarantyCode": "179",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "10,00",
+					"ID": "4",
+					"ssnPremium": "0,00",
+					"taxPremium": "7,36",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2014-09-13T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "ProtPremio Plus - Malattia",
+					"netPremium": "1.00",
+					"grossPremium": "1.03",
+					"guarantyCode": "197",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"automaticSelection": "S",
+					"typeHierarchy": "AND",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "2,50",
+					"ID": "5",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,03",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-03-06T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"coverageItems": [
+						{
+							"code": "157",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						}
+					]
+				},
+				{
+					"name": "ProtPremio Plus - PerditePecuniarie",
+					"netPremium": "0.77",
+					"grossPremium": "0.94",
+					"guarantyCode": "198",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"automaticSelection": "S",
+					"typeHierarchy": "AND",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "21,25",
+					"ID": "6",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,17",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-03-06T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"coverageItems": [
+						{
+							"code": "157",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						}
+					]
+				},
+				{
+					"name": "ProtPremio Plus - Infortuni",
+					"netPremium": "1.00",
+					"grossPremium": "1.03",
+					"guarantyCode": "199",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"automaticSelection": "S",
+					"typeHierarchy": "AND",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "2,50",
+					"ID": "7",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,03",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-03-06T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"coverageItems": [
+						{
+							"code": "157",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						}
+					]
+				},
+				{
+					"name": "ProtPremio Vip - Malattia",
+					"netPremium": "1.84",
+					"grossPremium": "1.89",
+					"guarantyCode": "200",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"automaticSelection": "S",
+					"typeHierarchy": "AND",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "2,50",
+					"ID": "8",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,05",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-03-06T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"coverageItems": [
+						{
+							"code": "179",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						}
+					]
+				},
+				{
+					"name": "ProtPremio Vip - PerditePecuniarie",
+					"netPremium": "1.00",
+					"grossPremium": "1.22",
+					"guarantyCode": "201",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"automaticSelection": "S",
+					"typeHierarchy": "AND",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "21,25",
+					"ID": "9",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,22",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-03-06T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"coverageItems": [
+						{
+							"code": "179",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						}
+					]
+				},
+				{
+					"name": "ProtPremio Vip - Infortuni",
+					"netPremium": "1.84",
+					"grossPremium": "1.89",
+					"guarantyCode": "202",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"automaticSelection": "S",
+					"typeHierarchy": "AND",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "2,50",
+					"ID": "10",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,05",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-03-06T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"coverageItems": [
+						{
+							"code": "179",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						}
+					]
+				},
+				{
+					"name": "Assistenza Stradale ZeroPensieri",
+					"netPremium": "7.27",
+					"grossPremium": "8.00",
+					"guarantyCode": "204",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "N",
+					"automaticSelection": "N",
+					"typeHierarchy": "OR",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "10,00",
+					"ID": "11",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,73",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-05-24T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"coverageItems": [
+						{
+							"code": "157",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						}
+					]
+				},
+				{
+					"name": "Auto sostitutiva",
+					"netPremium": "3.60",
+					"grossPremium": "3.96",
+					"guarantyCode": "99",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "10,00",
+					"ID": "12",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,36",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2010-02-13T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "Protezione Rivalse",
+					"netPremium": "10.00",
+					"grossPremium": "12.65",
+					"guarantyCode": "228",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "S",
+					"idSubversion": "2",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "16,00",
+					"ID": "13",
+					"ssnPremium": "1,05",
+					"taxPremium": "1,60",
+					"selection": {
+						"selected": true
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2014-05-12T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "Bonus Protetto (condizione particolare RCA)",
+					"netPremium": "24.50",
+					"grossPremium": "31.00",
+					"guarantyCode": "162",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "30,00",
+					"taxRates": "16,00",
+					"ID": "14",
+					"ssnPremium": "2,58",
+					"taxPremium": "3,92",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "30.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2014-05-12T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "Rimborso premio RCA e Bollo a seguito di furto",
+					"netPremium": "8.25",
+					"grossPremium": "10.01",
+					"guarantyCode": "156",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "21,25",
+					"ID": "15",
+					"ssnPremium": "0,00",
+					"taxPremium": "1,76",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2006-01-01T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "Infortunio Guidatore",
+					"netPremium": "17.07",
+					"grossPremium": "17.50",
+					"guarantyCode": "76",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "50,00",
+					"taxRates": "2,50",
+					"ID": "16",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,43",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "50.01"
+						}
+					],
+					"coverageInterval": {
+						"start": "2015-02-02T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0001",
+							"value": "0015",
+							"description": "50.000",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "50.000",
+									"value": "0015"
+								},
+								{
+									"description": "100.000",
+									"value": "0016"
+								},
+								{
+									"description": "200.000",
+									"value": "0017"
+								}
+							]
+						},
+						{
+							"typology": "0003",
+							"value": "0018",
+							"description": "3%",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "10%",
+									"value": "0017"
+								},
+								{
+									"description": "3%",
+									"value": "0018"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Tutela Legale",
+					"netPremium": "6.22",
+					"grossPremium": "7.00",
+					"guarantyCode": "106",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "12,50",
+					"ID": "17",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,78",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "61.13"
+						}
+					],
+					"coverageInterval": {
+						"start": "2014-09-13T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0001",
+							"value": "10000,00",
+							"description": "10.000,00",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "10.000,00",
+									"value": "10000,00"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Protezione Patente",
+					"netPremium": "12.37",
+					"grossPremium": "15.00",
+					"guarantyCode": "155",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "21,25",
+					"ID": "18",
+					"ssnPremium": "0,00",
+					"taxPremium": "2,63",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-05-24T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0001",
+							"value": "0006",
+							"description": "15",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "15",
+									"value": "0006"
+								},
+								{
+									"description": "25",
+									"value": "0007"
+								},
+								{
+									"description": "50",
+									"value": "0008"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Furto e Incendio",
+					"netPremium": "43.58",
+					"grossPremium": "49.47",
+					"guarantyCode": "101",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "S",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "5,00",
+					"taxRates": "13,50",
+					"ID": "19",
+					"ssnPremium": "0,00",
+					"taxPremium": "5,89",
+					"selection": {
+						"selected": true
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "4.99"
+						}
+					],
+					"coverageInterval": {
+						"start": "2014-03-30T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0006",
+							"value": "0002",
+							"description": "250,00 - 10%",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "250,00 - 10%",
+									"value": "0002"
+								},
+								{
+									"description": "500,00 - 10%",
+									"value": "0006"
+								}
+							]
+						},
+						{
+							"typology": "0002",
+							"value": "4800,00",
+							"description": "4.800,00",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "4.800,00",
+									"value": "4800,00"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Estensioni in caso di Furto e Incendio",
+					"netPremium": "9.90",
+					"grossPremium": "12.01",
+					"guarantyCode": "158",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "S",
+					"automaticSelection": "N",
+					"typeHierarchy": "OR",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "21,25",
+					"ID": "20",
+					"ssnPremium": "0,00",
+					"taxPremium": "2,11",
+					"selection": {
+						"selected": true
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-05-24T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"coverageItems": [
+						{
+							"code": "101",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						}
+					]
+				},
+				{
+					"name": "Eventi Naturali",
+					"netPremium": "37.83",
+					"grossPremium": "42.94",
+					"guarantyCode": "108",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "N",
+					"automaticSelection": "N",
+					"typeHierarchy": "OR",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "13,50",
+					"ID": "21",
+					"ssnPremium": "0,00",
+					"taxPremium": "5,11",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2014-07-14T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"coverageItems": [
+						{
+							"code": "101",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						}
+					],
+					"limitations": [
+						{
+							"typology": "0003",
+							"value": "0010",
+							"description": "500,00",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "500,00",
+									"value": "0010"
+								}
+							]
+						},
+						{
+							"typology": "0002",
+							"value": "4800,00",
+							"description": "4.800,00",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "4.800,00",
+									"value": "4800,00"
+								}
+							]
+						},
+						{
+							"typology": "0004",
+							"value": "0,10",
+							"description": "10%",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "10%",
+									"value": "0,10"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Cristalli",
+					"netPremium": "21.01",
+					"grossPremium": "23.85",
+					"guarantyCode": "107",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "13,50",
+					"ID": "22",
+					"ssnPremium": "0,00",
+					"taxPremium": "2,84",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2015-02-12T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0003",
+							"value": "0011",
+							"description": "150,00",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "150,00",
+									"value": "0011"
+								}
+							]
+						},
+						{
+							"typology": "0001",
+							"value": "2500,00",
+							"description": "2.500,00",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "2.500,00",
+									"value": "2500,00"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Collisione Light Con Veicolo Identificato",
+					"netPremium": "94.54",
+					"grossPremium": "107.31",
+					"guarantyCode": "227",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"automaticSelection": "N",
+					"typeHierarchy": "EXC",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "13,50",
+					"ID": "23",
+					"ssnPremium": "0,00",
+					"taxPremium": "12,77",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2011-02-19T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"coverageItems": [
+						{
+							"code": "103",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						}
+					],
+					"limitations": [
+						{
+							"typology": "0001",
+							"value": "0066",
+							"description": "3.000",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "3.000",
+									"value": "0066"
+								},
+								{
+									"description": "5.000",
+									"value": "0067"
+								}
+							]
+						},
+						{
+							"typology": "0003",
+							"value": "0009",
+							"description": "250,00",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "250,00",
+									"value": "0009"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Collisione",
+					"netPremium": "115.49",
+					"grossPremium": "131.09",
+					"guarantyCode": "103",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"automaticSelection": "N",
+					"typeHierarchy": "EXC",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "13,50",
+					"ID": "24",
+					"ssnPremium": "0,00",
+					"taxPremium": "15,60",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2013-09-07T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"coverageItems": [
+						{
+							"code": "227",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						}
+					],
+					"limitations": [
+						{
+							"typology": "0003",
+							"value": "0009",
+							"description": "250,00",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "250,00",
+									"value": "0009"
+								}
+							]
+						},
+						{
+							"typology": "0002",
+							"value": "4800,00",
+							"description": "4.800,00",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "4.800,00",
+									"value": "4800,00"
+								}
+							]
+						},
+						{
+							"typology": "0004",
+							"value": "0,10",
+							"description": "10%",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "10%",
+									"value": "0,10"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Estensione Kasko Completa",
+					"netPremium": "154.78",
+					"grossPremium": "175.68",
+					"guarantyCode": "154",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"automaticSelection": "N",
+					"typeHierarchy": "OR",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "13,50",
+					"ID": "25",
+					"ssnPremium": "0,00",
+					"taxPremium": "20,90",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2013-09-07T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"coverageItems": [
+						{
+							"code": "103",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						},
+						{
+							"code": "227",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						}
+					],
+					"limitations": [
+						{
+							"typology": "0003",
+							"value": "0010",
+							"description": "500,00",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "500,00",
+									"value": "0010"
+								}
+							]
+						},
+						{
+							"typology": "0002",
+							"value": "4800,00",
+							"description": "4.800,00",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "4.800,00",
+									"value": "4800,00"
+								}
+							]
+						},
+						{
+							"typology": "0004",
+							"value": "0,10",
+							"description": "10%",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "10%",
+									"value": "0,10"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Eventi Socio Politici-Atti Vandalici",
+					"netPremium": "67.42",
+					"grossPremium": "76.53",
+					"guarantyCode": "109",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"automaticSelection": "N",
+					"typeHierarchy": "OR",
+					"idSubversion": "2",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "13,50",
+					"ID": "26",
+					"ssnPremium": "0,00",
+					"taxPremium": "9,11",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2015-02-12T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"coverageItems": [
+						{
+							"code": "101",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						},
+						{
+							"code": "103",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						},
+						{
+							"code": "227",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						}
+					],
+					"limitations": [
+						{
+							"typology": "0003",
+							"value": "0010",
+							"description": "500,00",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "500,00",
+									"value": "0010"
+								}
+							]
+						},
+						{
+							"typology": "0002",
+							"value": "4800,00",
+							"description": "4.800,00",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "4.800,00",
+									"value": "4800,00"
+								}
+							]
+						},
+						{
+							"typology": "0004",
+							"value": "0,10",
+							"description": "10%",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "10%",
+									"value": "0,10"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"paymentFrequency": "0001",
+			"netPremium": "833.99",
+			"grossPremium": "1042.00",
+			"partyInCharge": "_UNSPECIFIED_",
+			"name": "Internet - IF NO AssPlus",
+			"code": "10",
+			"initiativeDiscountPoints": "0,00",
+			"codPracticeLiving": "03",
+			"renewalNum": 0,
+			"previousPolicyExpirationDate": "2015-07-15T00:00:00",
+			"absoluteQuotProg": "143839466",
+			"quotationProg": "548390940",
+			"ratingDate": "2015-07-15T00:00:00",
+			"effectDate": "2015-07-15T00:00:00",
+			"contractType": 1,
+			"ID": "0003",
+			"objectRatingRefDate": "2015-07-15T00:00:00",
+			"assignementReason": "0500",
+			"gainability": "S",
+			"ssnPremium": "78.32",
+			"taxPremium": "129.69",
+			"version": "13",
+			"reductions": [
+				{
+					"type": "ABBUONO",
+					"percentage": true,
+					"value": "0.00"
+				},
+				{
+					"percentage": false,
+					"value": "5.44"
+				}
+			],
+			"coverages": [
+				{
+					"name": "Responsabilità Civile",
+					"netPremium": "735.86",
+					"grossPremium": "930.87",
+					"guarantyCode": "97",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "S",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "3,00",
+					"taxRates": "16,00",
+					"ID": "1",
+					"ssnPremium": "77,27",
+					"taxPremium": "117,74",
+					"selection": {
+						"selected": true
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "3.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2014-10-01T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0003",
+							"value": "0001",
+							"description": "Nessuna",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "Nessuna",
+									"value": "0001"
+								}
+							]
+						},
+						{
+							"typology": "0001",
+							"value": "0055",
+							"description": "12MIL (6+6)",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "12MIL (6+6)",
+									"value": "0055"
+								},
+								{
+									"description": "40MIL (20+20)",
+									"value": "0063"
+								},
+								{
+									"description": "100MIL (50+50)",
+									"value": "0051"
+								}
+							]
+						},
+						{
+							"typology": "0005",
+							"value": "0018",
+							"description": "5000 per conducenti a maggior rischio",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "5000 per conducenti a maggior rischio",
+									"value": "0018"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Assistenza Stradale",
+					"netPremium": "11.36",
+					"grossPremium": "12.50",
+					"guarantyCode": "98",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "S",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "10,00",
+					"ID": "2",
+					"ssnPremium": "0,00",
+					"taxPremium": "1,14",
+					"selection": {
+						"selected": true
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2010-07-03T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "Assistenza Stradale Plus",
+					"netPremium": "14.00",
+					"grossPremium": "15.40",
+					"guarantyCode": "157",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "N",
+					"idSubversion": "2",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "10,00",
+					"ID": "3",
+					"ssnPremium": "0,00",
+					"taxPremium": "1,40",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-05-24T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "Assistenza VIP",
+					"netPremium": "73.54",
+					"grossPremium": "80.90",
+					"guarantyCode": "179",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "10,00",
+					"ID": "4",
+					"ssnPremium": "0,00",
+					"taxPremium": "7,36",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2014-09-13T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "ProtPremio Plus - Malattia",
+					"netPremium": "1.00",
+					"grossPremium": "1.03",
+					"guarantyCode": "197",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "2,50",
+					"ID": "5",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,03",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-03-06T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "ProtPremio Plus - PerditePecuniarie",
+					"netPremium": "0.77",
+					"grossPremium": "0.94",
+					"guarantyCode": "198",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "21,25",
+					"ID": "6",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,17",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-03-06T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "ProtPremio Plus - Infortuni",
+					"netPremium": "1.00",
+					"grossPremium": "1.03",
+					"guarantyCode": "199",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "2,50",
+					"ID": "7",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,03",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-03-06T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "ProtPremio Vip - Malattia",
+					"netPremium": "1.84",
+					"grossPremium": "1.89",
+					"guarantyCode": "200",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "2,50",
+					"ID": "8",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,05",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-03-06T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "ProtPremio Vip - PerditePecuniarie",
+					"netPremium": "1.00",
+					"grossPremium": "1.22",
+					"guarantyCode": "201",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "21,25",
+					"ID": "9",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,22",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-03-06T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "ProtPremio Vip - Infortuni",
+					"netPremium": "1.84",
+					"grossPremium": "1.89",
+					"guarantyCode": "202",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "2,50",
+					"ID": "10",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,05",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-03-06T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "Assistenza Stradale ZeroPensieri",
+					"netPremium": "7.27",
+					"grossPremium": "8.00",
+					"guarantyCode": "204",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "10,00",
+					"ID": "11",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,73",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-05-24T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "Auto sostitutiva",
+					"netPremium": "3.60",
+					"grossPremium": "3.96",
+					"guarantyCode": "99",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "10,00",
+					"ID": "12",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,36",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2010-02-13T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "Protezione Rivalse",
+					"netPremium": "10.00",
+					"grossPremium": "12.65",
+					"guarantyCode": "228",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "S",
+					"idSubversion": "2",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "16,00",
+					"ID": "13",
+					"ssnPremium": "1,05",
+					"taxPremium": "1,60",
+					"selection": {
+						"selected": true
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2014-05-12T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "Bonus Protetto (condizione particolare RCA)",
+					"netPremium": "24.50",
+					"grossPremium": "31.00",
+					"guarantyCode": "162",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "30,00",
+					"taxRates": "16,00",
+					"ID": "14",
+					"ssnPremium": "2,58",
+					"taxPremium": "3,92",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "30.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2014-05-12T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "Rimborso premio RCA e Bollo a seguito di furto",
+					"netPremium": "8.25",
+					"grossPremium": "10.01",
+					"guarantyCode": "156",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "21,25",
+					"ID": "15",
+					"ssnPremium": "0,00",
+					"taxPremium": "1,76",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2006-01-01T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "Infortunio Guidatore",
+					"netPremium": "17.07",
+					"grossPremium": "17.50",
+					"guarantyCode": "76",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "S",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "50,00",
+					"taxRates": "2,50",
+					"ID": "16",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,43",
+					"selection": {
+						"selected": true
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "50.01"
+						}
+					],
+					"coverageInterval": {
+						"start": "2015-02-02T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0001",
+							"value": "0015",
+							"description": "50.000",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "50.000",
+									"value": "0015"
+								},
+								{
+									"description": "100.000",
+									"value": "0016"
+								},
+								{
+									"description": "200.000",
+									"value": "0017"
+								}
+							]
+						},
+						{
+							"typology": "0003",
+							"value": "0018",
+							"description": "3%",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "10%",
+									"value": "0017"
+								},
+								{
+									"description": "3%",
+									"value": "0018"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Tutela Legale",
+					"netPremium": "6.22",
+					"grossPremium": "7.00",
+					"guarantyCode": "106",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "S",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "12,50",
+					"ID": "17",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,78",
+					"selection": {
+						"selected": true
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "61.13"
+						}
+					],
+					"coverageInterval": {
+						"start": "2014-09-13T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0001",
+							"value": "10000,00",
+							"description": "10.000,00",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "10.000,00",
+									"value": "10000,00"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Protezione Patente",
+					"netPremium": "12.37",
+					"grossPremium": "15.00",
+					"guarantyCode": "155",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "21,25",
+					"ID": "18",
+					"ssnPremium": "0,00",
+					"taxPremium": "2,63",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-05-24T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0001",
+							"value": "0006",
+							"description": "15",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "15",
+									"value": "0006"
+								},
+								{
+									"description": "25",
+									"value": "0007"
+								},
+								{
+									"description": "50",
+									"value": "0008"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Furto e Incendio",
+					"netPremium": "43.58",
+					"grossPremium": "49.47",
+					"guarantyCode": "101",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "S",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "5,00",
+					"taxRates": "13,50",
+					"ID": "19",
+					"ssnPremium": "0,00",
+					"taxPremium": "5,89",
+					"selection": {
+						"selected": true
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "4.99"
+						}
+					],
+					"coverageInterval": {
+						"start": "2014-03-30T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0006",
+							"value": "0002",
+							"description": "250,00 - 10%",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "250,00 - 10%",
+									"value": "0002"
+								},
+								{
+									"description": "500,00 - 10%",
+									"value": "0006"
+								}
+							]
+						},
+						{
+							"typology": "0002",
+							"value": "4800,00",
+							"description": "4.800,00",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "4.800,00",
+									"value": "4800,00"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Estensioni in caso di Furto e Incendio",
+					"netPremium": "9.90",
+					"grossPremium": "12.01",
+					"guarantyCode": "158",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "S",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "21,25",
+					"ID": "20",
+					"ssnPremium": "0,00",
+					"taxPremium": "2,11",
+					"selection": {
+						"selected": true
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-05-24T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "Eventi Naturali",
+					"netPremium": "37.83",
+					"grossPremium": "42.94",
+					"guarantyCode": "108",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "13,50",
+					"ID": "21",
+					"ssnPremium": "0,00",
+					"taxPremium": "5,11",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2014-07-14T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0003",
+							"value": "0010",
+							"description": "500,00",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "500,00",
+									"value": "0010"
+								}
+							]
+						},
+						{
+							"typology": "0002",
+							"value": "4800,00",
+							"description": "4.800,00",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "4.800,00",
+									"value": "4800,00"
+								}
+							]
+						},
+						{
+							"typology": "0004",
+							"value": "0,10",
+							"description": "10%",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "10%",
+									"value": "0,10"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Cristalli",
+					"netPremium": "21.01",
+					"grossPremium": "23.85",
+					"guarantyCode": "107",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "13,50",
+					"ID": "22",
+					"ssnPremium": "0,00",
+					"taxPremium": "2,84",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2015-02-12T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0003",
+							"value": "0011",
+							"description": "150,00",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "150,00",
+									"value": "0011"
+								}
+							]
+						},
+						{
+							"typology": "0001",
+							"value": "2500,00",
+							"description": "2.500,00",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "2.500,00",
+									"value": "2500,00"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Collisione Light Con Veicolo Identificato",
+					"netPremium": "94.54",
+					"grossPremium": "107.31",
+					"guarantyCode": "227",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "13,50",
+					"ID": "23",
+					"ssnPremium": "0,00",
+					"taxPremium": "12,77",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2011-02-19T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0001",
+							"value": "0066",
+							"description": "3.000",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "3.000",
+									"value": "0066"
+								},
+								{
+									"description": "5.000",
+									"value": "0067"
+								}
+							]
+						},
+						{
+							"typology": "0003",
+							"value": "0009",
+							"description": "250,00",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "250,00",
+									"value": "0009"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Collisione",
+					"netPremium": "115.49",
+					"grossPremium": "131.09",
+					"guarantyCode": "103",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "13,50",
+					"ID": "24",
+					"ssnPremium": "0,00",
+					"taxPremium": "15,60",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2013-09-07T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0003",
+							"value": "0009",
+							"description": "250,00",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "250,00",
+									"value": "0009"
+								}
+							]
+						},
+						{
+							"typology": "0002",
+							"value": "4800,00",
+							"description": "4.800,00",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "4.800,00",
+									"value": "4800,00"
+								}
+							]
+						},
+						{
+							"typology": "0004",
+							"value": "0,10",
+							"description": "10%",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "10%",
+									"value": "0,10"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Estensione Kasko Completa",
+					"netPremium": "154.78",
+					"grossPremium": "175.68",
+					"guarantyCode": "154",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "13,50",
+					"ID": "25",
+					"ssnPremium": "0,00",
+					"taxPremium": "20,90",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2013-09-07T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0003",
+							"value": "0010",
+							"description": "500,00",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "500,00",
+									"value": "0010"
+								}
+							]
+						},
+						{
+							"typology": "0002",
+							"value": "4800,00",
+							"description": "4.800,00",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "4.800,00",
+									"value": "4800,00"
+								}
+							]
+						},
+						{
+							"typology": "0004",
+							"value": "0,10",
+							"description": "10%",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "10%",
+									"value": "0,10"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Eventi Socio Politici-Atti Vandalici",
+					"netPremium": "67.42",
+					"grossPremium": "76.53",
+					"guarantyCode": "109",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"idSubversion": "2",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "13,50",
+					"ID": "26",
+					"ssnPremium": "0,00",
+					"taxPremium": "9,11",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2015-02-12T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0003",
+							"value": "0010",
+							"description": "500,00",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "500,00",
+									"value": "0010"
+								}
+							]
+						},
+						{
+							"typology": "0002",
+							"value": "4800,00",
+							"description": "4.800,00",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "4.800,00",
+									"value": "4800,00"
+								}
+							]
+						},
+						{
+							"typology": "0004",
+							"value": "0,10",
+							"description": "10%",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "10%",
+									"value": "0,10"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Responsabilità Civile",
+					"netPremium": "735.86",
+					"grossPremium": "930.87",
+					"guarantyCode": "97",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "S",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "3,00",
+					"taxRates": "16,00",
+					"ID": "1",
+					"ssnPremium": "77,27",
+					"taxPremium": "117,74",
+					"selection": {
+						"selected": true
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "3.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2014-10-01T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0003",
+							"value": "0001",
+							"description": "Nessuna",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "Nessuna",
+									"value": "0001"
+								}
+							]
+						},
+						{
+							"typology": "0001",
+							"value": "0055",
+							"description": "12MIL (6+6)",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "12MIL (6+6)",
+									"value": "0055"
+								},
+								{
+									"description": "40MIL (20+20)",
+									"value": "0063"
+								},
+								{
+									"description": "100MIL (50+50)",
+									"value": "0051"
+								}
+							]
+						},
+						{
+							"typology": "0005",
+							"value": "0018",
+							"description": "5000 per conducenti a maggior rischio",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "5000 per conducenti a maggior rischio",
+									"value": "0018"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Assistenza Stradale",
+					"netPremium": "11.36",
+					"grossPremium": "12.50",
+					"guarantyCode": "98",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "S",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "10,00",
+					"ID": "2",
+					"ssnPremium": "0,00",
+					"taxPremium": "1,14",
+					"selection": {
+						"selected": true
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2010-07-03T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "Assistenza Stradale Plus",
+					"netPremium": "14.00",
+					"grossPremium": "15.40",
+					"guarantyCode": "157",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "N",
+					"automaticSelection": "N",
+					"typeHierarchy": "OR",
+					"idSubversion": "2",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "10,00",
+					"ID": "3",
+					"ssnPremium": "0,00",
+					"taxPremium": "1,40",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-05-24T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"coverageItems": [
+						{
+							"code": "98",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						}
+					]
+				},
+				{
+					"name": "Assistenza VIP",
+					"netPremium": "73.54",
+					"grossPremium": "80.90",
+					"guarantyCode": "179",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "10,00",
+					"ID": "4",
+					"ssnPremium": "0,00",
+					"taxPremium": "7,36",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2014-09-13T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "ProtPremio Plus - Malattia",
+					"netPremium": "1.00",
+					"grossPremium": "1.03",
+					"guarantyCode": "197",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"automaticSelection": "S",
+					"typeHierarchy": "AND",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "2,50",
+					"ID": "5",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,03",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-03-06T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"coverageItems": [
+						{
+							"code": "157",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						}
+					]
+				},
+				{
+					"name": "ProtPremio Plus - PerditePecuniarie",
+					"netPremium": "0.77",
+					"grossPremium": "0.94",
+					"guarantyCode": "198",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"automaticSelection": "S",
+					"typeHierarchy": "AND",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "21,25",
+					"ID": "6",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,17",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-03-06T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"coverageItems": [
+						{
+							"code": "157",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						}
+					]
+				},
+				{
+					"name": "ProtPremio Plus - Infortuni",
+					"netPremium": "1.00",
+					"grossPremium": "1.03",
+					"guarantyCode": "199",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"automaticSelection": "S",
+					"typeHierarchy": "AND",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "2,50",
+					"ID": "7",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,03",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-03-06T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"coverageItems": [
+						{
+							"code": "157",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						}
+					]
+				},
+				{
+					"name": "ProtPremio Vip - Malattia",
+					"netPremium": "1.84",
+					"grossPremium": "1.89",
+					"guarantyCode": "200",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"automaticSelection": "S",
+					"typeHierarchy": "AND",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "2,50",
+					"ID": "8",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,05",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-03-06T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"coverageItems": [
+						{
+							"code": "179",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						}
+					]
+				},
+				{
+					"name": "ProtPremio Vip - PerditePecuniarie",
+					"netPremium": "1.00",
+					"grossPremium": "1.22",
+					"guarantyCode": "201",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"automaticSelection": "S",
+					"typeHierarchy": "AND",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "21,25",
+					"ID": "9",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,22",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-03-06T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"coverageItems": [
+						{
+							"code": "179",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						}
+					]
+				},
+				{
+					"name": "ProtPremio Vip - Infortuni",
+					"netPremium": "1.84",
+					"grossPremium": "1.89",
+					"guarantyCode": "202",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"automaticSelection": "S",
+					"typeHierarchy": "AND",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "2,50",
+					"ID": "10",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,05",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-03-06T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"coverageItems": [
+						{
+							"code": "179",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						}
+					]
+				},
+				{
+					"name": "Assistenza Stradale ZeroPensieri",
+					"netPremium": "7.27",
+					"grossPremium": "8.00",
+					"guarantyCode": "204",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "N",
+					"automaticSelection": "N",
+					"typeHierarchy": "OR",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "10,00",
+					"ID": "11",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,73",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-05-24T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"coverageItems": [
+						{
+							"code": "157",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						}
+					]
+				},
+				{
+					"name": "Auto sostitutiva",
+					"netPremium": "3.60",
+					"grossPremium": "3.96",
+					"guarantyCode": "99",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "10,00",
+					"ID": "12",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,36",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2010-02-13T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "Protezione Rivalse",
+					"netPremium": "10.00",
+					"grossPremium": "12.65",
+					"guarantyCode": "228",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "S",
+					"idSubversion": "2",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "16,00",
+					"ID": "13",
+					"ssnPremium": "1,05",
+					"taxPremium": "1,60",
+					"selection": {
+						"selected": true
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2014-05-12T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "Bonus Protetto (condizione particolare RCA)",
+					"netPremium": "24.50",
+					"grossPremium": "31.00",
+					"guarantyCode": "162",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "30,00",
+					"taxRates": "16,00",
+					"ID": "14",
+					"ssnPremium": "2,58",
+					"taxPremium": "3,92",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "30.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2014-05-12T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "Rimborso premio RCA e Bollo a seguito di furto",
+					"netPremium": "8.25",
+					"grossPremium": "10.01",
+					"guarantyCode": "156",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "21,25",
+					"ID": "15",
+					"ssnPremium": "0,00",
+					"taxPremium": "1,76",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2006-01-01T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					}
+				},
+				{
+					"name": "Infortunio Guidatore",
+					"netPremium": "17.07",
+					"grossPremium": "17.50",
+					"guarantyCode": "76",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "S",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "50,00",
+					"taxRates": "2,50",
+					"ID": "16",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,43",
+					"selection": {
+						"selected": true
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "50.01"
+						}
+					],
+					"coverageInterval": {
+						"start": "2015-02-02T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0001",
+							"value": "0015",
+							"description": "50.000",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "50.000",
+									"value": "0015"
+								},
+								{
+									"description": "100.000",
+									"value": "0016"
+								},
+								{
+									"description": "200.000",
+									"value": "0017"
+								}
+							]
+						},
+						{
+							"typology": "0003",
+							"value": "0018",
+							"description": "3%",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "10%",
+									"value": "0017"
+								},
+								{
+									"description": "3%",
+									"value": "0018"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Tutela Legale",
+					"netPremium": "6.22",
+					"grossPremium": "7.00",
+					"guarantyCode": "106",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "S",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "12,50",
+					"ID": "17",
+					"ssnPremium": "0,00",
+					"taxPremium": "0,78",
+					"selection": {
+						"selected": true
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "61.13"
+						}
+					],
+					"coverageInterval": {
+						"start": "2014-09-13T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0001",
+							"value": "10000,00",
+							"description": "10.000,00",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "10.000,00",
+									"value": "10000,00"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Protezione Patente",
+					"netPremium": "12.37",
+					"grossPremium": "15.00",
+					"guarantyCode": "155",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "21,25",
+					"ID": "18",
+					"ssnPremium": "0,00",
+					"taxPremium": "2,63",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-05-24T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0001",
+							"value": "0006",
+							"description": "15",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "15",
+									"value": "0006"
+								},
+								{
+									"description": "25",
+									"value": "0007"
+								},
+								{
+									"description": "50",
+									"value": "0008"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Furto e Incendio",
+					"netPremium": "43.58",
+					"grossPremium": "49.47",
+					"guarantyCode": "101",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "S",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "5,00",
+					"taxRates": "13,50",
+					"ID": "19",
+					"ssnPremium": "0,00",
+					"taxPremium": "5,89",
+					"selection": {
+						"selected": true
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "4.99"
+						}
+					],
+					"coverageInterval": {
+						"start": "2014-03-30T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0006",
+							"value": "0002",
+							"description": "250,00 - 10%",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "250,00 - 10%",
+									"value": "0002"
+								},
+								{
+									"description": "500,00 - 10%",
+									"value": "0006"
+								}
+							]
+						},
+						{
+							"typology": "0002",
+							"value": "4800,00",
+							"description": "4.800,00",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "4.800,00",
+									"value": "4800,00"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Estensioni in caso di Furto e Incendio",
+					"netPremium": "9.90",
+					"grossPremium": "12.01",
+					"guarantyCode": "158",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "S",
+					"automaticSelection": "N",
+					"typeHierarchy": "OR",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "21,25",
+					"ID": "20",
+					"ssnPremium": "0,00",
+					"taxPremium": "2,11",
+					"selection": {
+						"selected": true
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2012-05-24T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"coverageItems": [
+						{
+							"code": "101",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						}
+					]
+				},
+				{
+					"name": "Eventi Naturali",
+					"netPremium": "37.83",
+					"grossPremium": "42.94",
+					"guarantyCode": "108",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "N",
+					"automaticSelection": "N",
+					"typeHierarchy": "OR",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "13,50",
+					"ID": "21",
+					"ssnPremium": "0,00",
+					"taxPremium": "5,11",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2014-07-14T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"coverageItems": [
+						{
+							"code": "101",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						}
+					],
+					"limitations": [
+						{
+							"typology": "0003",
+							"value": "0010",
+							"description": "500,00",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "500,00",
+									"value": "0010"
+								}
+							]
+						},
+						{
+							"typology": "0002",
+							"value": "4800,00",
+							"description": "4.800,00",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "4.800,00",
+									"value": "4800,00"
+								}
+							]
+						},
+						{
+							"typology": "0004",
+							"value": "0,10",
+							"description": "10%",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "10%",
+									"value": "0,10"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Cristalli",
+					"netPremium": "21.01",
+					"grossPremium": "23.85",
+					"guarantyCode": "107",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "S",
+					"salable": "S",
+					"selected": "N",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "13,50",
+					"ID": "22",
+					"ssnPremium": "0,00",
+					"taxPremium": "2,84",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2015-02-12T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"limitations": [
+						{
+							"typology": "0003",
+							"value": "0011",
+							"description": "150,00",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "150,00",
+									"value": "0011"
+								}
+							]
+						},
+						{
+							"typology": "0001",
+							"value": "2500,00",
+							"description": "2.500,00",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "2.500,00",
+									"value": "2500,00"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Collisione Light Con Veicolo Identificato",
+					"netPremium": "94.54",
+					"grossPremium": "107.31",
+					"guarantyCode": "227",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"automaticSelection": "N",
+					"typeHierarchy": "EXC",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "13,50",
+					"ID": "23",
+					"ssnPremium": "0,00",
+					"taxPremium": "12,77",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2011-02-19T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"coverageItems": [
+						{
+							"code": "103",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						}
+					],
+					"limitations": [
+						{
+							"typology": "0001",
+							"value": "0066",
+							"description": "3.000",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "3.000",
+									"value": "0066"
+								},
+								{
+									"description": "5.000",
+									"value": "0067"
+								}
+							]
+						},
+						{
+							"typology": "0003",
+							"value": "0009",
+							"description": "250,00",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "250,00",
+									"value": "0009"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Collisione",
+					"netPremium": "115.49",
+					"grossPremium": "131.09",
+					"guarantyCode": "103",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"automaticSelection": "N",
+					"typeHierarchy": "EXC",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "13,50",
+					"ID": "24",
+					"ssnPremium": "0,00",
+					"taxPremium": "15,60",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2013-09-07T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"coverageItems": [
+						{
+							"code": "227",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						}
+					],
+					"limitations": [
+						{
+							"typology": "0003",
+							"value": "0009",
+							"description": "250,00",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "250,00",
+									"value": "0009"
+								}
+							]
+						},
+						{
+							"typology": "0002",
+							"value": "4800,00",
+							"description": "4.800,00",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "4.800,00",
+									"value": "4800,00"
+								}
+							]
+						},
+						{
+							"typology": "0004",
+							"value": "0,10",
+							"description": "10%",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "10%",
+									"value": "0,10"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Estensione Kasko Completa",
+					"netPremium": "154.78",
+					"grossPremium": "175.68",
+					"guarantyCode": "154",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "N",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"automaticSelection": "N",
+					"typeHierarchy": "OR",
+					"idSubversion": "1",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "13,50",
+					"ID": "25",
+					"ssnPremium": "0,00",
+					"taxPremium": "20,90",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2013-09-07T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"coverageItems": [
+						{
+							"code": "103",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						},
+						{
+							"code": "227",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						}
+					],
+					"limitations": [
+						{
+							"typology": "0003",
+							"value": "0010",
+							"description": "500,00",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "500,00",
+									"value": "0010"
+								}
+							]
+						},
+						{
+							"typology": "0002",
+							"value": "4800,00",
+							"description": "4.800,00",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "4.800,00",
+									"value": "4800,00"
+								}
+							]
+						},
+						{
+							"typology": "0004",
+							"value": "0,10",
+							"description": "10%",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "10%",
+									"value": "0,10"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Eventi Socio Politici-Atti Vandalici",
+					"netPremium": "67.42",
+					"grossPremium": "76.53",
+					"guarantyCode": "109",
+					"ratingDate": "2015-07-15T00:00:00",
+					"enabled": "S",
+					"gainable": "N",
+					"salable": "N",
+					"selected": "N",
+					"automaticSelection": "N",
+					"typeHierarchy": "OR",
+					"idSubversion": "2",
+					"dateClusterDiscountVal": "09/02/2015",
+					"percDiscountCluster": "0,00",
+					"taxRates": "13,50",
+					"ID": "26",
+					"ssnPremium": "0,00",
+					"taxPremium": "9,11",
+					"selection": {
+						"selected": false
+					},
+					"reductions": [
+						{
+							"percentage": false,
+							"value": "0.00"
+						}
+					],
+					"coverageInterval": {
+						"start": "2015-02-12T00:00:00",
+						"end": "2999-01-01T00:00:00"
+					},
+					"coverageItems": [
+						{
+							"code": "101",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						},
+						{
+							"code": "103",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						},
+						{
+							"code": "227",
+							"fatherQualifiedSelected": "S",
+							"fatherQualifiedNotSelected": "N"
+						}
+					],
+					"limitations": [
+						{
+							"typology": "0003",
+							"value": "0010",
+							"description": "500,00",
+							"list": true,
+							"limitationValues": [
+								{
+									"description": "500,00",
+									"value": "0010"
+								}
+							]
+						},
+						{
+							"typology": "0002",
+							"value": "4800,00",
+							"description": "4.800,00",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "4.800,00",
+									"value": "4800,00"
+								}
+							]
+						},
+						{
+							"typology": "0004",
+							"value": "0,10",
+							"description": "10%",
+							"list": false,
+							"limitationValues": [
+								{
+									"description": "10%",
+									"value": "0,10"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"messages": [
+		{
+			"code": "0000"
+		}
+	]
+}

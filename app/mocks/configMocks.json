@@ -1,0 +1,196 @@
+{
+	"mocks": [
+		{
+			"method": "GET",
+			"match": "(.*\\/)?log4javascript\\.json",
+			"file": "app/mocks/config/dotConfig/log4javascript.json",
+			"enabled": true
+		},
+		{
+			"method": "GET",
+			"match": "(.*\\/)?technicalHeader\\.json",
+			"file": "app/mocks/config/dotConfig/technicalHeader.json",
+			"enabled": true
+		},
+		{
+			"method": "GET",
+			"match": "(.*\\/)?configServices\\.json",
+			"file": "app/mocks/config/dotConfig/configServices.json",
+			"enabled": true
+		},
+		{
+			"method": "GET",
+			"match": "(.*\\/)?SFQ\\.json",
+			"file": "app/mocks/config/dotConfig/SFQ.json",
+			"enabled": true
+		},
+		{
+			"method": "POST",
+			"match" : "(.*\\/)?service\/sendQuotation",
+			"file": "app/mocks/config/service/sendQuotationResponse.json",
+			"enabled": false
+		},
+		{
+			"method": "POST",
+			"match" : "(.*\\/)?quote\/premiumcustomization",
+			"file": "app/mocks/config/service/getSession.offer.recalculate.json",
+			"enabled": false
+		},
+		{
+			"method": "GET",
+			"match": "(.*\\/)?municipality(.*\\/)?",
+			"file": "app/mocks/config/searchMunicipalityName.json",
+			"enabled": false
+		},
+		{
+			"method": "GET",
+			"match": "(.*\\/)?cities\\?",
+			"file": "app/mocks/config/service/localitySearch.json",
+			"enabled": false
+		},
+		{
+			"method": "GET",
+			"match" : "(.*\\/)?address\/",
+			"file": "app/mocks/config/searchAddress.json",
+			"enabled": false
+		},
+		{
+			"method": "GET",
+			"match" : "(.*\\/)?streets\\?",
+			"file": "app/mocks/config/service/streets.json",
+			"enabled": false
+		},
+		{
+			"method": "GET",
+			"match": "(.*\\/)?domains\\/toponym",
+			"file": "app/mocks/config/service/datalist-toponym.json",
+			"enabled": false
+		},
+		{
+			"method": "GET",
+			"match": "(.*\\/)?domains\\/occupation",
+			"file": "app/mocks/config/service/occupation.json",
+			"enabled": false
+		},
+		{
+			"method": "GET",
+			"match": "(.*\\/)?domains\\/mileage",
+			"file": "app/mocks/config/service/mileage.json",
+			"enabled": false
+		},
+		{
+			"method": "GET",
+			"match": "(.*\\/)?domains\\/alarmProtection",
+			"file": "app/mocks/config/service/alarmProtection.json",
+			"enabled": false
+		},
+		{
+			"method": "GET",
+			"match": "(.*\\/)?domains\\/zipCode",
+			"file": "app/mocks/config/service/capGen.json",
+			"enabled": false
+		},
+		{
+			"method": "GET",
+			"match": "(.*\\/)?vatinsearch",
+			"file": "app/mocks/config/vatin-search.json",
+			"enabled": false
+		},
+		{
+			"method": "POST",
+			"match": "(.*\\/)?\\/quote\\/save",
+			"file": "app/mocks/config/service/save.json",
+			"enabled": false
+		},
+		{
+			"method": "GET",
+			"match": "(.*\\/)?search\\/webuser",
+			"file": "app/mocks/config/service/checkUserEmail.json",
+			"enabled": false
+		},
+		{
+			"method": "GET",
+			"match": "(.*\\/)?restservice\\/read(.*)objectName=parties",
+			"file": "app/mocks/config/service/getSession.parties.json",
+			"enabled": true
+		},
+		{
+			"method": "GET",
+			"match": "(.*\\/)?restservice\\/read(.*)objectName=policies",
+			"file": "app/mocks/config/service/getSession.policies.json",
+			"enabled": true
+		},
+		{
+			"method": "GET",
+			"match": "(.*\\/)?restservice\\/read(.*)objectName=vehicle",
+			"file": "app/mocks/config/service/getSession.vehicle.json",
+			"enabled": true
+		},
+		{
+			"method": "GET",
+			"match": "(.*\\/)?restservice\\/read(.*)objectName=addresses",
+			"file": "app/mocks/config/service/getSession.addresses.json",
+			"enabled": false
+		},
+		{
+			"method": "GET",
+			"match": "(.*\\/)?restservice\\/read(.*)objectName=quotation",
+			"file": "app/mocks/config/service/getSession.quotation.json",
+			"enabled": false
+		},
+		{
+			"method": "GET",
+			"match": "(.*\\/)?restservice\\/read(.*)objectName=eurotaxDomainVehicle",
+			"file": "app/mocks/config/service/getSession.eurotaxDomainVehicle.json",
+			"enabled": false
+		},
+		{
+			"method": "POST",
+			"match": "(.*\\/)?restservice\\/write(.*)",
+			"file": "app/mocks/config/service/setSession.json",
+			"enabled": false
+		},
+		{
+			"method": "GET",
+			"match": "(.*\\/)?quote\\.offerResource",
+			"file": "app/mocks/config/it/Resource/quote.offerResource.json",
+			"enabled": true
+		},
+		{
+			"method": "GET",
+			"match": "(.*\\/)?quote\\.printResource",
+			"file": "app/mocks/config/it/Resource/quote.printResource.json",
+			"enabled": true
+		},
+		{
+			"method": "GET",
+			"match": "(.*\\/)?quote\\.personalData",
+			"file": "app/mocks/config/it/Resource/quote.personalDataResource.json",
+			"enabled": true
+		},
+		{
+			"method": "GET",
+			"match": "(.*\\/)?quote\\.contactResource",
+			"file": "app/mocks/config/it/Resource/quote.contactResource.json",
+			"enabled": true
+		},
+		{
+			"method": "GET",
+			"match": "(.*\\/)?quote\\.summaryResource",
+			"file": "app/mocks/config/it/Resource/quote.summaryResource.json",
+			"enabled": true
+		},
+		{
+			"method": "GET",
+			"match": "(.*\\/)?shared\\.headerResource",
+			"file": "app/mocks/config/it/Resource/shared.headerResource.json",
+			"enabled": true
+		},
+		{
+			"method": "GET",
+			"match": "(.*\\/)?shared\\.subheaderResource",
+			"file": "app/mocks/config/it/Resource/shared.subheaderResource.json",
+			"enabled": true
+		}
+	]
+}

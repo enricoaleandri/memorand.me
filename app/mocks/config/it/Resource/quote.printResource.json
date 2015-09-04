@@ -1,0 +1,25 @@
+{
+	"version": "1.0",
+	"result": [
+		{
+			"resources": {
+				"prop": [
+					{
+						"key": "offer.popup.sendQuotation",
+						"value": '<div class="custom_form richiedi_promemoria_form">	<div class="row">		<div class="col-sm-10 col-sm-offset-1">			<p class="tac">inserisci  l indirizzo email a cui inviare il promemoria del prezzo</p>		</div>	</div>	<div class="row">		<div class="col-sm-6 col-sm-offset-3">			<div class="input-group">				<input type="text" class="form-control required" placeholder="email" tabindex="0">			</div>		</div>	</div>	<div class="row">		<div class="col-sm-4 col-sm-offset-4">			<div class="input-group">				<button class="btn-direct btn btn-primary btn-submit btn-allcaps" ng-click="cancel()">invia</button>			</div>		</div>	</div></div>'
+					}
+				]
+			}
+		}
+	],
+	"links": [
+		{
+			"rel": "self",
+			"href": "/oneweb/content-api/v1/components/resources/azdirectpoc_GL/it/Resource/quote.printResource"
+		},
+		{
+			"rel": "up",
+			"href": "/oneweb/content-api/v1/contents/azdirectpoc_GL/it/Resource/"
+		}
+	]
+}

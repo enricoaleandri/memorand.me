@@ -1,0 +1,46 @@
+<section class="form_head" ng-show="subHeader && subHeader.show">
+    <!--Breadcrumb QUOTE-ALL-->
+    <ol class="step-bar" ng-show="subHeader.currentPage === 'dati-polizza' || subHeader.currentPage === 'contatti' || subHeader.currentPage === 'riepilogo'">
+        <li class="step" ng-class="{ 'active': subHeader.currentPage === 'dati-polizza' || subHeader.currentPage === 'contatti' || subHeader.currentPage === 'riepilogo', 'current': subHeader.currentPage === 'dati-polizza' }">
+            <span class="step-content" res-data="header.quote.breadcrumb.FIRST"></span>
+        </li>
+        <li class="step" ng-class="{ 'active': subHeader.currentPage === 'contatti' || subHeader.currentPage === 'riepilogo', 'current': subHeader.currentPage === 'contatti' }">
+            <span class="step-content" res-data="header.quote.breadcrumb.SECOND"></span>
+        </li>
+        <li class="step" ng-class="{ 'active current': subHeader.currentPage === 'riepilogo'}">
+            <span class="step-content" res-data="header.quote.breadcrumb.THIRT"></span>
+        </li>
+    </ol>
+    <!--Breadcrumb BUY-->
+    <ol class="step-bar" ng-show="subHeader.currentPage === 'pay-1' || subHeader.currentPage == 'pay-2' || subHeader.currentPage == 'pay-3'">
+        <li class="step" ng-class="{ 'active': subHeader.currentPage === 'pay-1' || subHeader.currentPage === 'pay-2' || subHeader.currentPage === 'pay-3', 'current': subHeader.currentPage === 'pay-1' }">
+            <span class="step-content" res-data="header.buy.breadcrumb.FIRST"></span>
+        </li>
+        <li class="step" ng-class="{ 'active': subHeader.currentPage === 'pay-2' || subHeader.currentPage === 'pay-3', 'current': subHeader.currentPage === 'pay-2' }">
+            <span class="step-content" res-data="header.buy.breadcrumb.SECOND"></span>
+        </li>
+        <li class="step" ng-class="{ 'active current': subHeader.currentPage === 'pay-3'}">
+            <span class="step-content" res-data="header.buy.breadcrumb.THIRT"></span>
+        </li>
+    </ol>
+</section>
+
+<section class="headmessage" ng-show="subHeader && subHeader.show && subHeader.showSubSection">
+    <div class="row">
+        <div class="col-sm-4">
+            <div ng-show="subHeader.showPrice">
+                <h6 res-data="header.quote.label.PRICE4YOU"></h6>
+                <b class="price">{{subHeader.grossPremium}} <span res-data="header.quote.label.EUROANNUO"></span></b>
+            </div>
+            <div class="subject info-auto" ng-show="subHeader.showVehicle">
+                <span res-data="header.quote.label.PREVENTIVO"></span>&nbsp;
+                <span ng-bind="subHeader.vehicleType"></span>&nbsp;
+                <span ng-bind="subHeader.vehicleBrand"></span>&nbsp;
+                <strong ng-bind="subHeader.licensePlateNumber"></strong>
+            </div>
+        </div>
+        <div class="col-sm-8" ng-show="subHeader.showPrice">
+            <h2 ng-bind="subHeader.labelPrice"></h2>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,506 @@
+<header data-header="sharedPageSectionService.header"></header>
+
+<section class="page">
+    <div class="container-fluid">
+
+        <div class="formWrapper">
+            <div data-sub-header="sharedPageSectionService.subHeader" sub-header-directive=""></div>
+            <section class="form_body">
+                <form
+                        class="salva_preventivo_form custom_form"
+                        name="personalData"
+                        id="personalData"
+                        real-time-validate="false"
+                        novalidate>
+                    <fieldset>
+                        <h3 class="border"><span res-data="personalData.span.datiPersonali"></span></h3>
+                        <div class="row">
+
+                            <div class="col-sm-6">
+
+                                <!-- INPUT: Nome -->
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <label res-data="personalData.label.datiPersonali.nome"></label>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="input-group full-width-col">
+                                            <input
+                                                    type="text"
+                                                    id="vehicle-holder-firstName"
+                                                    name="vehicle-holder-firstName"
+                                                    class="form-control lettersonly"
+                                                    placeholder="Mario"
+                                                    ng-model="vehicleHolder.firstName"
+                                                    ng-class="{'error' : personalData['vehicle-holder-firstName'].$dirty && personalData['vehicle-holder-firstName'].$error.required}"
+                                                    data-cf="nome"
+                                                    tabindex="0"
+                                                    disabled>
+                                            <label
+                                                    ng-show="personalData['vehicle-holder-firstName'].$dirty && personalData['vehicle-holder-firstName'].$error.required"
+                                                    class="error" res-data="personalData.label.datiPersonali.nome.obbligatorio"></label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- INPUT: Cognome -->
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <label res-data="personalData.label.datiPersonali.cognome"></label>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="full-width-col">
+                                            <input
+                                                    type="text"
+                                                    id="vehicle-holder-lastName"
+                                                    name="vehicle-holder-lastName"
+                                                    ng-model="vehicleHolder.lastName"
+                                                    ng-class="{'error' : personalData['vehicle-holder-lastName'].$dirty && personalData['vehicle-holder-lastName'].$error.required}"
+                                                    class="form-control required lettersonly"
+                                                    placeholder="Rossi"
+                                                    data-cf="cognome"
+                                                    tabindex="0"
+                                                    disabled>
+                                            <label class="error" ng-show="personalData['vehicle-holder-lastName'].$dirty && personalData['vehicle-holder-lastName'].$error.required" res-data="personalData.label.datiPersonali.cognome.obbligatorio"></label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- INPUT: Codice fiscale -->
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <label res-data="personalData.label.datiPersonali.cf"></label>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="full-width-col">
+                                            <input
+                                                    type="text"
+                                                    class="form-control required codicefiscale"
+                                                    id="vehicle-holder-socialSecurityNumber"
+                                                    name="vehicle-holder-socialSecurityNumber"
+                                                    ng-model="vehicleHolder.socialSecurityNumber"
+                                                    placeholder="RSS MRA 60A01 H501 Q"
+                                                    tabindex="0"
+                                                    disabled>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- INPUT: occupation -->
+                                <div class="row" ng-if="vehiclePropertyType == '0004' || vehiclePropertyType == '0012'">
+                                    <div class="col-sm-5"><label res-data="personalData.label.datiPersonali.professione"></label></div>
+                                    <div class="col-sm-6">
+                                        <select
+                                                id="vehicle-holder-occupation"
+                                                name="vehicle-holder-occupation"
+                                                ng-model="vehicleHolder.occupation"
+                                                class="form-control"
+                                                ng-class="{'error' : ( personalData['vehicle-holder-occupation'].$dirty && personalData['vehicle-holder-occupation'].$error.required ) || ( personalData.$submitted && personalData['vehicle-holder-occupation'].$error.required )}"
+                                                tabindex="0"
+                                                ng-required="vehiclePropertyType == '0004' || vehiclePropertyType == '0012'"
+                                                ng-options="item.label for item in occupation track by item.value">
+                                        </select>
+                                        <label class="error" ng-show="( personalData['vehicle-holder-occupation'].$dirty && personalData['vehicle-holder-occupation'].$error.required ) || ( personalData.$submitted && personalData['vehicle-holder-occupation'].$error.required )" res-data="personalData.validation.datiPersonali.localita.indirizzo.obbligatorio"></label>
+                                    </div>
+                                </div>
+
+                                <!-- INPUT: Ditta Individuale S/N -->
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <label res-data="personalData.label.datiPersonali.dittaIndividuale"></label>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label class="radio radio-inline">
+                                            <input
+                                                    id="vehicle-holder-flagIndividualFirm1"
+                                                    name="vehicle-holder-flagIndividualFirm"
+                                                    aria-label="vehicle-holder-flagIndividualFirm"
+                                                    type="radio"
+                                                    value="S"
+                                                    tabindex="0"
+                                                    ng-model="vehicleHolder.flagIndividualFirm">
+                                            <span class="label" res-data="personalData.span.datiPersonali.dittaIndividuale.si"></span>
+                                        </label>
+                                        <label class="radio radio-inline">
+                                            <input
+                                                    id="vehicle-holder-flagIndividualFirm2"
+                                                    name="vehicle-holder-flagIndividualFirm"
+                                                    aria-label="vehicle-holder-flagIndividualFirm"
+                                                    type="radio"
+                                                    value="N"
+                                                    tabindex="0"
+                                                    checked="checked"
+                                                    ng-model="vehicleHolder.flagIndividualFirm">
+                                            <span class="label" res-data="personalData.span.datiPersonali.dittaIndividuale.no"></span>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <!-- INPUT: Partita IVA -->
+                                <div class="row" slide-toggle="vehicleHolder.flagIndividualFirm == 'S'">
+                                    <div class="col-sm-5">
+                                        <label res-data="personalData.label.datiPersonali.pi"></label>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="input-group full-width-col">
+                                            <input-text  name="vehicle-holder-VAT"
+                                                         id="vehicle-holder-VAT"
+                                                         bind-to="vehicleHolder.vatIN"
+                                                         ng-required="vehicleHolder.flagIndividualFirm == 'S' && ( VATRequired || personalData['vehicle-holder-VAT'].$dirty )"
+                                                         placeholder="123456789"
+                                                         class="form-control"
+                                                         ng-class="{'error' : ( personalData['vehicle-holder-VAT'].$dirty && $parent.hasError('vehicle-holder-VAT') ) || ( VATRequired && $parent.hasError('vehicle-holder-VAT') )}"
+                                                         validation-type="piva"
+                                                         error-class="error"
+                                                         default-error-class="ng-hide">
+												<validation key="checkVat" error-message="validation.msg.pattern"></validation>
+                                                <validation key="required" error-message="validation.msg.required"></validation>
+                                                <input-layout>
+                                                    <span class="input">
+                                                        <input>
+                                                    </span>
+                                                </input-layout>
+                                                <error-layout>
+                                                    <label ng-show="personalData.$submitted || personalData['vehicle-holder-VAT'].$dirty" class="error" style="display: inline-block;" >{{ getPriorityError('required') }}</label>
+                                                </error-layout>
+                                            </input-text>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="indirizzo-residenza">
+                        <h4 class="border"><span res-data="personalData.span.datiPersonali.indirizzo"></span></h4>
+
+                        <!-- SELECT: Località -->
+                        <div class="row">
+
+                            <div class="col-sm-2">
+                                <label res-data="personalData.label.datiPersonali.indirizzo.localita"></label>
+                            </div>
+
+                            <div class="col-sm-10">
+                                <div class="row narrow">
+                                    <div class="col-sm-12 elastic">
+
+                                        <div class="input-group" style="float:left">
+                                            <input name="vehicle-holder-zipCode"
+                                                   id="vehicle-holder-zipCode"
+                                                   ng-model="vehicleHolder.addresses[0].zipCode"
+                                                   class="form-control"
+                                                   disabled
+                                                   placeholder="CAP"
+                                                   required/>
+                                            <!--<input-text  name="vehicle-holder-zipCode"
+                                                         id="vehicle-holder-zipCode"
+                                                         bind-to="vehicleHolder.addresses[0].zipCode"
+                                                         class="form-control"
+                                                         validation-type="cap"
+                                                         error-class="error"
+                                                         placeholder="CAP"
+                                                         ng-class="{'error' : ( personalData['vehicle-holder-zipCode'].$dirty && $parent.hasError('vehicle-holder-zipCode') ) || ( personalData.$submitted && $parent.hasError('vehicle-holder-zipCode') )}"
+                                                         default-error-class="ng-hide"
+                                                         ng-disabled="true"
+                                                         required>
+                                                <validation key="required">Obbligatorio</validation>
+                                                <validation key="pattern">Errato</validation>
+                                                <validation key="config" res-data="personalData.validation.datiPersonali.localita.indirizzo.validazione"></validation>
+                                                <input-layout>
+                                                    <span class="input">
+                                                        <input>
+                                                    </span>
+                                                </input-layout>
+                                                <error-layout>
+                                                    <label style="display: inline-block;" ng-repeat="(key, text) in validators" class="{{hasError(key)}}" ng-bind="text"></label>
+                                                </error-layout>
+                                            </input-text>-->
+                                            <!--<input type="text" placeholder="CAP" class="form-control required cap" id="cap" name="cap" tabindex="0" disabled />-->
+                                        </div>
+
+                                        <div class="input-group">
+                                            <!--<span class="form_read_only">{{ vehicleHolder.addresses[0].locality.name }}</span>-->
+                                            <span class="form_read_only"></span>
+                                            <div class="selectwrap">
+                                                <select
+                                                        data-placeholder="Scegli la localit&agrave;"
+                                                        id="vehicle-holder-locality"
+                                                        name="vehicle-holder-locality"
+                                                        ng-model="vehicleHolder.addresses[0].locality"
+                                                        ng-class="{'error' : ( personalData['vehicle-holder-locality'].$dirty && personalData['vehicle-holder-locality'].$error.required ) || ( personalData.$submitted && personalData['vehicle-holder-locality'].$error.required )}"
+                                                        ng-options="item.name for item in vehicleHolderLoc track by item.countryCode"
+                                                        tabindex="0"
+                                                        required>
+                                                </select>
+                                                <label class="error" ng-show="( personalData['vehicle-holder-locality'].$dirty && personalData['vehicle-holder-locality'].$error.required ) || ( personalData.$submitted && personalData['vehicle-holder-locality'].$error.required )" res-data="personalData.validation.datiPersonali.localita.indirizzo.obbligatorio"></label>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <h4 class="border"><span res-data="personalData.span.datiPersonali.altro"></span></h4>
+                        <div class="row">
+                            <div class="col-sm-4"><label res-data="personalData.label.datiPersonali.altro.domanda1"></label></div>
+                            <div class="col-sm-5">
+                                <!--<label class="radio radio-inline" ng-click="policyHolder.isCoincidentTo = 'ADDITIONALVO'">-->
+                                <label class="radio radio-inline">
+                                    <input id="additional-vehicle-holder-yes" name="additional-vehicle-holder" ng-model="additionalVO.is" aria-label="additional-vehicle-holder" type="radio" value="S" tabindex="0">
+                                    <span class="label" res-data="personalData.span.datiPersonali.altro.domanda1.si"></span>
+                                </label>
+                                <!--<label class="radio radio-inline" ng-click="policyHolder.isCoincidentTo = ( policyHolder.isCoincidentTo == 'ADDITIONALVO' ) ? 'OWNER' : policyHolder.isCoincidentTo">-->
+                                <label class="radio radio-inline">
+                                    <input id="additional-vehicle-holder-no" name="additional-vehicle-holder" ng-model="additionalVO.is" aria-label="additional-vehicle-holder" type="radio" value="N"  tabindex="0">
+                                    <span class="label" res-data="personalData.span.datiPersonali.altro.domanda1.no"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <!-- Dati Intestatario Aggiuntivo  -->
+                    <fieldset id="fieldset_intestatario_aggiuntivo"
+                              slide-toggle="additionalVO.is == 'S'"
+                              form-exclude="nucleofamiliare,cittadinanza"
+                              fiscal-code-models="additionalVO.name,additionalVO.surname,additionalVO.sex,additionalVO.birthLocation.landRegister,additionalVO.dateOfBirth"
+                              template-url="app/partials/html/form-intestatari-aggiuntivi.html"
+                              form-dati-aggiuntivi>
+                        <h3 class="border"><span res-data="personalData.span.datiPersonali.altro.intestatarioAggiuntivo"></span></h3>
+                    </fieldset>
+                    <!-- /Dati Intestatario Aggiuntivo  -->
+
+
+                    <!-- Solo se non presenti più Intestatari -->
+                    <fieldset ng-if="isLogged && additionalVO.is == 'N'">
+                        <div class="row">
+                            <div class="col-sm-4"><label res-data="personalData.label.datiPersonali.altro.domanda2"></label></div>
+                            <div class="col-sm-5">
+                                <label class="radio radio-inline">
+                                    <input id="policy-holder-is-coincident-to-OWNER-1"
+                                           name="policy-holder-is-coincident-to"
+                                           ng-model="policyHolder.isCoincidentTo"
+                                           aria-label="policy-holder-is-coincident-to"
+                                           type="radio"
+                                           value="OWNER"
+                                           tabindex="0">
+                                    <span class="label" res-data="personalData.span.datiPersonali.altro.domanda2.si"></span>
+                                </label>
+                                <label class="radio radio-inline">
+                                    <input
+                                            id="policy-holder-is-coincident-to-OTHER-1"
+                                            name="policy-holder-is-coincident-to"
+                                            ng-model="policyHolder.isCoincidentTo"
+                                            aria-label="policy-holder-is-coincident-to"
+                                            type="radio"
+                                            value="OTHER"
+                                            tabindex="0">
+                                    <span class="label" res-data="personalData.span.datiPersonali.altro.domanda2.no"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <!-- Solo se presenti più Intestatari -->
+                    <fieldset ng-if="isLogged && additionalVO.is == 'S'">
+                        <div class="row">
+                            <div class="col-sm-4"><label res-data="personalData.label.datiPersonali.altro.domanda3"></label></div>
+                            <div class="col-sm-8">
+                                <label class="radio radio-inline">
+                                    <input
+                                            id="policy-holder-is-coincident-to-OWNER-2"
+                                            name="policy-holder-is-coincident-to"
+                                            aria-label="policy-holder-is-coincident-to"
+                                            ng-model="policyHolder.isCoincidentTo"
+                                            type="radio"
+                                            value="OWNER"
+                                            tabindex="0">
+                                    <span class="label">{{ vehicleHolder.firstName }} {{ vehicleHolder.lastName }}</span>
+                                </label>
+                                <label class="radio radio-inline">
+                                    <input
+                                            id="policy-holder-is-coincident-to-ADDITIONALVO"
+                                            name="policy-holder-is-coincident-to"
+                                            aria-label="policy-holder-is-coincident-to"
+                                            ng-model="policyHolder.isCoincidentTo"
+                                            type="radio"
+                                            value="ADDITIONALVO"
+                                            tabindex="0">
+                                    <span class="label" res-data="personalData.span.datiPersonali.altro.domanda3.intestatarioAggiuntivo"></span>
+                                </label>
+                                <label class="radio radio-inline">
+                                    <input
+                                            id="policy-holder-is-coincident-to-OTHER-2"
+                                            name="policy-holder-is-coincident-to"
+                                            aria-label="policy-holder-is-coincident-to"
+                                            ng-model="policyHolder.isCoincidentTo"
+                                            type="radio"
+                                            value="OTHER"
+                                            tabindex="0">
+                                    <span class="label" res-data="personalData.span.datiPersonali.altro.domanda3.altroSoggetto"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </fieldset>
+
+
+                    <!-- Dati Contraente  -->
+                    <fieldset id="fieldset_daticontraente"
+                              form-exclude="nucleofamiliare,cittadinanza"
+                              form-dati-aggiuntivi
+                              template-url="app/partials/html/form-contraente-diverso.html"
+                              slide-toggle="policyHolder.isCoincidentTo == 'OTHER'">
+                        <h3 class="border"><span res-data="personalData.span.datiPersonali.altro.contraente"></span></h3>
+                    </fieldset>
+                    <!-- /Dati Contraente  -->
+
+
+                    <fieldset>
+                        <div class="row">
+                            <div class="col-sm-4"><label res-data="personalData.label.datiPersonali.altro.domanda4"></label></div>
+                            <div class="col-sm-5">
+                                <label class="radio radio-inline">
+                                    <input
+                                            id="leasing_S"
+                                            name="leasing"
+                                            ng-model="VehicleBond.leasing"
+                                            aria-label="leasing"
+                                            type="radio"
+                                            value="S"
+                                            tabindex="0">
+                                    <span class="label" res-data="personalData.span.datiPersonali.altro.domanda4.si"></span>
+                                </label>
+                                <label class="radio radio-inline">
+                                    <input
+                                            id="leasing_N"
+                                            name="leasing"
+                                            ng-model="VehicleBond.leasing"
+                                            aria-label="leasing"
+                                            type="radio"
+                                            value="N"
+                                            tabindex="0">
+                                    <span class="label" res-data="personalData.span.datiPersonali.altro.domanda4.no"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="salva_preventivo_aggiuntivo_form custom_form" slide-toggle="VehicleBond.leasing == 'S' || VehicleBond.vincolo == 'S' ">
+                        <h3 class="border"><span res-data="personalData.span.datiPersonali.altro.domanda4.info"></span></h3>
+
+                        <div class="row">
+                            <div class="col-sm-2"><label res-data="personalData.label.datiPersonali.altro.domanda4.info.societa"></label></div>
+                            <div class="col-sm-4">
+                                <div class="input-group">
+                                    <input
+                                            type="text"
+                                            id="vehicle-bond-society-searchName"
+                                            name="vehicle-bond-society-searchName"
+                                            ng-model="VehicleBond.searchName"
+                                            ng-class="{'error' : ( personalData['vehicle-bond-society-searchName'].$dirty && hasError('vehicle-bond-society-searchName') ) || ( leasingRequired && personalData['vehicle-bond-society-searchName'].$error.required )}"
+                                            class="required lettersonly form-control"
+                                            ng-required="VehicleBond.leasing == 'S' && leasingRequired"
+                                            placeholder="Azienda S.r.l."
+                                            ng-blur="fillSociety('VehicleBond.searchName')"
+                                            tabindex="0">
+                                    <label class="error" ng-show="( personalData['vehicle-bond-society-searchName'].$dirty && personalData['vehicle-bond-society-searchName'].$error.required ) || ( leasingRequired && personalData['vehicle-bond-society-searchName'].$error.required )" res-data="personalData.label.datiPersonali.altro.domanda4.info.societa.obbligatorio"></label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-2"><label res-data="personalData.label.datiPersonali.altro.domanda4.info.selezione"></label></div>
+                            <div class="col-sm-4">
+                                <select id="vehicle-bond-society"
+                                        name="vehicle-bond-society"
+                                        ng-model="VehicleBond.society"
+                                        ng-options="item.name for item in societyValues track by item.customerNumber"
+                                        ng-class="{'error' : ( personalData['vehicle-bond-society'].$dirty && hasError('vehicle-bond-society') ) || ( leasingRequired && personalData['vehicle-bond-society'].$error.required )}"
+                                        tabindex="0"
+                                        class="required"
+                                        ng-change="cambiaSocieta()"
+                                        ng-required="VehicleBond.leasing == 'S'&& leasingRequired"
+                                        ng-disabled="!societyValues.length">
+                                    <option value>Seleziona la societ&agrave;</option>
+                                </select>
+                                <label class="error" ng-show="( personalData['vehicle-bond-society'].$dirty && personalData['vehicle-bond-society'].$error.required ) || ( leasingRequired && personalData['vehicle-bond-society'].$error.required ) " res-data="personalData.label.datiPersonali.altro.domanda4.info.selezione.obbligatorio"></label>
+                            </div>
+                        </div>
+                        <div class="row" ng-if="VehicleBondNotFound">
+                            <div class="col-sm-8">
+                                <div class="alert alert-danger" role="alert">
+                                    <h5 class="alert-headline"><span class="glyphicon glyphicon-error"></span> Attenzione</h5>
+                                    <p res-data="personalData.p.datiPersonali.altro.domanda4.info.selezione.attenzione"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row evidence" slide-toggle="VehicleBond.society.customerNumber == 'nf'" form-societa-aggiuntiva>
+                            <!-- <div class="col-sm-12" ></div> -->
+                        </div>
+
+                        <div class="clearfix"></div>
+
+                        <div class="row">
+                            <div class="col-sm-2"><label res-data="personalData.label.datiPersonali.altro.domanda4.info.data"></label></div>
+                            <div class="col-sm-4">
+                                <!--<div class="datepicker-opener" ng-click="openModal($event,'VehicleBondDueDateOpen')"></div>-->
+                                <div class="input-group full-width-col">
+                                    <input
+                                            id="vehicle-bond-society-due-date"
+                                            name="vehicle-bond-society-due-date"
+                                            type="text"
+                                            placeholder="GG/MM/AAAA"
+                                            class="form-control input_date required dateFormat"
+                                            datepicker-popup="dd/MM/yyyy"
+                                            ng-model="VehicleBond.constraintExpirationDate"
+                                            is-open="VehicleBondDueDateOpen"
+                                            date-disabled="disabled(date, mode)"
+                                            close-on-date-selection="true"
+                                            show-button-bar="false"
+                                            close-text="Close"
+                                            datepicker-options="dateOptions"
+                                            ng-required=" VehicleBond.leasing == 'S' && ( leasingRequired || personalData['vehicle-bond-society-due-date'].$touched )"
+                                            ng-class="{'error' : ( personalData['vehicle-bond-society-due-date'].$touched && hasError('vehicle-bond-society-due-date') ) || ( leasingRequired && personalData['vehicle-bond-society-due-date'].$error.required )}"
+                                            date-validator
+                                            param="{{ policy.effectDate }}"
+                                            masked-input
+                                            />
+                                    <div class="datepicker-opener" ng-click="openModal($event,'VehicleBondDueDateOpen')"></div>
+                                    <label class="error" ng-show="leasingRequired && personalData['vehicle-bond-society-due-date'].$error.required" res-data="personalData.label.datiPersonali.altro.domanda4.info.obbligatorio1"></label>
+                                    <label class="error" ng-show="personalData['vehicle-bond-society-due-date'].$touched && ( personalData['vehicle-bond-society-due-date'].$error.dateValidator || personalData['vehicle-bond-society-due-date'].$error.parse )" res-data="personalData.label.datiPersonali.altro.domanda4.info.obbligatorio2"></label>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </fieldset>
+
+                    <div  data-footer="sharedPageSectionService.footer" class="stickPoint" footer-directive=""></div>
+                    <!--<div class="stickPoint">
+                        <div class="form_controls sticker" >
+                            <div class="wrap">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <button ng-click="indietro(this)" class="btn btn-primary btn-submit btn-allcaps indietro active" type="button" tabindex="-1"><span>&#8249;</span> Indietro</button>
+                                    </div>
+
+                                    <div class="col-sm-3 col-sm-offset-6">
+                                        <button ng-click="prosegui(this)" class="btn btn-primary btn-submit btn-allcaps" type="submit" tabindex="0">Prosegui <span>&#8250;</span></button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>-->
+                </form>
+            </section>
+
+        </div>
+    </div>
+</section>

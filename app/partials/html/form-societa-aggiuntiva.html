@@ -1,0 +1,180 @@
+<div class="row">
+
+    <div class="col-md-2">
+        <label res-data="personalData.formSocietaAggiuntiva.label.ragione"></label>
+    </div>
+
+    <div class="col-md-10">
+        <div class="row narrow">
+            <div class="col-md-9">
+                <input-text  name="vehicle-bond-name"
+                             id="vehicle-bond-name"
+                             bind-to="VehicleBond.name"
+                             ng-required="VehicleBond.society.customerNumber == 'nf' && societyRequired"
+                             placeholder="Inserisci la ragione sociale completa"
+                             class="form-control"
+                             validation-type="companyName"
+                             ng-class="{'error' : ( personalData['vehicle-bond-name'].$dirty && $parent.hasError('vehicle-bond-name') ) || ( personalData.$submitted && $parent.hasError('vehicle-bond-name') )}"
+                             error-class="error"
+                             default-error-class="ng-hide">
+                    <validation key="required">Obbligatorio</validation>
+                    <input-layout>
+                                <span class="input">
+                                    <input>
+                                </span>
+                    </input-layout>
+                    <error-layout>
+                        <label style="display: inline-block;" ng-repeat="(key, text) in validators" class="{{hasError(key)}}" ng-bind="text"></label>
+                    </error-layout>
+                </input-text>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="row">
+    <div class="col-md-2">
+        <label res-data="personalData.formSocietaAggiuntiva.label.pi"></label>
+    </div>
+    <div class="col-md-4">
+        <input-text  name="vehicle-bond-society-VAT"
+                     id="vehicle-bond-society-VAT"
+                     bind-to="VehicleBond.vatIN"
+                     ng-required="VehicleBond.society.customerNumber == 'nf' && ( societyRequired || personalData['vehicle-bond-society-VAT'].$dirty )"
+                     placeholder="123456789"
+                     class="form-control"
+                     validation-type="piva"
+                     ng-class="{'error' : ( personalData['vehicle-bond-society-VAT'].$dirty && $parent.hasError('vehicle-bond-society-VAT') ) || ( personalData.$submitted && $parent.hasError('vehicle-bond-society-VAT') ) }"
+                     error-class="error"
+                     default-error-class="ng-hide">
+            <validation key="checkVat" error-message="validation.msg.pattern"></validation>
+            <validation key="required" error-message="validation.msg.required"></validation>
+            <input-layout>
+                <span class="input">
+                    <input>
+                </span>
+            </input-layout>
+            <error-layout>
+                <label ng-show="personalData.$submitted || personalData['vehicle-bond-society-VAT'].$dirty" class="error" style="display: inline-block;" >{{ getPriorityError('required') }}</label>
+            </error-layout>
+        </input-text>
+
+    </div>
+</div>
+
+<div class="row">
+
+    <div class="col-md-2">
+        <label res-data="personalData.formSocietaAggiuntiva.label.localita"></label>
+    </div>
+
+    <div class="col-md-10">
+        <div class="row narrow">
+
+            <div class="col-md-2">
+                <input-text  name="vehicle-bond-society-CAP"
+                             id="vehicle-bond-society-CAP"
+                             bind-to="VehicleBond.addresses[0].zipCode"
+                             ng-required="VehicleBond.society.customerNumber == 'nf' && ( societyRequired || personalData['vehicle-bond-society-CAP'].$dirty )"
+                             ng-class="{'error' : additionalVO.is == 'S' && ( personalData['vehicle-bond-society-CAP'].$dirty && $parent.hasError('vehicle-bond-society-CAP') ) || ( additionalVORequired && !checkCapGenerico(VehicleBond.addresses[0].zipCode) )}"
+                             class="form-control"
+                             validation-type="cap"
+                             error-class="error"
+                             default-error-class="ng-hide"
+                             placeholder="CAP"
+                             ng-required="VehicleBond.society.customerNumber == 'nf'">
+                    <validation key="pattern" error-message="validation.msg.pattern"></validation>
+                    <validation key="required" error-message="validation.msg.required"></validation>
+                    <input-layout>
+                                <span class="input">
+                                    <input>
+                                </span>
+                    </input-layout>
+                    <error-layout>
+                        <label ng-show="personalData.$submitted || personalData['vehicle-bond-society-CAP'].$dirty" class="error" style="display: inline-block;" >{{ getPriorityError('required') }}</label>
+                    </error-layout>
+                </input-text>
+                <label class="error" ng-show="additionalVORequired && !checkCapGenerico(VehicleBond.addresses[0].zipCode)">Inserire un CAP valido</label>
+            </div>
+
+            <div class="col-md-5">
+                <select
+                        data-placeholder="Scegli la localit&agrave;"
+                        id="vehicle-bond-society-locality"
+                        name="vehicle-bond-society-locality"
+                        ng-model="VehicleBond.addresses[0].locality"
+                        ng-class="{'error' : societyRequired && personalData['vehicle-bond-society-locality'].$error.required }"
+                        class="required"
+                        ng-options="item.name for item in vehicleBondSocietyLoc track by item.countryCode"
+                        tabindex="0"
+                        ng-required="VehicleBond.society.customerNumber == 'nf' && societyRequired">
+                        <option value>Scegli la localit&agrave;</option>
+                </select>
+                <label class="error" ng-show="societyRequired && personalData['vehicle-bond-society-locality'].$error.required" res-data="personalData.formIntestatariAggiuntivi.label.residenza.localita.validazione2"></label>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-2">
+        <label res-data="personalData.formSocietaAggiuntiva.label.indirizzo"></label>
+    </div>
+    <div class="col-md-10">
+        <div class="row narrow">
+            <div class="col-md-2">
+                <select
+                        id="vehicle-bond-society-address-type"
+                        name="vehicle-bond-society-address-type"
+                        ng-model="VehicleBond.addresses[0].toponymCode"
+                        ng-required="VehicleBond.society.customerNumber == 'nf' && societyRequired"
+                        ng-class="{'error' : societyRequired && personalData['vehicle-bond-society-address-type'].$error.required}"
+                        tabindex="0"
+                        ng-options="item.label for item in toponym track by item.value">
+                </select>
+                <label class="error" ng-show="societyRequired && personalData['vehicle-bond-society-address-type'].$error.required" res-data="personalData.formSocietaAggiuntiva.label.indirizzo.obbligatorio1"></label>
+            </div>
+            <div class="col-md-7">
+                <input
+                        type="text"
+                        id="vehicle-bond-society-address"
+                        name="vehicle-bond-society-address"
+                        ng-model="VehicleBond.addresses[0].street"
+                        ng-required="VehicleBond.society.customerNumber == 'nf' && societyRequired"
+                        placeholder="es. Giosuè Carducci"
+                        typeahead="street as street.string4Desc for street in getLocation($viewValue,'street',3,VehicleBond.addresses[0].locality)"
+                        typeahead-on-select='typeaheadOnSelect($item, $model, $label,"VehicleBond.addresses[0].toponymCode","VehicleBond.addresses[0].zipCode","VehicleBond.addresses[0].street")'
+                        ng-class="{'error' : societyRequired && personalData['vehicle-bond-society-address'].$error.required}"
+                        tabindex="0">
+                <label class="error" ng-show="VehicleBond.society.customerNumber == 'nf' && personalData['vehicle-bond-society-address'].$error.required" res-data="personalData.formSocietaAggiuntiva.label.indirizzo.obbligatorio2"></label>
+            </div>
+            <div class="col-md-3">
+                <input-text  name="vehicle-bond-society-street-number"
+                             id="vehicle-bond-society-street-number"
+                             bind-to="VehicleBond.addresses[0].streetNumber"
+                             ng-required="VehicleBond.society.customerNumber == 'nf' && ( societyRequired || personalData['vehicle-bond-society-street-number'].$dirty )"
+                             placeholder="n.civico"
+                             class="form-control"
+                             ng-class="{'error' : ( personalData['vehicle-bond-society-street-number'].$dirty && $parent.hasError('vehicle-bond-society-street-number') ) || ( societyRequired && $parent.hasError('vehicle-bond-society-street-number') )}"
+                             validation-type="addressNumber"
+                             error-class="error"
+                             default-error-class="ng-hide">
+                    <validation key="pattern" error-message="validation.msg.pattern"></validation>
+                    <validation key="required" error-message="validation.msg.required"></validation>
+                    <input-layout>
+                        <span class="input">
+                            <input>
+                        </span>
+                    </input-layout>
+                    <error-layout>
+                        <label ng-show="personalData.$submitted || personalData['vehicle-bond-society-street-number'].$dirty" class="error" style="display: inline-block;" >{{ getPriorityError('required') }}</label>
+                    </error-layout>
+                </input-text>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,1365 @@
+{
+	"version": "1.0",
+	"result": [
+		{
+			"resources": {
+				"prop": [
+					{
+						"key": "offer.label.guaranty.23",
+						"value": "Invalidita' Permanente"
+					},
+					{
+						"key": "offer.label.guaranty.24",
+						"value": "Morte da infortuni"
+					},
+					{
+						"key": "offer.label.guaranty.76",
+						"value": "Infortuni del guidatore"
+					},
+					{
+						"key": "offer.label.guaranty.97",
+						"value": "RC Auto"
+					},
+					{
+						"key": "offer.label.guaranty.98",
+						"value": "Assistenza Stradale"
+					},
+					{
+						"key": "offer.label.guaranty.99",
+						"value": "Auto sostitutiva"
+					},
+					{
+						"key": "offer.label.guaranty.101",
+						"value": "Furto e Incendio"
+					},
+					{
+						"key": "offer.label.guaranty.102",
+						"value": "Estensione Kasko totale"
+					},
+					{
+						"key": "offer.label.guaranty.103",
+						"value": "Collisione con veicolo identificato"
+					},
+					{
+						"key": "offer.label.guaranty.104",
+						"value": "RC Moto"
+					},
+					{
+						"key": "offer.label.guaranty.105",
+						"value": "Responsabilita' Civile"
+					},
+					{
+						"key": "offer.label.guaranty.106",
+						"value": "Tutela Legale"
+					},
+					{
+						"key": "offer.label.guaranty.107",
+						"value": "Rottura cristalli"
+					},
+					{
+						"key": "offer.label.guaranty.108",
+						"value": "Eventi Naturali"
+					},
+					{
+						"key": "offer.label.guaranty.109",
+						"value": "Eventi Vandalici e sociopolitici"
+					},
+					{
+						"key": "offer.label.guaranty.110",
+						"value": "Furto e Incendio"
+					},
+					{
+						"key": "offer.label.guaranty.118",
+						"value": "Assumibilita' Infortuni"
+					},
+					{
+						"key": "offer.label.guaranty.123",
+						"value": "Assistenza Stradale"
+					},
+					{
+						"key": "offer.label.guaranty.126",
+						"value": "Diaria da ricovero"
+					},
+					{
+						"key": "offer.label.guaranty.127",
+						"value": "Assistenza infortuni"
+					},
+					{
+						"key": "offer.label.guaranty.128",
+						"value": "Perdita bagaglio"
+					},
+					{
+						"key": "offer.label.guaranty.129",
+						"value": "Annullamento viaggio"
+					},
+					{
+						"key": "offer.label.guaranty.130",
+						"value": "Rimborso spese mediche"
+					},
+					{
+						"key": "offer.label.guaranty.131",
+						"value": "Infortuni aeronautici"
+					},
+					{
+						"key": "offer.label.guaranty.132",
+						"value": "Assistenza viaggi"
+					},
+					{
+						"key": "offer.label.guaranty.133",
+						"value": "RC Rimorchi"
+					},
+					{
+						"key": "offer.label.guaranty.143",
+						"value": "Danni ai locali"
+					},
+					{
+						"key": "offer.label.guaranty.144",
+						"value": "Danni al contenuto"
+					},
+					{
+						"key": "offer.label.guaranty.145",
+						"value": "Ricorso per danni da incendio causati a cose di terzi"
+					},
+					{
+						"key": "offer.label.guaranty.146",
+						"value": "RC Inquilino"
+					},
+					{
+						"key": "offer.label.guaranty.147",
+						"value": "Ricerca e riparazione danni da acqua"
+					},
+					{
+						"key": "offer.label.guaranty.148",
+						"value": "RC Famiglia"
+					},
+					{
+						"key": "offer.label.guaranty.149",
+						"value": "RC Proprietario"
+					},
+					{
+						"key": "offer.label.guaranty.150",
+						"value": "Furto al contenuto e danni da furto/effrazione"
+					},
+					{
+						"key": "offer.label.guaranty.151",
+						"value": "Furto preziosi"
+					},
+					{
+						"key": "offer.label.guaranty.152",
+						"value": "Rapina e scippo"
+					},
+					{
+						"key": "offer.label.guaranty.153",
+						"value": "Assistenza"
+					},
+					{
+						"key": "offer.label.guaranty.154",
+						"value": "Estensione Kasko Completa"
+					},
+					{
+						"key": "offer.label.guaranty.155",
+						"value": "Protezione Patente"
+					},
+					{
+						"key": "offer.label.guaranty.156",
+						"value": "Rimborso premio RCA e Bollo a seguito di furto"
+					},
+					{
+						"key": "offer.label.guaranty.157",
+						"value": "Assistenza Plus"
+					},
+					{
+						"key": "offer.label.guaranty.158",
+						"value": "Estensioni furto e incendio"
+					},
+					{
+						"key": "offer.label.guaranty.159",
+						"value": "Infortuni del guidatore"
+					},
+					{
+						"key": "offer.label.guaranty.160",
+						"value": "Tutela Legale"
+					},
+					{
+						"key": "offer.label.guaranty.161",
+						"value": "Rimborso premio RCA e Bollo a seguito di furto"
+					},
+					{
+						"key": "offer.label.guaranty.162",
+						"value": "Bonus Protetto"
+					},
+					{
+						"key": "offer.label.guaranty.163",
+						"value": "Estensione Incendio e Furto Camper"
+					},
+					{
+						"key": "offer.label.guaranty.164",
+						"value": "Incendio e Furto Camper"
+					},
+					{
+						"key": "offer.label.guaranty.165",
+						"value": "Assistenza Camper"
+					},
+					{
+						"key": "offer.label.guaranty.166",
+						"value": "Estensione RCD Camper"
+					},
+					{
+						"key": "offer.label.guaranty.167",
+						"value": "Infortuni Guidatore Camper"
+					},
+					{
+						"key": "offer.label.guaranty.168",
+						"value": "RC Camper"
+					},
+					{
+						"key": "offer.label.guaranty.169",
+						"value": "Tutela Legale Camper"
+					},
+					{
+						"key": "offer.label.guaranty.170",
+						"value": "Protezione Patente Camper"
+					},
+					{
+						"key": "offer.label.guaranty.171",
+						"value": "RC Autocarri"
+					},
+					{
+						"key": "offer.label.guaranty.172",
+						"value": "Incendio e Furto Autocarri"
+					},
+					{
+						"key": "offer.label.guaranty.173",
+						"value": "Assistenza Autocarri"
+					},
+					{
+						"key": "offer.label.guaranty.174",
+						"value": "Tutela Legale Autocarri"
+					},
+					{
+						"key": "offer.label.guaranty.175",
+						"value": "Infortuni Guidatore Autocarri"
+					},
+					{
+						"key": "offer.label.guaranty.176",
+						"value": "Protezione Patente Autocarri"
+					},
+					{
+						"key": "offer.label.guaranty.177",
+						"value": "Rottura cristalli"
+					},
+					{
+						"key": "offer.label.guaranty.179",
+						"value": "Assistenza VIP"
+					},
+					{
+						"key": "offer.label.guaranty.182",
+						"value": "Rottura cristalli"
+					},
+					{
+						"key": "offer.label.guaranty.184",
+						"value": "Assistenza Plus"
+					},
+					{
+						"key": "offer.label.guaranty.185",
+						"value": "Eventi Naturali"
+					},
+					{
+						"key": "offer.label.guaranty.186",
+						"value": "Eventi sociopolitici"
+					},
+					{
+						"key": "offer.label.guaranty.187",
+						"value": "Collisione con veicolo identificato"
+					},
+					{
+						"key": "offer.label.guaranty.188",
+						"value": "RC Cane"
+					},
+					{
+						"key": "offer.label.guaranty.189",
+						"value": "Tutela Legale Casa"
+					},
+					{
+						"key": "offer.label.guaranty.190",
+						"value": "Tutela Legale Famiglia"
+					},
+					{
+						"key": "offer.label.guaranty.192",
+						"value": "Opzione Sospensione"
+					},
+					{
+						"key": "offer.label.guaranty.195",
+						"value": "Estensione Furto e Incendio"
+					},
+					{
+						"key": "offer.label.guaranty.194",
+						"value": "Bonus Protetto"
+					},
+					{
+						"key": "offer.label.guaranty.193",
+						"value": "Danni all'Abbigliamento per Collisione"
+					},
+					{
+						"key": "offer.label.guaranty.204",
+						"value": "Assistenza Stradale ZeroPensieri"
+					},
+					{
+						"key": "offer.label.guaranty.205",
+						"value": "Assistenza Stradale ZeroPensieri"
+					},
+					{
+						"key": "offer.label.guaranty.226",
+						"value": "Terremoto"
+					},
+					{
+						"key": "offer.label.guaranty.227",
+						"value": "Collisione light con veicolo identificato"
+					},
+					{
+						"key": "offer.label.guaranty.228",
+						"value": "Protezione rivalse"
+					},
+					{
+						"key": "offer.label.guaranty.264",
+						"value": "Protezione Rivalse Moto"
+					},
+					{
+						"key": "offer.label.guaranty.265",
+						"value": "Protezione Rivalse Autocarri"
+					},
+					{
+						"key": "offer.label.guaranty.266",
+						"value": "Protezione Rivalse Autocaravan"
+					},
+					{
+						"key": "offer.popup.notGainalbe.title",
+						"value": "Attenzione"
+					},
+					{
+						"key": "offer.popup.notGainalbe.body",
+						"value": "Siamo spiacenti ma non e' possibile procedere con il frazionamento semestrale del premio."
+					},
+					{
+						"key": "offer.body.law.131",
+						"value": "Preventivo realizzato in ottemperanza delle disposizioni dell'art. 131 del decreto legislativo 7 settembre 2005, n. 209."
+					},
+					{
+						"key": "offer.popup.effectDateMoreThan60Days.title",
+						"value": "Attenzione"
+					},
+					{
+						"key": "offer.popup.effectDateMoreThan60Days.body",
+						"value": "<b>Attenzione: non puoi acquistare perche' la data decorrenza della tua polizza e' maggiore di 60 giorni.</b><br/>\n        Dal {{dateWhenQuotate}} potrai salvare e acquistare, torna a visitarci!\n\n    "
+					},
+					{
+						"key": "offer.h4.defaultData.edit",
+						"value": "Se la tua situazione non corrisponde a quella descritta, per modificare i dati "
+					},
+					{
+						"key": "offer.h4.defaultData.here",
+						"value": " clicca qui"
+					},
+					{
+						"key": "offer.h4.defaultData.impiego",
+						"value": "Impiego"
+					},
+					{
+						"key": "offer.p.defaultData.impiego",
+						"value": "Professione impiegato o pari tariffa (quadro, funzionario)"
+					},
+					{
+						"key": "offer.h4.defaultData.percorrenza",
+						"value": "Percorrenza"
+					},
+					{
+						"key": "offer.p.defaultData.percorrenza",
+						"value": "Percorrenza fino a 20.000 km all'anno."
+					},
+					{
+						"key": "offer.h4.defaultData.bike.driverFormula",
+						"value": "Guida Esperta"
+					},
+					{
+						"key": "offer.p.defaultData.bike.driverFormula",
+						"value": "La moto e' guidata solo dall'intestatario al PRA"
+					},
+					{
+						"key": "offer.h4.defaultData.bike.box",
+						"value": "Custodia Mezzo"
+					},
+					{
+						"key": "offer.p.defaultData.bike.box",
+						"value": "E' normalmente custodita di notte in box o garage"
+					},
+					{
+						"key": "offer.h4.defaultData.bike.antifurto",
+						"value": "Antifurto"
+					},
+					{
+						"key": "offer.p.defaultData.bike.antifurto",
+						"value": "Ha l'antifurto elettronico/immobilizer"
+					},
+					{
+						"key": "offer.h4.defaultData.bike.delivery",
+						"value": "Consegne a domicilio"
+					},
+					{
+						"key": "offer.p.defaultData.bike.delivery",
+						"value": "Non viene utilizzata per consegne a domicilio"
+					},
+					{
+						"key": "offer.h4.defaultData.box",
+						"value": "Custodia Mezzo"
+					},
+					{
+						"key": "offer.p.defaultData.box",
+						"value": "Veicolo normalmente custodito di notte in box o spazio privato."
+					},
+					{
+						"key": "offer.h4.defaultData.gpl",
+						"value": "No GPL"
+					},
+					{
+						"key": "offer.p.defaultData.gpl",
+						"value": "Veicolo senza impianto GPL."
+					},
+					{
+						"key": "offer.h4.defaultData.uso",
+						"value": "Uso veicolo"
+					},
+					{
+						"key": "offer.p.defaultData.uso",
+						"value": "Trasporto merci comuni."
+					},
+					{
+						"key": "offer.h4.defaultData.attivita",
+						"value": "Settore attivita"
+					},
+					{
+						"key": "offer.p.defaultData.attivita",
+						"value": "Altro."
+					},
+					{
+						"key": "offer.h4.defaultData.gancio",
+						"value": "Gancio"
+					},
+					{
+						"key": "offer.p.defaultData.gancio",
+						"value": "No."
+					},
+					{
+						"key": "offer.h4.defaultData.driverFormula",
+						"value": "Guida Esperta"
+					},
+					{
+						"key": "offer.p.defaultData.driverFormula",
+						"value": "Veicolo guidato da te e persone con piu' di 23 anni e patente da almeno 2 anni."
+					},
+					{
+						"key": "offer.span.riepilogo.datiPersonali",
+						"value": "Dati Personali"
+					},
+					{
+						"key": "offer.b.riepilogo.datiPersonali.espandi",
+						"value": "Espandi"
+					},
+					{
+						"key": "offer.th.riepilogo.datiPersonali.company",
+						"value": "Azienda"
+					},
+					{
+						"key": "offer.th.riepilogo.datiPersonali.ruolo",
+						"value": "Ruolo"
+					},
+					{
+						"key": "offer.th.riepilogo.datiPersonali.tipo",
+						"value": "Tipo"
+					},
+					{
+						"key": "offer.th.riepilogo.datiPersonali.nomeCognome",
+						"value": "Nome e Cognome"
+					},
+					{
+						"key": "offer.th.riepilogo.datiPersonali.ragioneSociale",
+						"value": "Ragione sociale"
+					},
+					{
+						"key": "offer.th.riepilogo.datiPersonali.sesso",
+						"value": "Sesso"
+					},
+					{
+						"key": "offer.th.riepilogo.datiPersonali.data",
+						"value": "Data di Nascita"
+					},
+					{
+						"key": "offer.th.riepilogo.datiPersonali.indirizzoResidenza",
+						"value": "Cap di residenza"
+					},
+					{
+						"key": "offer.th.riepilogo.datiPersonali.indirizzoLegale",
+						"value": "Cap sede Legale"
+					},
+					{
+						"key": "offer.th.riepilogo.datiPersonali.edificio",
+						"value": "Edificio"
+					},
+					{
+						"key": "offer.th.riepilogo.datiPersonali.cf",
+						"value": "Codice fiscale / Partita  IVA"
+					},
+					{
+						"key": "offer.th.riepilogo.datiPersonali.professione",
+						"value": "Professione"
+					},
+					{
+						"key": "offer.span.riepilogo.datiVeicolo",
+						"value": "Dati Veicolo"
+					},
+					{
+						"key": "offer.b.riepilogo.espandi",
+						"value": "Espandi"
+					},
+					{
+						"key": "offer.b.riepilogo.riduci",
+						"value": "Riduci"
+					},
+					{
+						"key": "offer.th.riepilogo.datiVeicolo.tipo",
+						"value": "Tipo Veicolo"
+					},
+					{
+						"key": "offer.th.riepilogo.datiVeicolo.marca",
+						"value": "Marca:"
+					},
+					{
+						"key": "offer.th.riepilogo.datiVeicolo.modello",
+						"value": "Modello:"
+					},
+					{
+						"key": "offer.th.riepilogo.datiVeicolo.immatricolazione",
+						"value": "Data prima immatricolazione:"
+					},
+					{
+						"key": "offer.th.riepilogo.datiVeicolo.targa",
+						"value": "Targa:"
+					},
+					{
+						"key": "offer.th.riepilogo.datiVeicolo.cavalli",
+						"value": "Numero cavalli fiscali/kw:"
+					},
+					{
+						"key": "offer.th.riepilogo.datiVeicolo.alimentazione",
+						"value": "Alimentazione:"
+					},
+					{
+						"key": "offer.th.riepilogo.datiVeicolo.gpl",
+						"value": "GPL o Metano:"
+					},
+					{
+						"key": "offer.th.riepilogo.datiVeicolo.percorrenza",
+						"value": "Percorrenza media:"
+					},
+					{
+						"key": "offer.th.riepilogo.datiVeicolo.valore",
+						"value": "Valore Commerciale:"
+					},
+					{
+						"key": "offer.th.riepilogo.datiVeicolo.garage",
+						"value": "Veicolo custodito in garage/box:"
+					},
+					{
+						"key": "offer.th.riepilogo.datiVeicolo.uso",
+						"value": "Tipo uso dell'auto:"
+					},
+					{
+						"key": "offer.th.riepilogo.datiVeicolo.antifurto",
+						"value": "Tipo antifurto:"
+					},
+					{
+						"key": "offer.th.riepilogo.datiVeicolo.traino",
+						"value": "Gancio Traino:"
+					},
+					{
+						"key": "offer.th.riepilogo.datiVeicolo.massa",
+						"value": "Massa a pieno carico:"
+					},
+					{
+						"key": "offer.span.riepilogo.datiAssicurativi",
+						"value": "Dati Assicurativi"
+					},
+					{
+						"key": "offer.b.riepilogo.datiAssicurativi.espandi",
+						"value": "Espandi"
+					},
+					{
+						"key": "offer.th.riepilogo.datiAssicurativi.situazione",
+						"value": "Situazione assicurativa:"
+					},
+					{
+						"key": "offer.th.riepilogo.datiAssicurativi.classeCu",
+						"value": "Classe CU:"
+					},
+					{
+						"key": "offer.th.riepilogo.datiAssicurativi.classeGenialloyd",
+						"value": "Classe Genialloyd:"
+					},
+					{
+						"key": "offer.th.riepilogo.datiAssicurativi.sinistriAtr",
+						"value": "Sinistri indicati nell'attestato di rischio:"
+					},
+					{
+						"key": "offer.th.riepilogo.datiAssicurativi.sinistri2anni",
+						"value": "Sinistri ultimi due anni:"
+					},
+					{
+						"key": "offer.th.riepilogo.datiAssicurativi.bersani",
+						"value": "Agevolazione Bersani gia' usufruita:"
+					},
+					{
+						"key": "offer.th.riepilogo.datiAssicurativi.decorrenza",
+						"value": "Data decorrenza nuova polizza:"
+					},
+					{
+						"key": "offer.th.riepilogo.datiAssicurativi.provenienza",
+						"value": "Compagnia provenienza:"
+					},
+					{
+						"key": "offer.th.riepilogo.datiAssicurativi.leasing",
+						"value": "Leasing:"
+					},
+					{
+						"key": "offer.th.riepilogo.datiAssicurativi.vincolo",
+						"value": "Vincolo:"
+					},
+					{
+						"key": "offer.span.riepilogo.datiGaranzie",
+						"value": "Elenco Garanzie"
+					},
+					{
+						"key": "offer.b.riepilogo.datiGaranzie.espandi",
+						"value": "Espandi"
+					},
+					{
+						"key": "offer.a.riepilogo.datiGaranzie.modifica",
+						"value": "Modifica"
+					},
+					{
+						"key": "offer.span.riepilogo.datiPagamento",
+						"value": "Dati Pagamento"
+					},
+					{
+						"key": "offer.b.riepilogo.datiPagamento.espandi",
+						"value": "Espandi"
+					},
+					{
+						"key": "offer.th.riepilogo.datiPagamento.pagamento",
+						"value": "Pagamento"
+					},
+					{
+						"key": "offer.th.riepilogo.datiPagamento.premio",
+						"value": "Premio Annuo"
+					},
+					{
+						"key": "offer.a.riepilogo.datiPagamento.modifica",
+						"value": "Modifica"
+					},
+					{
+						"key": "offer.span.riepilogo.datiGuida",
+						"value": "Tipo Guida"
+					},
+					{
+						"key": "offer.b.riepilogo.datiGuida.espandi",
+						"value": "Espandi"
+					},
+					{
+						"key": "offer.th.riepilogo.datiGuida.guidaEsperta",
+						"value": "Formula Guida"
+					},
+					{
+						"key": "validation.msg.required",
+						"value": "Obbligatorio"
+					},
+					{
+						"key": "validation.msg.pattern",
+						"value": "Dato non valido"
+					},
+					{
+						"key": "offer.popup.76.title",
+						"value": "Infortuni del guidatore"
+					},
+					{
+						"key": "offer.popup.76.body",
+						"value": "E' un&#129; importante garanzia per la tutela dell&#129;'integrita' fisica del guidatore del veicolo. Se acquistata, e' sempre operante indipendentemente dalla garanzia RCA.\n        <br/> Assicura il conducente, chiunque esso sia, per gli infortuni subiti in occasione della guida del veicolo assicurato, che hanno come conseguenza la morte o l&#129;'invalidita' permanente (superiore al punteggio in franchigia) del guidatore stesso.\n        <br/> e' possibile personalizzare la garanzia, scegliendo tra due diverse franchigie (3% e 10%) e fra tre diversi capitali assicurati* (50.000,00, 100.000,00 e 200.000,00 euro) per avere un piu' ampio indennizzo in caso di sinistro, tali opzioni ti consentono di modulare il premio della copertura assicurativa.\n        <br/><br/> * Il Capitale assicurato e' l&#129;'importo massimo per sinistro previsto per indennizzare il danno derivante da morte o invalidita' permanente del guidatore mentre si trova alla guida del veicolo. Nel caso d&#129;'infortunio, il danno per essere indennizzabile deve comportare un grado di invalidita' superiore alla franchigia scelta.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.97.title",
+						"value": "Responsabilita' civile"
+					},
+					{
+						"key": "offer.popup.97.body",
+						"value": "E&#129;' la garanzia obbligatoria per legge per il risarcimento dei danni che la tua auto puo' provocare a terzi. La garanzia e' prestata nei limiti del massimale* indicato in polizza. Potrai scegliere tra differenti massimali per garantirti la massima sicurezza in caso di sinistro. La garanzia di responsabilita' civile e' operante anche nelle aree private ad eccezione degli aeroporti sia civili che militari. La nostra garanzia di Responsabilita' Civile e' stata arricchita con una serie di altre garanzie accessorie concesse gratuitamente, che migliorano la tua tutela.\n        <br/> Per approfondimenti su estensioni, esclusioni o limitazioni della garanzia consulta e scarica il Fascicolo Informativo.\n        <br/><br/> * Dal 11 dicembre 2009 il massimale della RC Auto, che rappresenta l'importo massimo di copertura, per legge e' bipartito tra danni fisici alle persone e danni causati a cose.\n        <br/><br/><strong>Responsabilita' Civile Personale dei trasportati</strong><br/> La garanzia Responsabilita' Civile dei Trasportati e' una copertura compresa gratuitamente, che copre la Responsabilita' Civile personale ed autonoma dei trasportati a bordo del veicolo per i danni involontariamente causati a terzi durante la circolazione, esclusi i danni al veicolo stesso (esempio in caso di danni causati a terzi aprendo la portiera incautamente).\n        <br/><br/><strong>Responsabilita' Civile per fatto di figli minori</strong><br/> La garanzia Responsabilita' Civile per fatto di figli minori e' una copertura compresa gratuitamente che copre i danni causati a terzi dalla circolazione illecita del veicolo, avvenuta all'insaputa del proprietario, alla cui guida si trovino i suoi figli minori o persone soggette a tutela e con lui conviventi.\n        <br/><br/><strong>Soccorso vittime della strada </strong><br/> La garanzia Soccorso vittime della strada e' una copertura compresa gratuitamente che copre i danni provocati alle parti interne del veicolo, nel caso di trasporto occasionale di vittime di incidenti stradali fino al posto di soccorso medico, per un importo massimo per evento di 300,00 euro.\n        <br/><br/><strong>Ricorso Terzi da Incendio </strong><br/> La garanzia Ricorso Terzi da incendio e' una copertura compresa gratuitamente e copre, con il limite massimo di 100.000,00 euro per ogni sinistro, i danni materiali e diretti provocati a terzi dall'incendio del veicolo non conseguente a circolazione, compresa l'esplosione del carburante non seguita da incendio.\n        <br/><br/><strong>Traino Rimorchio </strong><br/> La garanzia Traino Rimorchio e' una copertura compresa gratuitamente e copre il rischio del traino del rimorchio agganciato al veicolo assicurato (da non confondersi con la garanzia Rischio Statico che copre i danni provocati dal rimorchio quando questo e' sganciato dal veicolo).\n    "
+					},
+					{
+						"key": "offer.popup.98.title",
+						"value": "Assistenza Stradale Base"
+					},
+					{
+						"key": "offer.popup.98.body",
+						"value": "La garanzia Assistenza Stradale Base e' attiva 24 ore su 24 in Italia e all'estero.\n        <br/> Prevede il traino dell'auto fino all'officina piu' vicina nel caso in cui, in seguito ad incidente stradale, l'auto non sia piu' utilizzabile, fino ad un massimo di 200 Euro.\n        <br/> In caso di foratura o rottura di uno pneumatico, questa garanzia prevede anche l&#129;'invio di un tecnico incaricato.\n    "
+					},
+					{
+						"key": "offer.popup.101.title",
+						"value": "Furto e Incendio"
+					},
+					{
+						"key": "offer.popup.101.body",
+						"value": "La garanzia Furto e Incendio prevede il rimborso dei danni subiti dal veicolo assicurato a causa di incendio, esplosione, furto e rapina. Sono assicurati senza costi aggiuntivi gli optional e gli apparecchi audio-fono visivi non di serie stabilmente installati, fino ad un importo massimo di euro 1.000,00.\n        <br/> La garanzia copre sia il danno totale che il danno parziale.\n        <br/> L&#129;'assicurazione e' inoltre sempre estesa all&#129;'incendio derivante da eventi socio-politici (scioperi, sommosse, tumulti popolari e atti di terrorismo e vandalismo), agli atti vandalici conseguenti al furto totale del veicolo e ai danni cagionati al veicolo per il furto di cose contenute al suo interno (con esclusione delle cose rubate).\n        <br/> Sara' indennizzato il valore commerciale del veicolo alla data del furto al netto dello scoperto del 10% minimo di  250,00 euro oppure di 500,00 euro sulla base della scelta effettuata in fase di calcolo del preventivo.\n    "
+					},
+					{
+						"key": "offer.popup.103.title",
+						"value": "Collisione con veicolo identificato"
+					},
+					{
+						"key": "offer.popup.103.body",
+						"value": "Se vuoi essere tutelato anche in caso di incidente stradale con altro veicolo assicurato, indipendentemente dalla responsabilita' del sinistro, puoi scegliere questa garanzia.\n        <br/> Ti saranno indennizzati i danni subiti dall'auto anche se la responsabilita' del sinistro e' del conducente del veicolo assicurato. Sono coperti, senza costi aggiuntivi, gli optional e gli apparecchi audio-fono visivi stabilmente installati fino ad un valore massimo di 1.000 euro. La garanzia opera con uno scoperto del 10% con minimo di euro 250.\n    "
+					},
+					{
+						"key": "offer.popup.104.title",
+						"value": "Responsabilita' civile"
+					},
+					{
+						"key": "offer.popup.104.body",
+						"value": "E&#129;' la garanzia obbligatoria per legge per il risarcimento dei danni che la tua moto puo' provocare a terzi. La garanzia e' prestata nei limiti del massimale* indicato in polizza. Potrai scegliere tra differenti massimali per garantirti la massima sicurezza in caso di sinistro. La garanzia di responsabilita' civile e' operante anche nelle aree private ad eccezione degli aeroporti sia civili che militari.La nostra garanzia di Responsabilita' Civile e' stata arricchita con una serie di altre garanzie accessorie concesse gratuitamente, che migliorano la tua tutela.\n        <br/> Per approfondimenti su estensioni, esclusioni o limitazioni della garanzia consulta e scarica le Condizioni Contrattuali.\n        <br/><br/> * Dal 11 dicembre 2009 il massimale della RC Auto, che rappresenta l'importo massimo di copertura, per legge e' bipartito tra danni fisici alle persone e danni causati a cose.\n        <br/><br/><strong>Responsabilita' Civile Personale dei trasportati\n            <br/></strong>La garanzia Responsabilita' Civile dei Trasportati e' una copertura, compresa gratuitamente, che copre la Responsabilita' Civile personale ed autonoma dei trasportati a bordo della moto per i danni involontariamente cagionati a terzi durante la circolazione, esclusi i danni al veicolo stesso.\n        <br/><br/><strong>Ricorso Terzi da Incendio</strong><br/> La garanzia Ricorso Terzi da incendio e' una copertura, compresa gratuitamente, che copre, con il limite massimo di 100.000,00 euro per ogni sinistro, i danni materiali e diretti provocati a terzi dall'incendio del veicolo non conseguente a circolazione, compresa l'esplosione del carburante non seguita da incendio.\n        <br/><br/><strong>Opzione sospensione</strong><br/> Solo per il prodotto\n        <strong>Moto Free</strong> e' prevista anche l'opzione di sospensione della polizza.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.106.title",
+						"value": "Tutela Legale"
+					},
+					{
+						"key": "offer.popup.106.body",
+						"value": "E&#129;' un&#129;'importante garanzia opzionale che prevede, innanzitutto, l&#129;'assistenza per la richiesta danni alla compagnia di controparte e la consulenza necessaria per la definizione del sinistro.\n        <br/> Denunciando il sinistro a Genialloyd e attivando la copertura, il servizio Tutela Legale provvede infatti a gestire per tuo conto la pratica di rimborso.\n        <br/> Qualora necessario, provvede inoltre ad attivare il supporto di un legale.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.107.title",
+						"value": "Cristalli"
+					},
+					{
+						"key": "offer.popup.107.body",
+						"value": "E' un'importante garanzia che puoi scegliere, anche se hai acquistato la sola copertura RCA. La garanzia Cristalli e' prestata con una franchigia di 150 euro fino a un massimo di 2.500euro e prevede il rimborso dei costi sostenuti per la sostituzione del parabrezza, dei vetri laterali del veicolo e del lunotto posteriore che si siano rotti per causa accidentale e/o per fatto involontario di terzi.\n        <br/> In caso di scheggiatura del parabrezza e relativa riparazione presso i centri CARGLASS o DOCTORGLASS, non sara' applicata alcuna franchigia e la riparazione sara' completamente gratuita.\n        <br/><br/>"
+					},
+					{
+						"key": "offer.popup.108.title",
+						"value": "Eventi Naturali"
+					},
+					{
+						"key": "offer.popup.108.body",
+						"value": "Puoi estendere la copertura assicurativa dell'auto aggiungendo la garanzia Eventi Naturali che indennizza i danni causati da: grandine, trombe d'aria, tempeste, uragani, frane, smottamenti di terreno. Sono coperti senza costi aggiuntivi gli optional e gli apparecchi audio-fono visivi, stabilmente installati, fino ad un massimo di 1.000,00 euro.\n        <br/> Sara' indennizzato il valore commerciale del veicolo alla data del sinistro al netto dello scoperto (10% con minimo di euroeuro 500,00).\n    "
+					},
+					{
+						"key": "offer.popup.109.title",
+						"value": "Atti vandalici e sociopolitici"
+					},
+					{
+						"key": "offer.popup.109.body",
+						"value": "Per completare la copertura assicurativa della tua auto, in aggiunta alla Collisione con veicolo identificato e/o alla Furto e Incendio, puoi aggiungere questa garanzia. Prevede il rimborso dei danni causati al veicolo assicurato da eventi socio politici, scioperi, tumulti popolari, sommosse, atti di terrorismo, sabotaggio, vandalismo. La garanzia opera con uno scoperto del 10% con minimo di euro 500.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.110.title",
+						"value": "Furto e Incendio"
+					},
+					{
+						"key": "offer.popup.110.body",
+						"value": "Prevede il rimborso dei danni subiti dal veicolo assicurato in caso di furto/rapina totale o incendio/esplosione. Solo nel caso di ritrovamento del veicolo rubato/rapinato, la copertura e' estesa ai danni parziali subiti in seguito ai suddetti reati. Inoltre, e' previsto il rimborso di alcune spese sostenute, quali: spese rimozione e parcheggio a seguito di ritrovamento, ripristino box, lavaggio e disinfezione dopo ritrovamento e spese per sottrazione e smarrimento chiavi."
+					},
+					{
+						"key": "offer.popup.123.title",
+						"value": "Assistenza Stradale Base"
+					},
+					{
+						"key": "offer.popup.123.body",
+						"value": "L'assistenza stradale e' attiva 24 ore su 24 in Italia e all'estero; prevede il soccorso stradale immediato con intervento dell'officina mobile. E' previsto, inoltre, il rimborso per le spese d'albergo per il cliente e l'eventuale terzo trasportato, qualora in seguito a guasto o incidente, la moto non sia piu' utilizzabile. Sono, inoltre, inclusi il recupero del motociclo riparato e l'organizzazione del rientro dei passeggeri o il proseguimento del viaggio. Se il sinistro avviene all'estero e i danni subiti prevedono un fermo tecnico superiore ai 4 giorni lavorativi, la garanzia Assistenza prevede il rimpatrio della moto e l'invio dei pezzi di ricambio qualora non sia possibile reperirli sul posto.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.143.title",
+						"value": "Danni ai locali"
+					},
+					{
+						"key": "offer.popup.143.body",
+						"value": "Con questa garanzia Genialloyd protegge i locali dell'abitazione da numerosi rischi. L'oggetto assicurato e' costituito dai locali di proprieta' dell'Assicurato, dalle dipendenze come cantine e box e da tutte le altre parti connesse all'abitazione (recinzioni, piscine, antenne, ecc.). Sono coperti i danni causati da incendio ed eventi correlati, i danni da acqua condotta, gelo, fenomeno elettrico, eventi naturali e socio-politici. Sono altresi' rimborsate spese indirette sostenute dall'Assicurato in seguito al sinistro, quali ad esempio: sgombero dei beni distrutti, alloggio in albergo, ecc.\n        <br/> L'assicurazione e' prestata a &#129;eprimo rischio assoluto', ovvero fino alla concorrenza dal valore assicurato, senza applicazione della regola proporzionale.\n        <br/> L&#129;'indennizzo e' pagato a &#129;gvalore a nuovo&#129;h, in altre parole e' garantita la copertura della spesa necessaria per l'integrale ricostruzione del fabbricato.\n        <br/> L&#129;'indennizzo per le garanzie indirette, sara' pagato in aggiunta all&#129;'indennizzo dovuto per la ricostruzione del fabbricato fermo restando il limite del massimale assicurato.\n    "
+					},
+					{
+						"key": "offer.popup.144.title",
+						"value": "Danni al contenuto"
+					},
+					{
+						"key": "offer.popup.144.body",
+						"value": "Con questa garanzia Genialloyd protegge i beni contenuti nell'abitazione da numerosi rischi che possono danneggiarli. L'oggetto assicurato e' costituito da tutto cio' che si trova all'interno dell'abitazione come mobili, vestiti, oggetti preziosi, denaro e il contenuto delle dipendenze (cantine, box, ecc.). Sono coperti i danni causati da incendio ed eventi correlati, da acqua condotta, gelo, fenomeno elettrico, eventi naturali e socio-politici. Sono altresi' rimborsate eventuali spese indirette sostenute dall&#129;'Assicurato in seguito a sinistro, quali ad esempio: sgombero dei beni distrutti, alloggio in albergo, ecc. L'assicurazione e' prestata a &#129;'primo rischio assoluto', ovvero indipendentemente dal valore complessivo dei beni e nei limiti delle somme assicurate, senza che l&#129;'assicurato sia tenuto a fornire alcun inventario dei beni assicurati al momento della conclusione del contratto.\n        <br/> L&#129;'indennizzo e' pagato a valore a nuovo ovvero la spesa necessaria per la sostituzione dei beni assicurati con altri nuovi uguali oppure equivalenti per uso e qualita'.\n        <br/> Inserisci un valore compreso tra un minimo di 5.000 euro ed un massimo di  150.000 eurp, tenendo conto delle spese che dovresti sostenere per riacquistare i beni di maggior valore contenuti in casa tua come, ad esempio: mobili, vestiario, tappeti e gioielli.\n    "
+					},
+					{
+						"key": "offer.popup.147.title",
+						"value": "Ricerca e riparazione danni d'acqua"
+					},
+					{
+						"key": "offer.popup.147.body",
+						"value": "Con questa garanzia Genialloyd indennizza le spese sostenute per la ricerca e la riparazione dei guasti avvenuti in seguito alla rottura accidentale di impianti idrici, igienici, pluviali e di riscaldamento. Sono coperte le spese sostenute per la demolizione e il ripristino di parti dell'abitazione per la ricerca del guasto nei limiti del massimale stabilito.\n        <br/> Seleziona un valore, dal menu' a tendina, tenendo conto delle spese che dovresti sostenere per: la demolizione di parti di muratura, la ricerca della perdita d'acqua, la riparazione della conduttura guasta e il ripristino delle parti su cui e' stato effettuato il lavoro.\n    "
+					},
+					{
+						"key": "offer.popup.148.title",
+						"value": "RC Famiglia"
+					},
+					{
+						"key": "offer.popup.148.body",
+						"value": "Con questa garanzia Genialloyd tutela la responsabilita' civile dell'Assicurato, del partner e dei famigliari conviventi in caso di danni causati involontariamente a terzi nell'ambito della vita privata. I rischi coperti sono estesi alle molteplici situazioni che ricorrono nella vita privata. Sono altresi' comprese le coperture relative alla conduzione dei locali, alle attivita' del tempo libero (quali hobby e sport), agli infortuni degli addetti ai servizi domestici regolarmente dichiarati, ai danni provocati da figli minori anche affidati a parenti e affini non conviventi, nonche' i danni eventualmente causati da gatti.\n        <br/> La copertura e' valida in tutta Europa e nei paesi del bacino mediterraneo.\n        <br/> Seleziona, tra i massimali indicati nel menu' a tendina, quello che ritieni possa proteggere al meglio te, il tuo partner e i tuoi famigliari.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.150.title",
+						"value": "Furto del contenuto e danni da effrazione"
+					},
+					{
+						"key": "offer.popup.150.body",
+						"value": "Con questa garanzia Genialloyd protegge i beni contenuti nell'abitazione da furto, rapina, guasti e atti vandalici cagionati dai ladri.\n        <br/> L'oggetto assicurato e' costituito da mobili, oggetti d'arredamento, pellicce, tappeti, argenteria e, in genere, cio' che e' contenuto nei locali dell'abitazione (esclusi preziosi e valori) e nelle dipendenze (cantine, box, ecc.).\n        <br/> Sono compresi i danni da effrazione e inoltre la copertura e' estesa ai beni personali portati in villeggiatura.\n        <br/> L'assicurazione e' prestata a &#129;eprimo rischio assoluto&#129;, ovvero indipendentemente dal valore complessivo dei beni e nei limiti delle somme assicurate, senza che l&#129;'assicurato sia tenuto a fornire alcun inventario dei beni assicurati al momento della conclusione del contratto.\n        <br/> L&#129;'indennizzo e' pagato a valore a nuovo ovvero la spesa necessaria per la sostituzione dei beni assicurati con altri nuovi uguali oppure equivalenti per uso e qualita'.\n        <br/> Inserisci un valore compreso tra un minimo di euro 2.000 ed un massimo di euro 50.000, tenendo conto delle spese che, in seguito a furto e rapina, dovresti sostenere per riacquistare i beni contenuti in casa tua quali ad esempio: vestiario, pellicce, argenteria, quadri, personal computer.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.154.title",
+						"value": "Estensione kasko completa"
+					},
+					{
+						"key": "offer.popup.154.body",
+						"value": "Con la garanzia Estensione kasko completa l&#129;'indennizzo e' esteso anche ai danni subiti dal veicolo (a prescindere dalla responsabilita' del guidatore o di terzi), nel caso di urto, ribaltamento, uscita di strada, collisione generica. La garanzia opera con uno scoperto del 10% con minimo di euro 500.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.155.title",
+						"value": "Protezione patente"
+					},
+					{
+						"key": "offer.popup.155.body",
+						"value": "La garanzia &#129;gProtezione patente&#129;h prevede il rimborso parziale delle spese sostenute dall&#129;'Assicurato per i corsi finalizzati al recupero del punteggio o per ottenere il rilascio di un nuova patente in caso di azzeramento dei punti.\n        <br/> Inoltre e' corrisposta un&#129;'indennita' giornaliera in caso di sospensione della patente a seguito d&#129;'incidente con lesioni a persone,\n        <strong>a condizione che l&#129;'assicurato sia assolto/prosciolto con sentenza irrevocabile dall&#129;'aver commesso violazioni del Nuovo Codice della Strada o dall&#129;'imputazione di reato.</strong><br/><br/>"
+					},
+					{
+						"key": "offer.popup.157.title",
+						"value": "Assistenza Stradale Plus"
+					},
+					{
+						"key": "offer.popup.157.body",
+						"value": "L'assistenza stradale Plus comprende le garanzie dell'Assistenza stradale base con ulteriori servizi quali: l'auto sostitutiva (fino a 15 giorni in caso di furto del veicolo), l'invio dell'officina mobile, il rimborso del premio pagato in momenti di particolare difficolta'.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.158.title",
+						"value": "Estensioni Furto e Incendio"
+					},
+					{
+						"key": "offer.popup.158.body",
+						"value": "Se acquisti la garanzia Estensioni furto e Incendio, puoi rendere ancora piu' completa la copertura assicurativa.\n        <br/> Infatti se il veicolo assicurato e' di nuova immatricolazione, per sinistri avvenuti entro i primi sei mesi, hai diritto alla liquidazione del valore di listino a nuovo (in caso di danno totale), e al pagamento delle spese di riparazione senza applicazione del degrado (in caso di danni parziali) per sinistri avvenuti entro il primo anno di vita del veicolo. Questa estensione vale per sinistri relativi a tutte le garanzie della sezione danni diretti presenti in polizza (Furto e Incendio, Eventi naturali, Atti vandalici e eventi sociopolitici, ecc). L'indennizzo sara' in ogni caso riconosciuto al netto degli scoperti previsti dalle singole garanzie.\n        <br/><br/><strong>Valore a nuovo: </strong>In caso di danneggiamento totale del veicolo avvenuto entro sei mesi dalla data di prima immatricolazione (anche se avvenuta all&#129;'estero) Genialloyd riconoscera' come indennizzo il prezzo di listino a nuovo del veicolo o l&#129;'importo della fattura d'acquisto dello stesso al netto dello scoperto e del minimo indicato in polizza.\n        <br/><br/><strong>Deroga al degrado d&#129;'uso: </strong>In caso di danni parziali cagionati al veicolo, Genialloyd non terra' conto del degrado dovuto a vetusta' e usura, qualora dalla data di prima immatricolazione (anche se avvenuta all'estero) non sia trascorso piu' di un anno.\n        <br/><br/><strong>Danni indiretti:</strong> l'assicurazione e' estesa ai danni indiretti derivanti dall'impossibilita' di utilizzare l'autovettura a causa di incendio totale oppure in caso di furto o rapina totale anche se seguito da ritrovamento. Prevede il pagamento di 10 euro per ciascun giorno di mancato utilizzo, per un massimo di 20 giorni per ogni annualita' assicurativa.\n        <br/><br/><strong>Spese di rimozione e parcheggio: </strong>in caso di furto del veicolo con questa copertura vengono rimborsate, con il limite massimo di 200 euro per ogni annualita' assicurativa, le spese documentate che l'Assicurato ha sostenuto per la rimozione ed il parcheggio del veicolo disposti dall'Autorita', dal giorno del ritrovamento fino a quello dell'avvenuta comunicazione all'Assicurato del ritrovamento stesso.\n        <br/><br/><strong>Spese di ripristino box:</strong> con questa copertura vengono rimborsate le spese sostenute e documentate per il ripristino del locale danneggiato a seguito dell'incendio dell'autovettura ricoverata all'interno del box. Vengono, inoltre, rimborsate le spese sostenute e documentate per la sostituzione delle serrature di chiusura del box, qualora fossero state forzate nel corso dell'esecuzione del furto del veicolo. Tale rimborso viene effettuato fino alla concorrenza di 200 euro per ogni sinistro.\n        <br/><br/><strong>Spese di lavaggio e disinfezione: </strong>in caso di furto del veicolo e del successivo ritrovamento, vengono rimborsate le spese sostenute dall'Assicurato per il lavaggio e la disinfezione del veicolo fino ad un massimo di 200 euro.\n        <br/><br/><strong>Spese per sottrazione e smarrimento chiavi:</strong> Genialloyd, in caso di smarrimento o sottrazione delle chiavi del veicolo assicurato, rimborsa, su presentazione di regolare fattura e sino a un massimo di 200 euro per evento, le spese sostenute dall'assicurato per il rifacimento delle chiavi, dei congegni elettronici di apertura/antifurto e delle serrature del veicolo. Sono comprese inoltre le spese per la disattivazione e riattivazione dei codici elettronici per l&#129;'avviamento del veicolo e per lo sbloccaggio del sistema di antifurto.\n        <br/><br/><strong>Spese per la procura speciale a vendere:</strong> in caso di furto del veicolo senza ritrovamento, Genialloyd rimborsa le spese sostenute dall'Assicurato per la produzione della procura speciale a vendere intestata a Genialloyd, necessaria per il pagamento dell'indennizzo fino a un massimo di 200 euro per sinistro.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.159.title",
+						"value": "Infortuni del guidatore"
+					},
+					{
+						"key": "offer.popup.159.body",
+						"value": "e' un&#129;'importante garanzia opzionale per la tutela dell&#129;'integrita' fisica del guidatore del veicolo. Se acquistata, e' sempre operante indipendentemente dalla garanzia RCA.\n        <br/> Assicura il conducente, chiunque esso sia, per gli infortuni subiti in occasione della guida del veicolo assicurato, che abbiano come conseguenza la morte o l&#129;'invalidita' permanente (superiore al punteggio in franchigia) del guidatore stesso.\n        <br/> Il Capitale assicurato* e' di 50.000,00 euro e la garanzia e' prestata con una franchigia** del 10%.\n        <br/><br/> * E&#129;' l&#129;'importo massimo previsto per indennizzare l&#129;'assicurato in caso di sinistro che abbia per conseguenza la morte o invalidita' permanente del guidatore mentre si trova alla guida del veicolo. Nel caso d&#129;'infortunio, il danno per essere indennizzabile deve comportare un grado di invalidita' superiore alla franchigia scelta.\n        <br/><br/> **La franchigia, nella garanzia infortunio del guidatore, e' il punteggio di invalidita' permanente che resta a carico dell&#129;'assicurato (danno non indennizzabile). In caso di riconoscimento di una invalidita' permanente superiore al 20%, tale franchigia non sara' applicata.\n        <br/><br/> Esempio con franchigia del 10%\n        <br/> 1) assicurato con invalidita' riscontrata del 9%: nessuna invalidita' riconosciuta e quindi nessun indennizzo ;\n        <br/> 2) assicurato con invalidita' riscontrata del 14%: invalidita' riconosciuta 4% e quindi indennizzo proporzionale a questo grado di invalidita';\n        <br/> 3) assicurato con invalidita' riscontrata del 20%: invalidita' riconosciuta 10% e quindi indennizzo proporzionale a questo grado di invalidita';\n        <br/> 4) assicurato con invalidita' riscontrata del 60%: invalidita' riconosciuta 60% e quindi indennizzo proporzionale a questo grado di invalidita'.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.160.title",
+						"value": "Tutela Legale"
+					},
+					{
+						"key": "offer.popup.160.body",
+						"value": "E&#129;' un&#129;' importante garanzia opzionale che prevede, innanzitutto, l&#129;'assistenza per la richiesta danni alla compagnia di controparte e la consulenza necessaria per la definizione del sinistro. Denunciando il sinistro a Genialloyd e attivando la copertura, il servizio Tutela Legale provvede infatti a gestire per tuo conto la pratica di rimborso. Qualora necessario, provvede inoltre ad attivare il supporto di un legale.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.162.title",
+						"value": "Bonus Protetto (Condizione particolare RCA)"
+					},
+					{
+						"key": "offer.popup.162.body",
+						"value": "Il bonus protetto e' una condizione particolare della garanzia RCA che consente di conservare la classe di Bonus Malus Genialloyd anche in caso di un primo sinistro pagato nel periodo di validita' del contratto.\n        <br/> Per poter scegliere questa condizione particolare occorre che sussistano le seguenti caratteristiche:\n        <br/><ul><li>il contratto in corso deve gia' essere assegnato alla classe 12 o classe inferiore</li><li>non devono essersi verificati sinistri nei due anni precedenti</li></ul>"
+					},
+					{
+						"key": "offer.popup.163.title",
+						"value": "Estensioni Furto e Incendio"
+					},
+					{
+						"key": "offer.popup.163.body",
+						"value": "Se acquisti la garanzia Estensioni furto e Incendio, puoi rendere ancora piu' completa la copertura assicurativa comprendendo l'indennizzo parziale di alcune spese conseguenti al verificarsi del furto e/o incendio del tuo camper.\n        <br/><br/><strong>Danni al contenuto del veicolo</strong><br/> Con questa garanzia, in caso di incendio, esplosione totale o furto non seguito da ritrovamento del veicolo assicurato, Genialloyd assicura fino ad un massimo di 1.500 euro, il mobilio e arredamento non stabilmente fissato, nonche' gli oggetti di uso domestico e personale, compresa l'attrezzatura per l'attivita' del tempo libero, contenuti, al momento del sinistro, all'interno del veicolo assicurato.\n        <br/><br/><strong>Spese di rimozione e parcheggio</strong><br/> In caso di furto del veicolo con questa copertura vengono rimborsate, con il limite massimo di 600,00 euro per ogni annualita' assicurativa, le spese documentate che l'Assicurato ha sostenuto per la rimozione ed il parcheggio del veicolo disposti dall'Autorita', dal giorno del ritrovamento fino a quello dell'avvenuta comunicazione all'Assicurato del ritrovamento stesso.\n        <br/><strong><br/> Spese di lavaggio e disinfezione\n        </strong><br/> In caso di furto del veicolo e del successivo ritrovamento, vengono rimborsate le spese sostenute dall'Assicurato per il lavaggio e la disinfezione del veicolo fino ad un massimo di 500,00 euro.\n        <br/><br/><strong>Spese per sottrazione e smarrimento chiavi</strong><br/> In caso di sottrazione o smarrimento chiavi o dei congegni elettronici di apertura delle portiere e/o del sistema di sbloccaggio dell'antifurto del veicolo, vengono rimborsate le spese sostenute dall'assicurato per la sostituzione delle serrature con altre dello stesso tipo, nonche' le spese di manodopera per l'apertura delle portiere e/o dello sbloccaggio del sistema elettronico di antifurto.\n        <br/> La garanzia e' prestata con il limite massimo di 200,00 euro dietro presentazione di regolare fattura delle spese sostenute.\n        <br/><br/><strong>Danni indiretti</strong><br/> L'assicurazione e' estesa ai danni indiretti derivanti dall'impossibilita' di utilizzare il Camper a causa di incendio totale oppure in caso di furto o rapina totale anche se seguito da ritrovamento. Prevede il pagamento di 10,00 euro per ciascun giorno di mancato utilizzo, per un massimo di 30 giorni per ogni annualita' assicurativa.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.164.title",
+						"value": "Furto e Incendio"
+					},
+					{
+						"key": "offer.popup.164.body",
+						"value": "Se desideri estendere la tua polizza anche ai danni patrimoniali derivanti da furto e incendio, puoi aggiungere questa garanzia.\n        <br/> Prevede il rimborso dei danni subiti dal veicolo assicurato causati da incendio/esplosione o furto/rapina. Sono coperti, senza costi aggiuntivi, anche gli optional, accessori non di serie e gli apparecchi audio-fono visivi stabilmente installati, fino ad un valore massimo di 2.500,00 euro.\n        <br/> La garanzia copre sia il danno totale che il danno parziale.\n        <br/> L&#129;'assicurazione e' inoltre sempre estesa all&#129;'incendio derivante da eventi socio-politici (scioperi, sommosse, tumulti popolari e atti di terrorismo e vandalismo), agli atti vandalici conseguenti al furto totale del veicolo e ai danni cagionati al veicolo per il furto di cose contenute al suo interno (con esclusione delle cose rubate).\n        <br/> Sara' indennizzato il valore commerciale del veicolo alla data del furto al netto dello scoperto del 10% minimo di 250,00 euro oppure di 500,00 euro sulla base della scelta effettuata in fase di calcolo del preventivo.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.165.title",
+						"value": "Assistenza Stradale Base"
+					},
+					{
+						"key": "offer.popup.165.body",
+						"value": "La garanzia Assistenza Stradale base e' attiva 24 ore su 24 in Italia e all'estero; prevede il traino del veicolo fino all'officina piu' vicina nel caso in cui, per guasto o in seguito ad incidente stradale, il veicolo non sia piu' utilizzabile; l'intervento di un'officina mobile per la riparazione del veicolo rimasto fermo in seguito ad un guasto; l'invio dei pezzi di ricambio con il mezzo piu' rapido; consulenza medica e altre garanzie specificate nelle Condizioni Contrattuali.\n        <br/> Inoltre avrai a tua disposizione un servizio telefonico che ti fornira' informazioni pratiche su viabilita', meteo, centri medico/sanitari e consigli utili per i tuoi viaggi e per il tuo veicolo.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.166.title",
+						"value": "RC del Camperista"
+					},
+					{
+						"key": "offer.popup.166.body",
+						"value": "Questa garanzia opera nelle aree di sosta camper e nei campeggi e tutela la responsabilita' civile dell&#129;'assicurato per danni cagionati a terzi per i seguenti eventi indicati all&#129;'interno di ogni specifica garanzia, fino ad un massimo di euro 50.000,00 per anno assicurativo.\n        <br/><br/><strong>Danni a terzi</strong><br/> Con questa garanzia Genialloyd si impegna a tenere indenne il proprietario/i del veicolo identificato in polizza, il suo coniuge, il convivente more uxorio ed i loro famigliari conviventi purche' maggiorenni, di quanto questi siano tenuti a pagare, quali civilmente responsabili ai sensi di legge di danni cagionati a terzi per morte, lesioni personali in conseguenza di un fatto accidentale verificatosi all'interno del veicolo oggetto dell'assicurazione e/o all'esterno dello stesso nei limiti dell'area riservata alla sosta, e comunque non relativi alla circolazione del veicolo cosi' come definita ai sensi di Legge.\n        <br/><br/> Non sono considerati terzi ai fini dell'assicurazione responsabilita' civile:\n        <ul><li>il coniuge, il convivente more uxorio, i genitori, i figli di tutti i soggetti assicurati, nonche' qualsiasi altro loro parente od affine convivente;</li><li>le persone che, indipendentemente dalla natura del loro rapporto con l'Assicurato, subiscano il danno in occasione di lavoro o servizio.</li></ul><strong><br/> Ricorso terzi incendio da focolai\n        </strong><br/> Con questa garanzia Genialloyd assicura i danni materiali e diretti provocati a terzi dall'utilizzo del barbecue o altro fornello da campeggio esterno al veicolo.\n        <br/><br/><strong>Responsabilita' civile per fatto di figli minori</strong><br/> Genialloyd si impegna a tenere indenne il proprietario/i del veicolo assicurato di quanto questi sia tenuto a pagare, quale civilmente responsabile ai sensi di legge di danni involontariamente cagionati a terzi per morte, lesioni personali e danneggiamenti a cose, in conseguenza di un fatto accidentale, non relativo alla circolazione del veicolo cosi' come definita ai sensi di Legge, provocato dai figli minori non emancipati.\n        <br/><br/><strong>Responsabilita' civile per fatto di animali domestici</strong><br/> Con questa garanzia Genialloyd si impegna a tenere indenne il proprietario/i del veicolo assicurato di quanto questi sia tenuto a pagare, quale civilmente responsabile ai sensi di legge dei danni involontariamente cagionati a terzi per morte, lesioni personali e danneggiamenti a cose, in conseguenza di un fatto accidentale provocato dal cane/gatto di sua proprieta'. La copertura e' prestata con l'applicazione di una franchigia di 75 euro per ogni sinistro.\n    "
+					},
+					{
+						"key": "offer.popup.167.title",
+						"value": "Infortuni del guidatore"
+					},
+					{
+						"key": "offer.popup.167.body",
+						"value": "E' un&#129;'importante garanzia per la tutela dell&#129;'integrita' fisica del guidatore del veicolo. Se acquistata, e' sempre operante indipendentemente dalla garanzia RCA.\n        <br/> Assicura il conducente, chiunque esso sia, per gli infortuni subiti in occasione della guida del veicolo assicurato, che abbiano come conseguenza la morte o l&#129;'invalidita' permanente (superiore al punteggio in franchigia) del guidatore stesso.\n        <br/> Puoi scegliere fra tre diversi capitali assicurati* (50.000,00, 100.000,00 e 200.000,00 euro) e la garanzia e' prestata con una franchigia** del 3% o 10%; tali opzioni ti consentono di modulare il premio della copertura assicurativa.\n        <br/><br/> *E&#129;' l&#129;'importo massimo previsto per indennizzare l&#129;'assicurato in caso di sinistro che abbia per conseguenza la morte o invalidita' permanente del guidatore mentre si trova alla guida del veicolo. Nel caso d&#129;'infortunio, il danno per essere indennizzabile deve comportare un grado di invalidita' superiore alla franchigia scelta.\n        <br/><br/> **La franchigia, nella garanzia infortunio del guidatore, e' il punteggio di invalidita' permanente che resta a carico dell&#129;'assicurato (danno non indennizzabile). In caso di riconoscimento di una invalidita' permanente superiore al 20%, tale franchigia non sara' applicata.\n        <br/><br/> Esempio con franchigia del 10%\n        <br/> 1) assicurato con invalidita' riscontrata del 9%: nessuna invalidita' riconosciuta e quindi nessun indennizzo ;\n        <br/> 2) assicurato con invalidita' riscontrata del 14%: invalidita' riconosciuta 4% e quindi indennizzo proporzionale a questo grado di invalidita';\n        <br/> 3) assicurato con invalidita' riscontrata del 20%: invalidita' riconosciuta 10% e quindi indennizzo proporzionale a questo grado di invalidita';\n        <br/> 4) assicurato con invalidita' riscontrata del 60%: invalidita' riconosciuta 60% e quindi indennizzo proporzionale a questo grado di invalidita'.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.168.title",
+						"value": "Responsabilita' civile"
+					},
+					{
+						"key": "offer.popup.168.body",
+						"value": "E&#129;' la garanzia obbligatoria per legge per il risarcimento dei danni che il tuo camper puo' provocare a terzi. La garanzia e' prestata nei limiti del massimale* indicato in polizza. Potrai scegliere tra differenti massimali per garantirti la massima sicurezza in caso di sinistro. La garanzia di responsabilita' civile e' operante anche nelle aree private ad eccezione degli aeroporti sia civili che militari. La nostra garanzia di Responsabilita' Civile e' stata arricchita con una serie di altre garanzie accessorie concesse gratuitamente, che migliorano la tua tutela.\n        <br/> Per approfondimenti su estensioni, esclusioni o limitazioni della garanzia consulta e scarica le Condizioni Contrattuali.\n        <br/><br/> * Dal 11 dicembre 2009 il massimale della RC Auto, che rappresenta l'importo massimo di copertura, per legge e' bipartito tra danni fisici alle persone e danni causati a cose.\n        <br/><br/><strong>Responsabilita' Civile Personale dei trasportati (estensione gratuita della garanzia RC)\n            <br/></strong>La garanzia Responsabilita' Civile dei trasportati e' una copertura compresa gratuitamente, che copre la Responsabilita' Civile personale ed autonoma dei trasportati a bordo del veicolo per i danni involontariamente causati a terzi durante la circolazione, esclusi i danni al veicolo stesso.\n        <br/><br/><strong>Responsabilita' Civile per fatto di figli minori(estensione gratuita della garanzia RC)</strong><br/> La garanzia Responsabilita' Civile per fatto di figli minori e' una copertura compresa gratuitamente che copre i danni causati a terzi dalla circolazione illecita del veicolo, avvenuta all'insaputa del proprietario, alla cui guida si trovino i suoi figli minori o persone soggette a tutela e con lui conviventi.\n        <br/><br/><strong>Soccorso vittime della strada (estensione gratuita della garanzia RC) </strong><br/> La garanzia Soccorso vittime della strada e' una copertura compresa gratuitamente che copre i danni provocati alle parti interne del veicolo, nel caso di trasporto occasionale di vittime di incidenti stradali fino al posto di soccorso medico, per un importo massimo per evento di 300,00 euro.\n        <br/><br/><strong>Ricorso Terzi da Incendio (estensione gratuita della garanzia RC)\n            <br/></strong>La garanzia Ricorso Terzi da incendio e' una copertura compresa gratuitamente e copre, con il limite massimo di 100.000,00 euro per ogni sinistro, i danni materiali e diretti provocati a terzi dall'incendio del veicolo non conseguente a circolazione, compresa l'esplosione del carburante non seguita da incendio.\n        <br/><br/><strong>Traino Rimorchio\n            <br/></strong>La garanzia Traino Rimorchio e' una copertura che copre il rischio del traino del rimorchio agganciato al veicolo assicurato. (Da non confondersi con la garanzia Rischio Statico che copre i danni provocati dal rimorchio quando questo e' sganciato dal veicolo).\n        <br/><br/><strong>Carico e Scarico (estensione gratuita della garanzia RC)\n            <br/></strong>Questa garanzia e' compresa gratuitamente e copre la responsabilita' civile del contraente o del committente per i danni involontariamente cagionati a terzi nel corso di operazioni di carico e scarico da terra sul veicolo e viceversa, purche' non eseguiti con mezzi o dispositivi meccanici, ad eccezione di cassoni ribaltabili; rimangono comunque esclusi i danni alle cose trasportate o in consegna. Non sono considerate terzi le persone trasportate sul veicolo e coloro che prendono parte alle suddette operazioni.\n        <br/><br/> Per ulteriori informazioni consulta e scarica le Condizioni Contrattuali.\n    "
+					},
+					{
+						"key": "offer.popup.169.title",
+						"value": "Tutela Legale"
+					},
+					{
+						"key": "offer.popup.169.body",
+						"value": "E&#129;' un&#129;' importante garanzia opzionale che prevede, innanzitutto, l&#129;'assistenza per la richiesta danni alla compagnia di controparte e la consulenza necessaria per la definizione del sinistro. Denunciando il sinistro a Genialloyd e attivando la copertura, il servizio Tutela Legale provvede infatti a gestire per tuo conto la pratica di rimborso. Qualora necessario, provvede inoltre ad attivare il supporto di un legale.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.170.title",
+						"value": "Protezione patente"
+					},
+					{
+						"key": "offer.popup.170.body",
+						"value": "La garanzia &#129;Protezione patente&#129; prevede il rimborso parziale delle spese sostenute dall&#129;'Assicurato per i corsi finalizzati al recupero del punteggio o per ottenere il rilascio di un nuova patente in caso di azzeramento dei punti.\n        <br/> Inoltre e' corrisposta un&#129;'indennita' giornaliera in caso di sospensione della patente a seguito d&#129;'incidente con lesioni a persone,\n        <strong>a condizione che l&#129;'assicurato sia assolto/prosciolto con sentenza irrevocabile dall&#129;'aver commesso violazioni del Nuovo Codice della Strada o dall&#129;'imputazione di reato.</strong><br/><br/>"
+					},
+					{
+						"key": "offer.popup.171.title",
+						"value": "Responsabilita' civile"
+					},
+					{
+						"key": "offer.popup.171.body",
+						"value": "E&#129;' la garanzia obbligatoria per legge per il risarcimento dei danni che il tuo veicolo puo' provocare a terzi. La garanzia e' prestata nei limiti del massimale* indicato in polizza. Potrai scegliere tra differenti massimali per garantirti la massima sicurezza in caso di sinistro. La garanzia di responsabilita' civile e' operante anche nelle aree private ad eccezione degli aeroporti sia civili che militari. La nostra garanzia di Responsabilita' Civile e' stata arricchita con una serie di altre garanzie accessorie concesse gratuitamente, che migliorano la tua tutela.\n        <br/> Per approfondimenti su estensioni, esclusioni o limitazioni della garanzia consulta e scarica le Condizioni Contrattuali.\n        <br/><br/> * Dal 11 dicembre 2009 il massimale della RC Auto, che rappresenta l'importo massimo di copertura, per legge e' bipartito tra danni fisici alle persone e danni causati a cose.\n        <br/><br/><strong>Responsabilita' Civile Personale dei trasportati (estensione gratuita della garanzia RC)\n            <br/></strong>La garanzia Responsabilita' Civile dei trasportati e' una copertura compresa gratuitamente, che copre la Responsabilita' Civile personale ed autonoma dei trasportati a bordo del veicolo per i danni involontariamente causati a terzi durante la circolazione, esclusi i danni al veicolo stesso.\n        <br/><br/><strong>Responsabilita' Civile per fatto di figli minori (estensione gratuita della garanzia RC)</strong><br/> La garanzia Responsabilita' Civile per fatto di figli minori e' una copertura compresa gratuitamente che copre i danni causati a terzi dalla circolazione illecita del veicolo, avvenuta all'insaputa del proprietario, alla cui guida si trovino i suoi figli minori o persone soggette a tutela e con lui conviventi.\n        <br/><br/><strong>Soccorso vittime della strada (estensione gratuita della garanzia RC) </strong><br/> La garanzia Soccorso vittime della strada e' una copertura compresa gratuitamente che copre i danni provocati alle parti interne del veicolo, nel caso di trasporto occasionale di vittime di incidenti stradali fino al posto di soccorso medico, per un importo massimo per evento di 300,00 euro.\n        <br/><br/><strong>Ricorso Terzi da Incendio (estensione gratuita della garanzia RC)\n            <br/></strong>La garanzia Ricorso Terzi da incendio e' una copertura compresa gratuitamente e copre, con il limite massimo di 100.000,00 euro per ogni sinistro, i danni materiali e diretti provocati a terzi dall'incendio del veicolo non conseguente a circolazione, compresa l'esplosione del carburante non seguita da incendio.\n        <br/><br/><strong>Traino Rimorchio\n            <br/></strong>La garanzia Traino Rimorchio e' una copertura che copre il rischio del traino del rimorchio agganciato al veicolo assicurato. (Da non confondersi con la garanzia Rischio Statico che copre i danni provocati dal rimorchio quando questo e' sganciato dal veicolo).\n        <br/><br/><strong>Carico e Scarico (estensione gratuita della garanzia RC)\n            <br/></strong>Questa garanzia e' compresa gratuitamente e copre la responsabilita' civile del contraente o del committente per i danni involontariamente cagionati a terzi nel corso di operazioni di carico e scarico da terra sul veicolo e viceversa, purche' non eseguiti con mezzi o dispositivi meccanici, ad eccezione di cassoni ribaltabili; rimangono comunque esclusi i danni alle cose trasportate o in consegna. Non sono considerate terzi le persone trasportate sul veicolo e coloro che prendono parte alle suddette operazioni.\n        <br/><br/> Per ulteriori informazioni consulta e scarica le Condizioni Contrattuali.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.172.title",
+						"value": "Furto e Incendio"
+					},
+					{
+						"key": "offer.popup.172.body",
+						"value": "Se desideri estendere la tua polizza anche ai danni patrimoniali derivanti da furto e incendio, puoi aggiungere questa garanzia.\n        <br/> Prevede il rimborso dei danni subiti dal veicolo assicurato causati da incendio/esplosione o furto/rapina. Sono coperti, senza costi aggiuntivi, anche gli optional, accessori non di serie e gli apparecchi audio-fono visivi stabilmente installati, fino ad un valore massimo di 1.000,00 euro.\n        <br/> La garanzia copre sia il danno totale che il danno parziale.\n        <br/> L&#129;'assicurazione e' inoltre sempre estesa all&#129;'incendio derivante da eventi socio-politici (scioperi, sommosse, tumulti popolari e atti di terrorismo e vandalismo), agli atti vandalici conseguenti al furto totale del veicolo e ai danni cagionati al veicolo per il furto di cose contenute al suo interno (con esclusione delle cose rubate).\n        <br/> Sara' indennizzato il valore commerciale del veicolo alla data del furto al netto dello scoperto del 10% minimo di euro 250,00 oppure di euro 500,00 sulla base della scelta effettuata in fase di calcolo del preventivo.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.173.title",
+						"value": "Assistenza Stradale Base"
+					},
+					{
+						"key": "offer.popup.173.body",
+						"value": "La garanzia Assistenza Stradale base e' attiva 24 ore su 24 in Italia e all'estero; prevede il traino del veicolo fino all'officina piu' vicina nel caso in cui, per guasto o in seguito ad incidente stradale, il veicolo non sia piu' utilizzabile; l'intervento di un'officina mobile per la riparazione del veicolo rimasto fermo in seguito ad un guasto; l'invio dei pezzi di ricambio con il mezzo piu' rapido; consulenza medica e altre garanzie specificate nelle Condizioni Contrattuali.\n        <br/> Inoltre avrai a tua disposizione un servizio telefonico che ti fornira' informazioni pratiche su viabilita', meteo, centri medico/sanitari e consigli utili per i tuoi viaggi e per il tuo veicolo.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.174.title",
+						"value": "Tutela Legale"
+					},
+					{
+						"key": "offer.popup.174.body",
+						"value": "E&#129;' un&#129;' importante garanzia opzionale che prevede, innanzitutto, l&#129;'assistenza per la richiesta danni alla compagnia di controparte e la consulenza necessaria per la definizione del sinistro. Denunciando il sinistro a Genialloyd e attivando la copertura, il servizio Tutela Legale provvede infatti a gestire per tuo conto la pratica di rimborso. Qualora necessario, provvede inoltre ad attivare il supporto di un legale.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.175.title",
+						"value": "Infortuni del guidatore"
+					},
+					{
+						"key": "offer.popup.175.body",
+						"value": "E' un&#129;'importante garanzia per la tutela dell&#129;'integrita' fisica del guidatore del veicolo. Se acquistata, e' sempre operante indipendentemente dalla garanzia RCA.\n        <br/> Assicura il conducente, chiunque esso sia, per gli infortuni subiti in occasione della guida del veicolo assicurato, che abbiano come conseguenza la morte o l&#129;'invalidita' permanente (superiore al punteggio in franchigia) del guidatore stesso.\n        <br/> Puoi scegliere fra tre diversi capitali assicurati* (50.000,00, 100.000,00 e 200.000,00 euro) e la garanzia e' prestata con una franchigia** del 3% o 10%;\n        <br/> tali opzioni ti consentono di modulare il premio della copertura assicurativa.\n        <br/><br/> *E&#129;' l&#129;'importo massimo previsto per indennizzare l&#129;'assicurato in caso di sinistro che abbia per conseguenza la morte o invalidita' permanente del guidatore mentre si trova alla guida del veicolo. Nel caso d&#129;'infortunio, il danno per essere indennizzabile deve comportare un grado di invalidita' superiore alla franchigia scelta.\n        <br/><br/> **La franchigia, nella garanzia infortunio del guidatore, e' il punteggio di invalidita' permanente che resta a carico dell&#129;'assicurato (danno non indennizzabile). In caso di riconoscimento di una invalidita' permanente superiore al 20%, tale franchigia non sara' applicata.\n        <br/><br/> Esempio con franchigia del 10%\n        <br/> 1) assicurato con invalidita' riscontrata del 9%: nessuna invalidita' riconosciuta e quindi nessun indennizzo ;\n        <br/> 2) assicurato con invalidita' riscontrata del 14%: invalidita' riconosciuta 4% e quindi indennizzo proporzionale a questo grado di invalidita';\n        <br/> 3) assicurato con invalidita' riscontrata del 20%: invalidita' riconosciuta 10% e quindi indennizzo proporzionale a questo grado di invalidita';\n        <br/> 4) assicurato con invalidita' riscontrata del 60%: invalidita' riconosciuta 60% e quindi indennizzo proporzionale a questo grado di invalidita'.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.176.title",
+						"value": "Protezione patente"
+					},
+					{
+						"key": "offer.popup.176.body",
+						"value": "La garanzia &#129;gProtezione patente&#129;h prevede il rimborso parziale delle spese sostenute dall&#129;'Assicurato per i corsi finalizzati al recupero del punteggio o per ottenere il rilascio di un nuova patente in caso di azzeramento dei punti.\n        <br/> Inoltre e' corrisposta un'indennita' giornaliera in caso di sospensione della patente a seguito d'incidente con lesioni a persone,\n        <strong>a condizione che l'assicurato sia assolto/prosciolto con sentenza irrevocabile dall'aver commesso violazioni del Nuovo Codice della Strada o dall'imputazione di reato.</strong><br/><br/>"
+					},
+					{
+						"key": "offer.popup.177.title",
+						"value": "Cristalli"
+					},
+					{
+						"key": "offer.popup.177.body",
+						"value": "La garanzia Cristalli e' prestata con una franchigia di 150 euro fino a un massimo di 1.000 euro e prevede il rimborso dei costi sostenuti per la sostituzione del parabrezza, dei vetri laterali del veicolo e del lunotto posteriore che si siano rotti per causa accidentale e/o per fatto involontario di terzi.\n        <br/> In caso di scheggiatura del parabrezza e relativa riparazione presso i centri CARGLASS o DOCTORGLASS, non sara' applicata alcuna franchigia e la riparazione sara' completamente gratuita.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.182.title",
+						"value": "Cristalli"
+					},
+					{
+						"key": "offer.popup.182.body",
+						"value": "La garanzia Cristalli e' prestata con una franchigia di 150 euro fino a un massimo di 2.500 euro e prevede il rimborso dei costi sostenuti per la sostituzione del parabrezza, dei vetri laterali del veicolo e del lunotto posteriore che si siano rotti per causa accidentale e/o per fatto involontario di terzi.\n        <br/> In caso di scheggiatura del parabrezza e relativa riparazione presso i centri CARGLASS o DOCTORGLASS, non sara' applicata alcuna franchigia e la riparazione sara' completamente gratuita.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.184.title",
+						"value": "Assistenza Stradale Plus"
+					},
+					{
+						"key": "offer.popup.184.body",
+						"value": "La garanzia Assistenza Stradale Plus e' stata appositamente studiata per i motociclisti; comprende le garanzie dell'Assistenza stradale base con il vantaggio di un massimale superiore e di altri importanti servizi quali: l'invio di un'officina mobile in caso di guasto della moto o il traino presso un'officina autorizzata, il recupero della moto fuoriuscita dalla sede stradale, l'invio di un mezzo idoneo per la riparazione o la sostituzione del pneumatico in caso di foratura o il traino presso il centro di assistenza pneumatici piu' vicino; il riconoscimento di un contributo economico in caso di furto del casco durante un viaggio e l'auto sostitutiva (fino a un massimo di 3 giorni consecutivi in caso di traino del veicolo danneggiato.\n        <br/><br/>"
+					},
+					{
+						"key": "offer.popup.185.title",
+						"value": "Eventi Naturali"
+					},
+					{
+						"key": "offer.popup.185.body",
+						"value": "La garanzia Eventi naturali copre i danni provocati alla tua moto da: grandine, trombe d'aria, tempeste, uragani, frane, smottamenti di terreno.\n        <br/> Se scegli questa garanzia ti saranno indennizzati i danni subiti dalla moto corrisposti al netto dello scoperto (10% col minimo di 100,00 euro); l'indennizzo non potra' comunque essere superiore al valore commerciale della moto al momento del sinistro.\n    "
+					},
+					{
+						"key": "offer.popup.186.title",
+						"value": "Atti Vandalici - Eventi Socio Politici"
+					},
+					{
+						"key": "offer.popup.186.body",
+						"value": "Per completare la copertura assicurativa della tua moto puoi aggiungere la garanzia Atti vandalici e Eventi sociopolitici.\n        <br/> e' previsto l'indennizzo dei danni causati alla moto assicurata da atti vandalici, eventi socio politici, scioperi, tumulti popolari, sommosse, atti di terrorismo e sabotaggio.\n        <br/> l'indennizzo dei danni subiti dalla moto verra' corrisposto al netto dello scoperto (10% col minimo di 250,00 euro); l'indennizzo non potra' comunque essere superiore al valore commerciale della moto al momento del sinistro.\n    "
+					},
+					{
+						"key": "offer.popup.187.title",
+						"value": "Collisione con veicolo identificato"
+					},
+					{
+						"key": "offer.popup.187.body",
+						"value": "La garanzia Collisione con veicolo identificato, ti tutela in caso di incidente con un altro veicolo anche se la responsabilita' del sinistro e' del conducente  della moto assicurata.\n        <br/> Se scegli questa garanzia ti saranno indennizzati i danni subiti dalla moto corrisposti al netto dello scoperto (10% col minimo di 250 euro). L'indennizzo non potra' comunque essere superiore al valore commerciale della moto al momento del sinistro.\n    "
+					},
+					{
+						"key": "offer.popup.188.title",
+						"value": "RC Cane"
+					},
+					{
+						"key": "offer.popup.188.body",
+						"value": "La garanzia tiene indenne l'Assicurato, di quanto questi sia tenuto a pagare quale civilmente responsabile per danni involontariamente cagionati a terzi, che comportino la morte, lesioni personali e danneggiamento a cose in conseguenza di un fatto verificatosi in relazione alla proprieta' e all'uso del cane, con esclusione di ogni responsabilita' inerente ad attivita' professionali. L'assicurazione e' estesa anche a favore di chi, con il consenso dell'Assicurato, si occupi dell'animale."
+					},
+					{
+						"key": "offer.popup.189.title",
+						"value": "Tutela legale"
+					},
+					{
+						"key": "offer.popup.189.body",
+						"value": "La Tutela Legale offre l'assistenza necessaria per la tutela degli interessi dell'assicurato e dei familiari con lui conviventi in occasione di controversie che possono sorgere nell'ambito della vita privata ed in relazione alla proprieta' dell'immobile assicurato.\n        <br/> Qui troverai le seguenti garanzie:\n        <br/><br/><strong>Tutela legale famiglia</strong> per ottenere la tutela in relazione a vertenze che hanno per oggetto:\n        <br/><br/><ul><li>l'azione in sede civile per ottenere il risarcimento di danni a persone, a cose e animali subiti per fatto illecito di terzi;</li><li>le controversie derivanti da contratti conclusi dalle persone assicurate, purche' il valore in lite non sia superiore a 1.500,00 euro;</li><li>le controversie di lavoro con i collaboratori familiari regolarmente assunti;</li><li>la difesa in sede penale nei procedimenti per reati colposi;</li><li>la difesa in sede civile contro richieste di risarcimento di danni da parte di terzi; tale garanzia opera a secondo rischio.</li></ul><br/><strong>Tutela legale casa</strong> per ottenere la tutela in relazione a vertenze che hanno per oggetto:\n        <br/><br/><ul><li>l'azione in sede civile per ottenere il risarcimento di danni all'immobile assicurato per atto illecito di terzi, ivi compreso l'inquilino dell'unita' immobiliare assicurata;</li><li>la difesa in sede penale nei procedimenti per reati colposi;</li><li>le controversie derivanti dalla proprieta' dei locali di abitazione indicati in polizza ed occupati dall'Assicurato e relative pertinenze;</li><li>le azioni relative alla riscossione dei canoni di locazione o spese condominiali; tale garanzia puo' essere prestata con il limite di un unico caso per ogni annualita' assicurativa ed un unico caso complessivo indipendentemente dalla durata della polizza nei confronti dello stesso debitore.</li></ul>"
+					},
+					{
+						"key": "offer.popup.190.title",
+						"value": "Tutela legale"
+					},
+					{
+						"key": "offer.popup.190.body",
+						"value": "<strong>Tutela legale famiglia</strong>, la garanzia per ottenere la tutela in relazione a vertenze che hanno per oggetto:\n        <br/><br/><ul><li>l'azione in sede civile per ottenere il risarcimento di danni a persone, a cose e animali subiti per fatto illecito di terzi;</li><li>le controversie derivanti da contratti conclusi dalle persone assicurate, purche' il valore in lite non sia superiore a 1.500,00 euro;</li><li>le controversie di lavoro con i collaboratori familiari regolarmente assunti;</li><li>la difesa in sede penale nei procedimenti per reati colposi;</li><li>la difesa in sede civile contro richieste di risarcimento di danni da parte di terzi; tale garanzia opera a secondo rischio.</li></ul>"
+					},
+					{
+						"key": "offer.popup.195.title",
+						"value": "Estensione Furto Incendio"
+					},
+					{
+						"key": "offer.popup.195.body",
+						"value": "Questa garanzia consente di mantenere attiva la copertura Furto Incendio anche nel periodo di sospensione della polizza , durante il quale tutte le altre garanzie non saranno operanti, a condizione che il motociclo venga\n        <strong>custodito in luogo chiuso</strong>.\n        <br/><br/>"
+					},
+					{
+						"key": "offer.popup.194.title",
+						"value": "Bonus Protetto"
+					},
+					{
+						"key": "offer.popup.194.body",
+						"value": "Il bonus protetto e' una condizione particolare della garanzia Responsabilita' Civile che consente di conservare la classe di merito Genialloyd del contratto, annullando il\n        <strong>malus </strong>(il peggioramento della classe di merito) conseguente al primo sinistro pagato con colpa avvenuto nel periodo di validita' della polizza con il Bonus protetto operante. Per poter scegliere questa garanzia occorre che sussistano le seguenti caratteristiche:\n        <br/><br/><ul><li>il contratto in corso deve gia' essere assegnato alla classe\n                <strong>11 </strong>o classe inferiore;\n            </li><li>non devono essersi verificati sinistri nei\n                <strong>5 </strong>anni precedenti.\n            </li></ul>"
+					},
+					{
+						"key": "offer.popup.193.title",
+						"value": "Danni all'abbigliamento per collisione"
+					},
+					{
+						"key": "offer.popup.193.body",
+						"value": "In caso di collisione della moto con un altro veicolo, i danni al casco e/o all'abbigliamento indossati dal guidatore al momento dell'incidente verranno indennizzati fino ad un massimo di 1.000,00 euro, con lo scoperto del 10%.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.204.title",
+						"value": "Assistenza Stradale ZeroPensieri"
+					},
+					{
+						"key": "offer.popup.204.body",
+						"value": "Oltre alle garanzie dell'assistenza stradale base\n        <strong>comprende  l'invio dei documenti assicurativi tramite corriere anziche' posta prioritaria</strong>, l'estensione dei servizi previsti dall'assistenza stradale plus (fino a 30 giorni di auto sostitutiva in caso di furto del veicolo anziche' 15) e ancora altre nuove prestazioni quali: anticipo spese di prima necessita' a seguito di furto del bagaglio , rimborso spese d'emergenza, protezione carte di credito.\n        <br/><br/><strong>ATTENZIONE: se si vuole usufruire del servizio di invio polizza tramite corriere e' necessario fornire un recapito di spedizione in cui sia sempre presente qualcuno per il ritiro della polizza.</strong><br/><br/>"
+					},
+					{
+						"key": "offer.popup.205.title",
+						"value": "Assistenza Stradale ZeroPensieri"
+					},
+					{
+						"key": "offer.popup.205.body",
+						"value": "Oltre alle garanzie dell'assistenza stradale base comprende l'\n        <strong>invio dei documenti assicurativi tramite corriere anziche' posta prioritaria</strong>, l'estensione dei servizi previsti dall'assistenza stradale plus e ancora altre nuove prestazioni quali: rimborso spese d'emergenza, consulenza medica.\n        <br/><br/><br/><strong>ATTENZIONE: se si vuole usufruire del servizio di invio polizza tramite corriere e' necessario fornire un recapito di spedizione in cui sia sempre presente qualcuno per il ritiro della polizza.</strong><br/>"
+					},
+					{
+						"key": "offer.popup.226.title",
+						"value": "Terremoto"
+					},
+					{
+						"key": "offer.popup.226.body",
+						"value": "Genialloyd indennizza i danni materiali e diretti causati al fabbricato assicurato in conseguenza di terremoto, compresi quelli da incendio, esplosione, scoppio a seguito del terremoto stesso."
+					},
+					{
+						"key": "offer.popup.227.title",
+						"value": "Collisione light con veicolo identificato"
+					},
+					{
+						"key": "offer.popup.227.body",
+						"value": "Prevede l'indennizzo per i danni subiti a causa di urto o collisione con altro veicolo identificato, a prescindere dalla responsabilita' o meno del guidatore fino a un valore massimo assicurabile di 3.000 euro o 5.000 euro. E' prevista una franchigia di 250 euro da detrarre dal danno complessivo."
+					},
+					{
+						"key": "offer.popup.228.title",
+						"value": "Protezione rivalse"
+					},
+					{
+						"key": "offer.popup.228.body",
+						"value": "In caso di sinistro Genialloyd non applichera' la rivalsa che le compete nei seguenti casi:\n        <br/> - veicolo guidato in stato di ebbrezza;\n        <br/> - veicolo circolante senza essere in regola con la revisione;\n        <br/> - danni subiti dai terzi trasportati se il trasporto non avviene secondo le disposizioni vigenti o non in conformita' con la carta di circolazione.\n        <br/><br/>"
+					},
+					{
+						"key": "offer.popup.76.1.title",
+						"value": "Capitale per infortuni del conducente Auto"
+					},
+					{
+						"key": "offer.popup.76.1.body",
+						"value": "E' l'importo massimo per sinistro previsto per indennizzare il danno derivante da morte o invalidita' permanente del guidatore mentre si trova alla guida del veicolo. Nel caso d'infortunio il danno, per essere indennizzabile, deve comportare un grado di invalidita' superiore alla franchigia scelta (3% o 10%).\n        <br/> Puoi scegliere tra tre diversi capitali assicurati: 50.000,00, 100.000,00 e 200.000,00 euro, per avere un piu' ampio indennizzo in caso di sinistro.\n    "
+					},
+					{
+						"key": "offer.popup.76.2.title",
+						"value": "Franchigia Infortuni del guidatore Auto"
+					},
+					{
+						"key": "offer.popup.76.2.body",
+						"value": "La franchigia, nella garanzia infortunio del conducente, e' il punteggio di invalidita' permanente che resta a carico dell'assicurato (danno non indennizzabile). In caso di riconoscimento di una invalidita' permanente superiore al 20%, tale franchigia non sara' applicata.\n        <br/><br/> Esempio con franchigia del 3%\n        <br/> 1) assicurato con invalidita' riscontrata del 2%: nessuna invalidita' riconosciuta e quindi nessun indennizzo;\n        <br/> 2) assicurato con invalidita' riscontrata del 10%: invalidita' riconosciuta 7% e quindi indennizzo proporzionale a questo grado di invalidita';\n        <br/> 3) assicurato con invalidita' riscontrata del 63%: invalidita' riconosciuta 63% e quindi indennizzo proporzionale al grado di invalidita' entro il massimale scelto.\n        <br/><br/> Esempio con franchigia del 10%\n        <br/> 1) assicurato con invalidita' riscontrata del 9%: nessuna invalidita' riconosciuta e quindi nessun indennizzo ;\n        <br/> 2) assicurato con invalidita' riscontrata del 14%: invalidita' riconosciuta 4% e quindi indennizzo proporzionale a questo grado di invalidita';\n        <br/> 3) assicurato con invalidita' riscontrata del 20%: invalidita' riconosciuta 10% e quindi indennizzo proporzionale a questo grado di invalidita';\n        <br/> 4) assicurato con invalidita' riscontrata del 60%: invalidita' riconosciuta 60% e quindi indennizzo proporzionale a questo grado di invalidita'\n        <br/>"
+					},
+					{
+						"key": "offer.popup.97.1.title",
+						"value": "Massimale per la responsabilita' civile"
+					},
+					{
+						"key": "offer.popup.97.1.body",
+						"value": "Per la garanzia RC Auto la Legge impone un massimale bipartito minimo di 5 milioni di euro per danni a persone e 1 milione di euro per danni a cose. Genialclick offre come minimo il massimale di 6 milioni di euro per danni a persone e 6 milioni di euro per danni a cose, allo stesso prezzo del minimo di legge. Per maggiore tranquillita', consigliamo anche di valutare massimali superiori (ad es. 20 + 20 milioni), che costano solo pochi euro in piu'.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.101.2.title",
+						"value": "Scoperto e minimo veicoli"
+					},
+					{
+						"key": "offer.popup.101.2.body",
+						"value": "Lo scoperto e il minimo sono condizioni contrattuali che prevedono, in caso di sinistro, che una parte del danno resti a carico dell'Assicurato.\n        <br/> Lo\n        <strong>scoperto </strong>e' calcolato in\n        <strong>percentuale sull'ammontare del danno indennizzabile</strong>. Il\n        <strong>minimo</strong>, invece, rappresenta\n        <strong>l'importo fisso </strong>che comunque resta a carico dell'Assicurato, qualora l'importo di scoperto oppure l'importo del danno, risultino inferiori al suddetto minimo.\n        <br/><br/> Esempi:\n        <br/> 1)Danno da risarcire 200 Euro, minimo previsto in polizza 250 Euro con scoperto del 10%. In questo caso il danno resta interamente a carico dell'assicurato perche' inferiore al minimo indicato in polizza.\n        <br/><br/> 2)Danno da risarcire 1.500 Euro, minimo previsto in polizza 250 Euro con scoperto del 10%. In questo caso, applicando lo scoperto del 10%, si ottiene un importo di 150 euro che e' inferiore al minimo indicato in polizza (che e' di 250 Euro); per cui l'importo da liquidare sara' di 1.250 Euro (1.500 euro 250, minimo di scoperto previsto).\n        <br/><br/> 3)Danno da risarcire 3.500 Euro, minimo previsto in polizza 250 Euro con scoperto del 10%. In questo caso, applicando lo scoperto del 10%, si ottiene un importo di 350 euro che e' superiore al minimo indicato in polizza (che e' di 250 Euro); per cui l'importo da liquidare sara' di 3.150 Euro (3.500 euro  350, scoperto del 10% previsto).\n    "
+					},
+					{
+						"key": "offer.popup.104.1.title",
+						"value": "Massimale per la responsabilita' civile"
+					},
+					{
+						"key": "offer.popup.104.1.body",
+						"value": "Per la garanzia RC Auto la Legge impone un massimale bipartito minimo di 5 milioni di euro per danni a persone e 1 milione di euro per danni a cose. Genialclick offre come minimo il massimale di 6 milioni di euro per danni a persone e 6 milioni di euro per danni a cose, allo stesso prezzo del minimo di legge. Per maggiore tranquillita', consigliamo anche di valutare massimali superiori (ad es. 20 + 20 milioni), che costano solo pochi euro in piu'.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.110.2.title",
+						"value": "Scoperto e minimo veicoli"
+					},
+					{
+						"key": "offer.popup.110.2.body",
+						"value": "Lo scoperto e il minimo sono condizioni contrattuali che prevedono, in caso di sinistro, che una parte del danno resti a carico dell'Assicurato.\n        <br/> Lo\n        <strong>scoperto </strong>e' calcolato in\n        <strong>percentuale sull'ammontare del danno indennizzabile</strong>. Il\n        <strong>minimo</strong>, invece, rappresenta\n        <strong>l'importo fisso </strong>che comunque resta a carico dell'Assicurato, qualora l'importo di scoperto oppure l'importo del danno, risultino inferiori al suddetto minimo.\n        <br/><br/> Esempi:\n        <br/> 1)Danno da risarcire 200 Euro, minimo previsto in polizza 250 Euro con scoperto del 10%. In questo caso il danno resta interamente a carico dell'assicurato perche' inferiore al minimo indicato in polizza.\n        <br/><br/> 2)Danno da risarcire 1.500 Euro, minimo previsto in polizza 250 Euro con scoperto del 10%. In questo caso, applicando lo scoperto del 10%, si ottiene un importo di 150 euro che e' inferiore al minimo indicato in polizza (che e' di 250 Euro); per cui l'importo da liquidare sara' di 1.250 Euro (1.500 euro 250, minimo di scoperto previsto).\n        <br/><br/> 3)Danno da risarcire 3.500 Euro, minimo previsto in polizza 250 Euro con scoperto del 10%. In questo caso, applicando lo scoperto del 10%, si ottiene un importo di 350 euro che e' superiore al minimo indicato in polizza (che e' di 250 Euro); per cui l'importo da liquidare sara' di 3.150 Euro (3.500 euro  350, scoperto del 10% previsto).\n    "
+					},
+					{
+						"key": "offer.popup.144.1.title",
+						"value": "Massimale Danni al contenuto "
+					},
+					{
+						"key": "offer.popup.144.1.body",
+						"value": "Seleziona un valore tenendo conto delle spese che dovresti sostenere per riacquistare i beni di maggior valore contenuti in casa tua come, ad esempio: mobili, vestiario, tappeti e gioielli."
+					},
+					{
+						"key": "offer.popup.147.1.title",
+						"value": "Massimale Ricerca e riparazione danni d'acqua "
+					},
+					{
+						"key": "offer.popup.147.1.body",
+						"value": "Seleziona un valore tenendo conto delle spese che dovresti sostenere per: la demolizione di parti di muratura, la ricerca della perdita d'acqua, la riparazione della conduttura guasta e il ripristino delle parti su cui e' stato effettuato il lavoro."
+					},
+					{
+						"key": "offer.popup.148.1.title",
+						"value": "Massimale RC Famiglia "
+					},
+					{
+						"key": "offer.popup.148.1.body",
+						"value": "Seleziona il massimale che ritieni possa proteggere al meglio te il tuo partner e i tuoi famigliari dai danni che potreste provocare ad un'altra persona e/o alle cose di proprieta' di un'altra persona."
+					},
+					{
+						"key": "offer.popup.150.1.title",
+						"value": "Massimale Furto del contenuto e danni da effrazione"
+					},
+					{
+						"key": "offer.popup.150.1.body",
+						"value": "Seleziona un valore tenendo conto delle spese che, in seguito a furto e rapina, dovresti sostenere per riacquistare i beni contenuti in casa tua quali ad esempio: vestiario, pellicce, argenteria, quadri, personal computer."
+					},
+					{
+						"key": "offer.popup.155.1.title",
+						"value": "Protezione patente"
+					},
+					{
+						"key": "offer.popup.155.1.body",
+						"value": "La garanzia &#129;gProtezione patente&#129;h prevede un parziale rimborso delle spese sostenute dall'Assicurato per i corsi finalizzati al reintegro dei punti di patente decurtati, o per ottenere il rilascio di un nuovo documento di guida in caso di azzeramento del punteggio della patente.\n        <br/> Puoi scegliere tra i valori presentati, l'ammontare della somma giornaliera da corrispondere all'Assicurato in caso di sospensione della patente di guida.\n        <br/> La garanzia opera solo per sospensione della patente conseguente a sinistro stradale con feriti o morti e a condizione che l'Assicurato sia prosciolto o assolto, con sentenza irrevocabile di proscioglimento,\n        <strong>dall'aver commesso qualsivoglia violazione del Nuovo Codice della Strada o dall'imputazione di reato, con conseguente restituzione della patente.\n            <br/></strong>"
+					},
+					{
+						"key": "offer.popup.164.2.title",
+						"value": "Scoperto e minimo veicoli"
+					},
+					{
+						"key": "offer.popup.164.2.body",
+						"value": "Lo scoperto e il minimo sono condizioni contrattuali che prevedono, in caso di sinistro, che una parte del danno resti a carico dell'Assicurato.\n        <br/> Lo\n        <strong>scoperto </strong>e' calcolato in\n        <strong>percentuale sull'ammontare del danno indennizzabile</strong>. Il\n        <strong>minimo</strong>, invece, rappresenta\n        <strong>l'importo fisso </strong>che comunque resta a carico dell'Assicurato, qualora l'importo di scoperto oppure l'importo del danno, risultino inferiori al suddetto minimo.\n        <br/><br/> Esempi:\n        <br/> 1)Danno da risarcire 200 Euro, minimo previsto in polizza 250 Euro con scoperto del 10%. In questo caso il danno resta interamente a carico dell'assicurato perche' inferiore al minimo indicato in polizza.\n        <br/><br/> 2)Danno da risarcire 1.500 Euro, minimo previsto in polizza 250 Euro con scoperto del 10%. In questo caso, applicando lo scoperto del 10%, si ottiene un importo di 150 euro che e' inferiore al minimo indicato in polizza (che e' di 250 Euro); per cui l'importo da liquidare sara' di 1.250 Euro (1.500 euro 250, minimo di scoperto previsto).\n        <br/><br/> 3)Danno da risarcire 3.500 Euro, minimo previsto in polizza 250 Euro con scoperto del 10%. In questo caso, applicando lo scoperto del 10%, si ottiene un importo di 350 euro che e' superiore al minimo indicato in polizza (che e' di 250 Euro); per cui l'importo da liquidare sara' di 3.150 Euro (3.500 euro  350, scoperto del 10% previsto).\n    "
+					},
+					{
+						"key": "offer.popup.167.1.title",
+						"value": "Capitale infortuni del conducente"
+					},
+					{
+						"key": "offer.popup.167.1.body",
+						"value": "E' l'importo massimo previsto per indennizzare l'assicurato in caso di sinistro che abbia per conseguenza la morte o invalidita' permanente del guidatore mentre si trova alla guida del veicolo.\n        <br/> Puoi scegliere il capitale di 50.000,00 euro, di 100.000,00 euro o di 200.000,00 euro.\n    "
+					},
+					{
+						"key": "offer.popup.167.2.title",
+						"value": "Franchigia Infortuni del guidatore"
+					},
+					{
+						"key": "offer.popup.167.2.body",
+						"value": "La franchigia, nella garanzia infortunio del conducente, e' il punteggio di invalidita' permanente che resta a carico dell'assicurato (danno non indennizzabile). In caso di riconoscimento di una invalidita' permanente superiore al 20%, tale franchigia non sara' applicata.\n        <br/><br/> Esempio con franchigia del 10%\n        <br/> 1) assicurato con invalidita' riscontrata del 9%: nessuna invalidita' riconosciuta e quindi nessun indennizzo;\n        <br/> 2) assicurato con invalidita' riscontrata del 14%: invalidita' riconosciuta 4% e quindi indennizzo proporzionale a questo grado di invalidita';\n        <br/> 3) assicurato con invalidita' riscontrata del 20%: invalidita' riconosciuta 10% e quindi indennizzo proporzionale a questo grado di invalidita';\n        <br/> 4) assicurato con invalidita' riscontrata del 60%: invalidita' riconosciuta 60% e quindi indennizzo proporzionale a questo grado di invalidita'.\n    "
+					},
+					{
+						"key": "offer.popup.168.1.title",
+						"value": "Massimale per la responsabilita' civile"
+					},
+					{
+						"key": "offer.popup.168.1.body",
+						"value": "Per la garanzia RC Auto la Legge impone un massimale bipartito minimo di 5 milioni di euro per danni a persone e 1 milione di euro per danni a cose. Genialclick offre come minimo il massimale di 6 milioni di euro per danni a persone e 6 milioni di euro per danni a cose, allo stesso prezzo del minimo di legge. Per maggiore tranquillita', consigliamo anche di valutare massimali superiori (ad es. 20 + 20 milioni), che costano solo pochi euro in piu'.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.170.1.title",
+						"value": "Protezione patente"
+					},
+					{
+						"key": "offer.popup.170.1.body",
+						"value": "La garanzia &#129;gProtezione patente&#129;h prevede un parziale rimborso delle spese sostenute dall'Assicurato per i corsi finalizzati al reintegro dei punti di patente decurtati, o per ottenere il rilascio di un nuovo documento di guida in caso di azzeramento del punteggio della patente.\n        <br/> Puoi scegliere tra i valori presentati, l'ammontare della somma giornaliera da corrispondere all'Assicurato in caso di sospensione della patente di guida.\n        <br/> La garanzia opera solo per sospensione della patente conseguente a sinistro stradale con feriti o morti e a condizione che l'Assicurato sia prosciolto o assolto, con sentenza irrevocabile di proscioglimento,\n        <strong>dall'aver commesso qualsivoglia violazione del Nuovo Codice della Strada o dall'imputazione di reato, con conseguente restituzione della patente.\n            <br/></strong>"
+					},
+					{
+						"key": "offer.popup.171.1.title",
+						"value": "Massimale per la responsabilita' civile"
+					},
+					{
+						"key": "offer.popup.171.1.body",
+						"value": "Per la garanzia RC Auto la Legge impone un massimale bipartito minimo di 5 milioni di euro per danni a persone e 1 milione di euro per danni a cose. Genialclick offre come minimo il massimale di 6 milioni di euro per danni a persone e 6 milioni di euro per danni a cose, allo stesso prezzo del minimo di legge. Per maggiore tranquillita', consigliamo anche di valutare massimali superiori (ad es. 20 + 20 milioni), che costano solo pochi euro in piu'.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.172.2.title",
+						"value": "Scoperto e minimo veicoli"
+					},
+					{
+						"key": "offer.popup.172.2.body",
+						"value": "Lo scoperto e il minimo sono condizioni contrattuali che prevedono, in caso di sinistro, che una parte del danno resti a carico dell'Assicurato.\n        <br/> Lo\n        <strong>scoperto </strong>e' calcolato in\n        <strong>percentuale sull'ammontare del danno indennizzabile</strong>. Il\n        <strong>minimo</strong>, invece, rappresenta\n        <strong>l'importo fisso </strong>che comunque resta a carico dell'Assicurato, qualora l'importo di scoperto oppure l'importo del danno, risultino inferiori al suddetto minimo.\n        <br/><br/> Esempi:\n        <br/> 1)Danno da risarcire 200 Euro, minimo previsto in polizza 250 Euro con scoperto del 10%. In questo caso il danno resta interamente a carico dell'assicurato perche' inferiore al minimo indicato in polizza.\n        <br/><br/> 2)Danno da risarcire 1.500 Euro, minimo previsto in polizza 250 Euro con scoperto del 10%. In questo caso, applicando lo scoperto del 10%, si ottiene un importo di 150 euro che e' inferiore al minimo indicato in polizza (che e' di 250 Euro); per cui l'importo da liquidare sara' di 1.250 Euro (1.500 euro 250, minimo di scoperto previsto).\n        <br/><br/> 3)Danno da risarcire 3.500 Euro, minimo previsto in polizza 250 Euro con scoperto del 10%. In questo caso, applicando lo scoperto del 10%, si ottiene un importo di 350 euro che e' superiore al minimo indicato in polizza (che e' di 250 Euro); per cui l'importo da liquidare sara' di 3.150 Euro (3.500 euro  350, scoperto del 10% previsto).\n    "
+					},
+					{
+						"key": "offer.popup.175.1.title",
+						"value": "Capitale infortuni del conducente"
+					},
+					{
+						"key": "offer.popup.175.1.body",
+						"value": "E' l'importo massimo previsto per indennizzare l'assicurato in caso di sinistro che abbia per conseguenza la morte o invalidita' permanente del guidatore mentre si trova alla guida del veicolo.\n        <br/> Puoi scegliere il capitale di 50.000,00 euro, di 100.000,00 euro o di 200.000,00 euro.\n    "
+					},
+					{
+						"key": "offer.popup.175.2.title",
+						"value": "Franchigia Infortuni del guidatore"
+					},
+					{
+						"key": "offer.popup.175.2.body",
+						"value": "La franchigia, nella garanzia infortunio del conducente, e' il punteggio di invalidita' permanente che resta a carico dell'assicurato (danno non indennizzabile). In caso di riconoscimento di una invalidita' permanente superiore al 20%, tale franchigia non sara' applicata.\n        <br/><br/> Esempio con franchigia del 10%\n        <br/> 1) assicurato con invalidita' riscontrata del 9%: nessuna invalidita' riconosciuta e quindi nessun indennizzo;\n        <br/> 2) assicurato con invalidita' riscontrata del 14%: invalidita' riconosciuta 4% e quindi indennizzo proporzionale a questo grado di invalidita';\n        <br/> 3) assicurato con invalidita' riscontrata del 20%: invalidita' riconosciuta 10% e quindi indennizzo proporzionale a questo grado di invalidita';\n        <br/> 4) assicurato con invalidita' riscontrata del 60%: invalidita' riconosciuta 60% e quindi indennizzo proporzionale a questo grado di invalidita'.\n    "
+					},
+					{
+						"key": "offer.popup.176.1.title",
+						"value": "Protezione patente"
+					},
+					{
+						"key": "offer.popup.176.1.body",
+						"value": "La garanzia &#129;gProtezione patente&#129;h prevede un parziale rimborso delle spese sostenute dall'Assicurato per i corsi finalizzati al reintegro dei punti di patente decurtati, o per ottenere il rilascio di un nuovo documento di guida in caso di azzeramento del punteggio della patente.\n        <br/> Puoi scegliere tra i valori presentati, l'ammontare della somma giornaliera da corrispondere all'Assicurato in caso di sospensione della patente di guida.\n        <br/> La garanzia opera solo per sospensione della patente conseguente a sinistro stradale con feriti o morti e a condizione che l'Assicurato sia prosciolto o assolto, con sentenza irrevocabile di proscioglimento,\n        <strong>dall'aver commesso qualsivoglia violazione del Nuovo Codice della Strada o dall'imputazione di reato, con conseguente restituzione della patente.\n            <br/></strong>"
+					},
+					{
+						"key": "offer.popup.188.1.title",
+						"value": "Massimale RC Cane"
+					},
+					{
+						"key": "offer.popup.188.1.body",
+						"value": "Seleziona il massimale che ritieni possa proteggerti al meglio dai danni che il tuo cane potrebbe provocare ad un'altra persona e/o alle cose di proprieta' di un'altra persona."
+					},
+					{
+						"key": "offer.popup.195.2.title",
+						"value": "Scoperto e minimo veicoli"
+					},
+					{
+						"key": "offer.popup.195.2.body",
+						"value": "Lo scoperto e il minimo sono condizioni contrattuali che prevedono, in caso di sinistro, che una parte del danno resti a carico dell'Assicurato.\n        <br/> Lo\n        <strong>scoperto </strong>e' calcolato in\n        <strong>percentuale sull'ammontare del danno indennizzabile</strong>. Il\n        <strong>minimo</strong>, invece, rappresenta\n        <strong>l'importo fisso </strong>che comunque resta a carico dell'Assicurato, qualora l'importo di scoperto oppure l'importo del danno, risultino inferiori al suddetto minimo.\n        <br/><br/> Esempi:\n        <br/> 1)Danno da risarcire 200 Euro, minimo previsto in polizza 250 Euro con scoperto del 10%. In questo caso il danno resta interamente a carico dell'assicurato perche' inferiore al minimo indicato in polizza.\n        <br/><br/> 2)Danno da risarcire 1.500 Euro, minimo previsto in polizza 250 Euro con scoperto del 10%. In questo caso, applicando lo scoperto del 10%, si ottiene un importo di 150 euro che e' inferiore al minimo indicato in polizza (che e' di 250 Euro); per cui l'importo da liquidare sara' di 1.250 Euro (1.500 euro 250, minimo di scoperto previsto).\n        <br/><br/> 3)Danno da risarcire 3.500 Euro, minimo previsto in polizza 250 Euro con scoperto del 10%. In questo caso, applicando lo scoperto del 10%, si ottiene un importo di 350 euro che e' superiore al minimo indicato in polizza (che e' di 250 Euro); per cui l'importo da liquidare sara' di 3.150 Euro (3.500 euro  350, scoperto del 10% previsto).\n    "
+					},
+					{
+						"key": "offer.popup.226.1.title",
+						"value": "Capitale assicurato e limite di indennizzo"
+					},
+					{
+						"key": "offer.popup.226.1.body",
+						"value": "Il capitale assicurato corrisponde al valore di ricostruzione della tua casa. Il limite massimo di indennizzo e' il 70% del valore di ricostruzione indicato come capitale assicurato.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.227.1.title",
+						"value": "Capitale assicurato e limite di indennizzo"
+					},
+					{
+						"key": "offer.popup.227.1.body",
+						"value": "E' il capitale massimo che posso assicurare indipendentemente dal valore commerciale del veicolo. In caso di danno, una volta detratta la franchigia prevista, l'indennizzo non potra' mai essere superiore al capitale assicurato.\n        <br/><br/> In ogni caso, se al momento del sinistro il valore commerciale del veicolo fosse inferiore al capitale assicurato, l'indennizzo liquidabile non potra' mai essere superiore al valore commerciale del veicolo stesso.\n        <br/>"
+					},
+					{
+						"key": "offer.popup.227.2.title",
+						"value": "Franchigia e scoperto Collisione light con veicolo identificato"
+					},
+					{
+						"key": "offer.popup.227.2.body",
+						"value": "Lo scoperto e il minimo (o franchigia) prevedono, in caso di sinistro, che una parte del danno resti a carico dell'Assicurato. Lo scoperto e' calcolato in percentuale sul danno indennizzabile mentre il minimo (o franchigia) e' un importo fisso che resta a carico dell'Assicurato qualora l'importo riconducibile allo scoperto oppure l'importo del danno e' inferiore al minimo (o franchigia).\n        <br/><br/> Esempi:\n        <br/> 1)Danno da risarcire 200 Euro, minimo previsto in polizza 250 Euro con scoperto del 10%. In questo caso il danno resta interamente a carico dell'assicurato perche' inferiore al minimo indicato in polizza.\n        <br/><br/> 2)Danno da risarcire 1.500 Euro, minimo previsto in polizza 250 Euro con scoperto del 10%. In questo caso, applicando all'ammontare del danno lo scoperto del 10%, si ottiene un importo di 150 euro che e' inferiore al minimo indicato in polizza (che e' di 250 Euro) .In questo caso l'importo da indennizzare sara' di 1.250 Euro (1.500 euro 250 ).\n        <br/><br/> 3)Danno da risarcire 3.500 Euro, minimo previsto in polizza 250 Euro con scoperto del 10%. In questo caso, applicando lo scoperto del 10%, si ottiene un importo di 350 euro che e' superiore al minimo indicato in polizza (che e' di 250 Euro) .In questo caso l'importo da indennizzare sara' di 3.150 Euro (3.500 euro  350 ).\n        <br/>"
+					},
+					{
+						"key": "offer.popup.motosempre.title",
+						"value": "Moto Sempre"
+					},
+					{
+						"key": "offer.popup.motosempre.body",
+						"value": "\n        Polizza Moto Sempre, la sicurezza di una copertura assicurativa attiva tutto l'anno!\n\n        <br/>\n        Prevede 12 mesi continuativi di copertura, a scadenza riceverai una proposta di rinnovo e l'attestato di rischio che certifica la tua classe di merito bonus malus.\n\n    "
+					},
+					{
+						"key": "offer.popup.motofree.title",
+						"value": "Moto Free"
+					},
+					{
+						"key": "offer.popup.motofree.body",
+						"value": "La polizza Moto Free prevede 12 mesi di copertura assicurativa utilizzabili nell'arco di 24 mesi sospendendo e riattivando la polizza senza alcun costo aggiuntivo ma con il solo vincolo che la durata complessiva della sospensione non superi i 12 mesi. A scadenza riceverai una proposta di rinnovo e l'attestato di rischio che certifica la tua classe di merito bonus malus."
+					}
+				]
+			}
+		}
+	],
+	"links": [
+		{
+			"rel": "self",
+			"href": "/oneweb/content-api/v1/components/resources/www.genialclick.com/it/Resource/quote.offerResource"
+		},
+		{
+			"rel": "up",
+			"href": "/oneweb/content-api/v1/contents/www.genialclick.com/it/Resource/"
+		}
+	]
+}

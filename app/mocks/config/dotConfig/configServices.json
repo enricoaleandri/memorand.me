@@ -1,0 +1,400 @@
+{
+	"data": [
+		{
+			"name": "CISL",
+			"endPointPath__": "/oneweb/ajax/aspro/az-direct-POC-it-cisl-dispatcher/",
+			"endPointPath__gabri" : "http://10.134.227.103:8080/az-direct-IT-CISL-dispatcher-war/",
+			"endPointPath" : "http://10.134.227.24:8181/az-direct-IT-CISL-dispatcher-war/",
+			"endPointPath_254" : "http://10.134.227.254:8080/az-direct-IT-CISL-dispatcher-war/",
+			"services":
+			{
+				"sendQuotationService":
+				{
+					"name": "sendQuotation",
+					"method": "POST",
+					"path": "quote/sendQuotation",
+					"timeout": 200,
+					"technicalHeader": {
+						"applicationId" : "az-direct-IT-QUOTE-all",
+						"dialogName": "quote",
+						"serviceId": "sendQuotation",
+						"componentId": "offer page"
+					},
+					"headers":
+					{
+						"Content-Type": "application/json; charset=UTF-8",
+						"oneweb-contextsessionid" : "aa000aa0-0000-0000-aaaa-000a00aaa000"
+					},
+					"isMocked": true
+				},
+				"recalculateService":
+				{
+					"name": "recalculate",
+					"path": "restservice/quote/premiumcustomization",
+					"method": "POST",
+					"dataType":"json",
+					"technicalHeader": {
+						"applicationId" : "az-direct-IT-QUOTE-all",
+						"dialogName": "quote",
+						"serviceId": "recalculate",
+						"componentId": "offer page"
+					},
+					"headers":
+					{
+						"Content-Type": "application/json; charset=UTF-8",
+						"oneweb-contextsessionid" : "aa000aa0-0000-0000-aaaa-000a00aaa000"
+					},
+					"timeout": 200,
+					"isMocked": true
+				},
+				"saveOfferService": {
+					"name": "saveOfferService",
+					"method": "POST",
+					"path": "restservice/quote/save",
+					"technicalHeader": {
+						"applicationId" : "az-direct-IT-QUOTE-all",
+						"dialogName": "toSet",
+						"serviceId": "toSet",
+						"componentId": "toSet"
+					},
+					"headers":
+					{
+						"Content-Type": "application/json; charset=UTF-8",
+						"oneweb-contextsessionid" : "aa000aa0-0000-0000-aaaa-000a00aaa000"
+					},
+					"timeout": 200,
+					"isMocked": false
+				},
+				"defaultcheck": {
+					"name": "defaultcheck",
+					"method": "POST",
+					"path": "restservice/policy/defaultcheck",
+					"technicalHeader": {
+						"applicationId" : "az-direct-IT-QUOTE-all",
+						"dialogName": "toSet",
+						"serviceId": "toSet",
+						"componentId": "toSet"
+					},
+					"headers":
+					{
+						"Content-Type": "application/json; charset=UTF-8",
+						"oneweb-contextsessionid" : "aa000aa0-0000-0000-aaaa-000a00aaa000"
+					},
+					"timeout": 200,
+					"isMocked": false
+				},
+				"premiumcustomization": {
+					"name": "premiumcustomization",
+					"method": "POST",
+					"path": "restservice/quote/premiumcustomization/data",
+					"technicalHeader": {
+						"applicationId" : "az-direct-IT-QUOTE-all",
+						"dialogName": "toSet",
+						"serviceId": "toSet",
+						"componentId": "toSet"
+					},
+					"headers":
+					{
+						"Content-Type": "application/json; charset=UTF-8",
+						"oneweb-contextsessionid" : "aa000aa0-0000-0000-aaaa-000a00aaa000"
+					},
+					"timeout": 200,
+					"isMocked": false
+				},
+				"vatinSearch": {
+					"name": "vatinSearch",
+					"method": "GET",
+					"path": "restservice/search/companies",
+					"technicalHeader": {
+						"applicationId" : "az-direct-IT-QUOTE-all",
+						"dialogName": "toSet",
+						"serviceId": "toSet",
+						"componentId": "toSet"
+					},
+					"headers":
+					{
+						"Content-Type": "application/json; charset=UTF-8",
+						"oneweb-contextsessionid" : "aa000aa0-0000-0000-aaaa-000a00aaa000"
+					},
+					"timeout": 200,
+					"isMocked": false
+				},
+				"emptyUrl" : {
+					"name": "emptyUrl",
+					"method": "GET",
+					"path": "",
+					"timeout": 200,
+					"technicalHeader": {
+						"applicationId" : "az-direct-IT-QUOTE-all",
+						"dialogName": "toSet",
+						"serviceId": "toSet",
+						"componentId": "toSet"
+					},
+					"headers":
+					{
+						"Content-Type": "application/json; charset=UTF-8",
+						"oneweb-contextsessionid" : "aa000aa0-0000-0000-aaaa-000a00aaa000"
+					},
+					"isMocked": false
+				},
+				"toponym" : {
+					"name": "toponym",
+					"method": "GET",
+					"path": "restservice/api/domains/toponym",
+					"technicalHeader": {
+						"applicationId" : "az-direct-IT-QUOTE-all",
+						"dialogName": "toSet",
+						"serviceId": "toSet",
+						"componentId": "toSet"
+					},
+					"timeout": 200,
+					"isMocked": false,
+					"headers":
+					{
+						"Content-Type": "application/json; charset=UTF-8",
+						"oneweb-contextsessionid" : "aa000aa0-0000-0000-aaaa-000a00aaa000"
+					}
+				},
+				"mileage" : {
+					"name": "mileage",
+					"method": "GET",
+					"path": "restservice/api/domains/mileage",
+					"technicalHeader": {
+						"applicationId" : "az-direct-IT-QUOTE-all",
+						"dialogName": "toSet",
+						"serviceId": "toSet",
+						"componentId": "toSet"
+					},
+					"timeout": 200,
+					"isMocked": false,
+					"headers":
+					{
+						"Content-Type": "application/json; charset=UTF-8",
+						"oneweb-contextsessionid" : "aa000aa0-0000-0000-aaaa-000a00aaa000"
+					}
+				},
+				"occupation" : {
+					"name": "occupation",
+					"method": "GET",
+					"path": "restservice/api/domains/occupation",
+					"technicalHeader": {
+						"applicationId" : "az-direct-IT-QUOTE-all",
+						"dialogName": "toSet",
+						"serviceId": "toSet",
+						"componentId": "toSet"
+					},
+					"timeout": 200,
+					"isMocked": false,
+					"headers":
+					{
+						"Content-Type": "application/json; charset=UTF-8",
+						"oneweb-contextsessionid" : "aa000aa0-0000-0000-aaaa-000a00aaa000"
+					}
+				},
+				"alarmProtection" : {
+					"name": "alarmProtection",
+					"method": "GET",
+					"path": "restservice/api/domains/alarmProtection",
+					"technicalHeader": {
+						"applicationId" : "az-direct-IT-QUOTE-all",
+						"dialogName": "toSet",
+						"serviceId": "toSet",
+						"componentId": "toSet"
+					},
+					"timeout": 200,
+					"isMocked": false,
+					"headers":
+					{
+						"Content-Type": "application/json; charset=UTF-8",
+						"oneweb-contextsessionid" : "aa000aa0-0000-0000-aaaa-000a00aaa000"
+					}
+				},
+				"usage" : {
+					"name": "usage",
+					"method": "GET",
+					"path": "restservice/api/domains/usage",
+					"technicalHeader": {
+						"applicationId" : "az-direct-IT-QUOTE-all",
+						"dialogName": "toSet",
+						"serviceId": "toSet",
+						"componentId": "toSet"
+					},
+					"timeout": 200,
+					"isMocked": false,
+					"headers":
+					{
+						"Content-Type": "application/json; charset=UTF-8",
+						"oneweb-contextsessionid" : "aa000aa0-0000-0000-aaaa-000a00aaa000"
+					}
+				},
+				"plate" : {
+					"name": "plate",
+					"method": "GET",
+					"path": "restservice/api/domains/plateCode",
+					"technicalHeader": {
+						"applicationId" : "az-direct-IT-QUOTE-all",
+						"dialogName": "toSet",
+						"serviceId": "toSet",
+						"componentId": "toSet"
+					},
+					"timeout": 200,
+					"isMocked": false,
+					"headers":
+					{
+						"Content-Type": "application/json; charset=UTF-8",
+						"oneweb-contextsessionid" : "aa000aa0-0000-0000-aaaa-000a00aaa000"
+					}
+				},
+				"branchKey" : {
+					"name": "branchKey",
+					"method": "GET",
+					"path": "restservice/api/domains/branchKey",
+					"technicalHeader": {
+						"applicationId" : "az-direct-IT-QUOTE-all",
+						"dialogName": "toSet",
+						"serviceId": "toSet",
+						"componentId": "toSet"
+					},
+					"timeout": 200,
+					"isMocked": false,
+					"headers":
+					{
+						"Content-Type": "application/json; charset=UTF-8",
+						"oneweb-contextsessionid" : "aa000aa0-0000-0000-aaaa-000a00aaa000"
+					}
+				},
+				"localitySearch" : {
+					"name": "localitySearch",
+					"method": "GET",
+					"path": "restservice/countries/IT/cities",
+					"technicalHeader": {
+						"applicationId" : "az-direct-IT-QUOTE-all",
+						"dialogName": "toSet",
+						"serviceId": "toSet",
+						"componentId": "toSet"
+					},
+					"timeout": 200,
+					"isMocked": false,
+					"headers":{
+						"Content-Type": "application/json; charset=UTF-8",
+						"oneweb-contextsessionid" : "aa000aa0-0000-0000-aaaa-000a00aaa000"
+					}
+				},
+				"municipalitySearch" : {
+					"name": "municipalitySearch",
+					"method": "GET",
+					"path": "restservice/countries/IT/municipalities",
+					"technicalHeader": {
+						"applicationId" : "az-direct-IT-QUOTE-all",
+						"dialogName": "toSet",
+						"serviceId": "toSet",
+						"componentId": "toSet"
+					},
+					"timeout": 200,
+					"isMocked": false,
+					"headers":{
+						"Content-Type": "application/json; charset=UTF-8",
+						"oneweb-contextsessionid" : "aa000aa0-0000-0000-aaaa-000a00aaa000"
+					}
+				},
+				"addressSearch" : {
+					"name": "addressSearch",
+					"method": "GET",
+					"path": "restservice/countries/IT/cities/",
+					"technicalHeader": {
+						"applicationId" : "az-direct-IT-QUOTE-all",
+						"dialogName": "toSet",
+						"serviceId": "toSet",
+						"componentId": "toSet"
+					},
+					"timeout": 200,
+					"isMocked": false,
+					"headers":{
+						"Content-Type": "application/json; charset=UTF-8",
+						"oneweb-contextsessionid" : "aa000aa0-0000-0000-aaaa-000a00aaa000"
+					}
+				},
+				"capGenList" : {
+					"name": "capGenList",
+					"method": "GET",
+					"path": "restservice/api/domains/zipCode",
+					"technicalHeader": {
+						"applicationId" : "az-direct-IT-QUOTE-all",
+						"dialogName": "toSet",
+						"serviceId": "toSet",
+						"componentId": "toSet"
+					},
+					"timeout": 200,
+					"isMocked": false,
+					"headers":{
+						"Content-Type": "application/json; charset=UTF-8",
+						"oneweb-contextsessionid" : "aa000aa0-0000-0000-aaaa-000a00aaa000"
+					}
+				},
+				"checkUserEmail":{
+					"name": "checkUserEmail",
+					"method": "GET",
+					"path": "restservice/search/webuser",
+					"technicalHeader": {
+						"applicationId" : "az-direct-IT-QUOTE-all",
+						"dialogName": "toSet",
+						"serviceId": "toSet",
+						"componentId": "toSet"
+					},
+					"timeout": 200,
+					"isMocked": false,
+					"headers":{
+						"Content-Type": "application/json; charset=UTF-8",
+						"oneweb-contextsessionid" : "aa000aa0-0000-0000-aaaa-000a00aaa000"
+					}
+				},
+				"recoverPassword":{
+					"name": "recoverPassword",
+					"method": "POST",
+					"path": "restservice/recover/password",
+					"technicalHeader": {
+						"applicationId" : "az-direct-IT-QUOTE-all",
+						"dialogName": "toSet",
+						"serviceId": "toSet",
+						"componentId": "toSet"
+					},
+					"timeout": 200,
+					"isMocked": false,
+					"headers":{
+						"Content-Type": "application/json; charset=UTF-8",
+						"oneweb-contextsessionid" : "aa000aa0-0000-0000-aaaa-000a00aaa000"
+					}
+				}
+
+			}
+		},
+		{
+			"name": "SESSIONMANAGER",
+			"endPointPath": "http://10.134.227.24:8181/az-direct-IT-SESSION-MANAGER-services-war/",
+			"services": {
+				"SessionManager_read": {
+					"name": "SessionManager_read",
+					"method": "GET",
+					"path": "restservice/read",
+					"timeout": 200,
+					"headers": {
+						"oneweb-contextsessionid" : "aa000aa0-0000-0000-aaaa-000a00aaa000"
+					},
+					"isMocked": false
+				},
+				"SessionManager_write": {
+					"name": "SessionManager_write",
+					"method": "POST",
+					"path": "restservice/write",
+					"timeout": 200,
+					"headers": {
+						"oneweb-contextsessionid" : "aa000aa0-0000-0000-aaaa-000a00aaa000",
+						"Accept": "application/json",
+						"Content-Type": "application/json"
+					},
+					"isMocked": false
+				}
+			}
+		}
+	]
+}

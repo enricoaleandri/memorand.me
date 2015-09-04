@@ -1,0 +1,206 @@
+[
+	{
+		"ssoResponseId": {
+			"dialogName": "quote",
+			"objectName": "parties"
+		},
+		"objectValue": [
+			{
+				"gender": "FEMALE",
+				"firstName": "CLAUDIA",
+				"lastName": "BALLOTTA",
+				"dateOfBirth": "1970-03-03T01:00:00+01:00",
+				"socialSecurityNumber": "BLLCLD70C43A944N",
+				"occupation": "0009",
+				"addresses": [
+					{
+						"jsonType": "real",
+						"self": null,
+						"countryCode": null,
+						"city": "BOLOGNA                                 ",
+						"zipCode": "40127",
+						"street": "PASSO",
+						"streetNumber": "2",
+						"stairwayNumber": null,
+						"doorNumber": null,
+						"type": "_UNSPECIFIED_",
+						"localityCode": "7736",
+						"province": "BO",
+						"building": null,
+						"toponymCode": "0062",
+						"toponymCode4Desc": "Vicolo",
+						"urban": null,
+						"contacts": [
+							{
+								"jsonType": "phoneNumber",
+								"mobile": false,
+								"phoneNumber": null,
+								"prefix": null,
+								"comType": "01",
+								"flagPrefered": ""
+							}
+						],
+						"careOf": null,
+						"addressType": "01"
+					},
+					{
+						"contacts": [
+							{
+								"jsonType": "email",
+								"email": "test@sadsad.ii",
+								"comType": "06",
+								"flagPrefered": "",
+								"emailFormat": ""
+							},
+							{
+								"jsonType": "phoneNumber",
+								"mobile": true,
+								"phoneNumber": "546454654",
+								"prefix": "546",
+								"comType": "04",
+								"flagPrefered": ""
+							}
+						],
+						"jsonType": "virtual"
+					}
+				],
+				"flagIndividualFirm": "N",
+				"jsonType": "person",
+				"self": null,
+				"vatIN": null,
+				"customerNumber": null,
+				"accountManager": null,
+				"privacyFlag": null,
+				"externalComercialFlag": null,
+				"internalComercialFlag": null,
+				"channelpresale": null,
+				"channelsale": null,
+				"channelpostsale": null,
+				"preferredPaymentMethod": null,
+				"roleCode": "02",
+				"degree": [],
+				"middleName": null,
+				"occupation4Desc": "Impiegato",
+				"nationality": "1",
+				"nativeCountry": null,
+				"nameAffix": null,
+				"maritalStatus": null,
+				"residencePermit": null,
+				"employmentStatus": null,
+				"cityOfBirth": "BOLOGNA",
+				"webuser": null,
+				"roles": [],
+				"id": null,
+				"roleCode4Desc": "Intestatario",
+				"birthLocalityCode": "7736",
+				"birthProvince": "BO",
+				"prefShipmentTypePost": null,
+				"prefShipmentType": null,
+				"prefShipmentTypePre": null,
+				"mainFlag": "S",
+				"privacyApprovalType": null,
+				"birthNation": "1",
+				"maritalStatus4Desc": null,
+				"branchKey": null
+			},
+			{
+				"gender": "FEMALE",
+				"firstName": "CLAUDIA",
+				"lastName": "BALLOTTA",
+				"dateOfBirth": "1970-03-03T01:00:00+01:00",
+				"socialSecurityNumber": "BLLCLD70C43A944N",
+				"occupation": "0009",
+				"addresses": [
+					{
+						"jsonType": "real",
+						"self": null,
+						"countryCode": null,
+						"city": "BOLOGNA                                 ",
+						"zipCode": "40127",
+						"street": "PASSO",
+						"streetNumber": "2",
+						"stairwayNumber": null,
+						"doorNumber": null,
+						"type": "_UNSPECIFIED_",
+						"localityCode": "7736",
+						"province": "BO",
+						"building": null,
+						"toponymCode": "0062",
+						"toponymCode4Desc": "Vicolo",
+						"urban": null,
+						"contacts": [
+							{
+								"jsonType": "phoneNumber",
+								"mobile": false,
+								"phoneNumber": null,
+								"prefix": null,
+								"comType": "01",
+								"flagPrefered": ""
+							}
+						],
+						"careOf": null,
+						"addressType": "01"
+					},
+					{
+						"contacts": [
+							{
+								"jsonType": "email",
+								"email": "test@sadsad.ii",
+								"comType": "06",
+								"flagPrefered": "",
+								"emailFormat": ""
+							},
+							{
+								"jsonType": "phoneNumber",
+								"mobile": true,
+								"phoneNumber": "546454654",
+								"prefix": "546",
+								"comType": "04",
+								"flagPrefered": ""
+							}
+						],
+						"jsonType": "virtual"
+					}
+				],
+				"flagIndividualFirm": null,
+				"jsonType": "person",
+				"self": null,
+				"vatIN": null,
+				"customerNumber": null,
+				"accountManager": null,
+				"privacyFlag": null,
+				"externalComercialFlag": null,
+				"internalComercialFlag": null,
+				"channelpresale": null,
+				"channelsale": null,
+				"channelpostsale": null,
+				"preferredPaymentMethod": null,
+				"roleCode": "01",
+				"degree": [],
+				"middleName": null,
+				"occupation4Desc": "Impiegato",
+				"nationality": "1",
+				"nativeCountry": null,
+				"nameAffix": null,
+				"maritalStatus": null,
+				"residencePermit": null,
+				"employmentStatus": null,
+				"cityOfBirth": "BOLOGNA",
+				"webuser": null,
+				"roles": [],
+				"id": null,
+				"roleCode4Desc": "Contraente",
+				"birthLocalityCode": "7736",
+				"birthProvince": "BO",
+				"prefShipmentTypePost": "03",
+				"prefShipmentType": "03",
+				"prefShipmentTypePre": "03",
+				"mainFlag": "S",
+				"privacyApprovalType": null,
+				"birthNation": "1",
+				"maritalStatus4Desc": null,
+				"branchKey": null
+			}
+		]
+	}
+]

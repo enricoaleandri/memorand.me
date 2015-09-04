@@ -1,0 +1,17 @@
+{
+	"messages": [],
+	"payload": {
+		"options": [
+			{
+				"value": "00100",
+				"label": "ROMA",
+				"disabled": "false"
+			},
+			{
+				"value": "06100",
+				"label": "PERUGIA",
+				"disabled": "false"
+			}
+		]
+	}
+}

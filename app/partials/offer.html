@@ -1,0 +1,581 @@
+<header id="hofferta-header">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-2" id="hofferta-genialloyd-logo-wrap">
+				<img ng-click="home()" style="cursor: pointer;" id="hofferta-genialloyd-logo" class="img-responsive xs-center" src="app/img/genialclick.png" />
+			</div>
+			<div class="col-sm-7" id="hofferta-header-tariffa-wrapper">
+				<div class="row">
+					<div class="col-sm-6 hidden-xs">
+						<table id="hofferta-header-tariffa" ng-show="!ricalcolaEnab">
+							<tr>
+								<td>Tariffa standard</td>
+								<td class="tariffa_standard">
+									<div>{{getTotPremium() | currencyeuro}} <img alt="" title="" src="app/img/barrato.png" /></div>
+								</td>
+							</tr>
+							<tr>
+								<td>Sconto aggiuntivo per te</td>
+								<td class="sconto_per_te">{{(getGrossPremium() | reversePercentage: getTotalDiscount()) | puntoVirgolaEU | percentageFormat}}</td>
+							</tr>
+							<tr>
+								<td class="risparmio_effettivo_voce">Risparmio effettivo</td>
+								<td class="risparmio_effettivo">{{getTotalDiscount() | currencyeuro}}</td>
+							</tr>
+							<tr class="result">
+								<td>TOTALE ANNO </td>
+								<td class="prezzo_totale" style="font-size: 20px;">{{getGrossPremium() | puntoVirgolaEU}}€ <em>per un anno</em></td>
+							</tr>
+						</table>
+						<div id="hofferta-ricalcola" ng-show="ricalcolaEnab">
+							<span>Hai cambiato alcune opzioni:</span>
+							<a ng-click="recalculate('hofferta-ricalcola')">Ricalcola il prezzo</a>
+							<div id="hofferta-ricalcola-loading" ng-show="ricalcolaProgress"><span>Stiamo ricalcolando il prezzo!</span></div>
+						</div>
+					</div>
+					<div class="col-sm-6 hidden-xs">
+						<div id="hofferta-header-pulsanti">
+							<a class="blocca" ng-click="next()">Salva e Acquista dopo</a>
+							<a ng-class="{'acquista' : !ricalcolaEnab, 'blocca' : ricalcolaEnab }" ng-click="next()">Acquista ora</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<section id="hofferta-main">
+
+	<div id="hofferta-bluebar">
+		<div class="container-fluid">
+
+			<div id="hofferta-mobile-header" class="visible-xs visible-sm">
+				<div id="hofferta-mobile-ricalcola" ng-show="ricalcolaEnab">
+					<a class="ricalcola" ng-click="recalculate('hofferta-mobile-ricalcola')">Ricalcola</a>
+				</div>
+				<div id="hofferta-mobile-header-price" ng-show="!ricalcolaEnab"><h1>{{getGrossPremium() | currencyeuro}}</h1><h3>PER UN ANNO</h3></div>
+				<div id="hofferta-mobile-bottom">
+					<a class="blocca" ng-click="next()">Salva e Acquista dopo</a>
+					<a ng-class="{'acquista' : !ricalcolaEnab, 'blocca' : ricalcolaEnab }" ng-click="next()">Acquista ora</a>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-6">
+					<h1>La nostra offerta per la tua {{vehicle.characteristics.vehicleBrand}} </h1>
+				</div>
+				<div class="col-sm-6 hidden-xs" >
+					<div class="pulsanti_vantaggi">
+						<a scroll-to="#riepilogo" ng-if="false">Riepilogo dati</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid" id="hofferta-table-wrap">
+
+		<div id="hofferta-table">
+			<header>
+				<a style="cursor: pointer;" ng-class="{'active' : offerToView() == OFFER_MAPPING_DISPLAY[vehicle.characteristics.code]['SUGG'] || offerToView() === undefined}" ng-click="offerToView(offerSuggested.id)">Offerta consigliata</a>
+				<a style="cursor: pointer;" ng-class="{'active' : offerToView() == OFFER_MAPPING_DISPLAY[vehicle.characteristics.code]['CUST'] }" ng-click="offerToView(offer.id)" ng-show="offerSuggested !==undefined &&  offerToView() !== undefined ">Offerta personalizzata</a>
+				<div class="clearfix"></div>
+			</header>
+			<table id="hofferta-preventivo">
+				<tbody>
+				<tr class="head">
+					<th>Garanzie acquistabili</th>
+					<th>Massimale<br>e capitale assicurato (€)</th>
+					<th>Scoperti,<br>franchigie (€ - %)</th>
+					<th class="resultsCol">Prezzo (€)</th>
+				</tr>
+				<tr class="first grey" ng-class="{'sub2': coverage._hierarchyInfo.level == 2,'sub3': coverage._hierarchyInfo.level == 3, 'sub4': coverage._hierarchyInfo.level == 4, 'selected' : offer.coverages[coverage.guarantyCode].selected == 'S'}"
+					ng-repeat="coverage in (vehicle.characteristics.code  == VEHICLE_CODE_MOTO ? (getOffer().coverages | coverageSalable | unionCoverageBike : getOffer().flagSuspension | bikeCoverage) : getOffer().coverages |  coverageSalable | unionCoverage  ) | orderBy: 'id*1'">
+					<td>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox"
+									   ng-if="offerSuggested === undefined || offerToView() == OFFER_MAPPING_DISPLAY[vehicle.characteristics.code]['CUST']"
+									   ng-model="offer.coverages[coverage.guarantyCode].selected"
+									   ng-value="offer.coverages[coverage.guarantyCode].selected"
+									   ng-true-value="'S'"
+									   ng-false-value="'N'"
+									   ng-click="manageClick(coverage)"
+									   ng-disabled="manageDisable(coverage)">
+
+								<!-- This is to show sugested offer -->
+								<input type="checkbox"
+									   ng-if="offerSuggested !==undefined && offerToView() == OFFER_MAPPING_DISPLAY[vehicle.characteristics.code]['SUGG']"
+									   ng-model="offerSuggested.coverages[coverage.guarantyCode].selected"
+									   ng-true-value="'S'"
+									   ng-false-value="'N'"
+									   ng-disabled="true">
+                                    <span>
+
+                                        <!-- <a href="layers/descrizione_11.html" class="pop_layer_opener">?</a> -->
+
+                                        <a class="pop_layer_opener" data-ng-click="openModal('offer.popup.'+coverage.guarantyCode+'.title', 'offer.popup.'+coverage.guarantyCode+'.body')">
+										</a>
+                                        {{resarr['offer.label.guaranty.'+coverage.guarantyCode]}}
+                                    </span>
+							</label>
+						</div>
+					</td>
+					<td>
+						<label  ng-if="getOffer().coverages[coverage.guarantyCode].limitations[coverage.limitCode]
+									&& getOffer().coverages[coverage.guarantyCode].limitations[coverage.limitCode].limitationValues.length > 0"
+								class="visible-xs">Massimale e capitale assicurato (€)</label>
+						<limitation-view limitation-code="{{coverage.limitCode}}" guaranty-code="{{coverage.guarantyCode}}"></limitation-view>
+
+					</td>
+					<td>
+						<label  ng-if="getOffer().coverages[coverage.guarantyCode].limitations[coverage.limitCode]
+									&& getOffer().coverages[coverage.guarantyCode].limitations[coverage.limitCode].limitationValues.length > 0"
+								class="visible-xs">Scoperti, Franchigie (€ - %)</label>
+						<limitation-view limitation-code="{{coverage.franchiseCode}}" guaranty-code="{{coverage.guarantyCode}}"></limitation-view>
+					</td>
+					<td class="resultsCol">
+						<strong>{{getCoverageGrossPremium(coverage.guarantyCode)  | puntoVirgolaEU}}</strong>
+					</td>
+				</tr>
+
+				<tr class="resultsRow">
+					<td colspan="4">
+						<!-- BIKE/MOPED -->
+						<div ng-if="(vehicle.characteristics.code  == VEHICLE_CODE_MOTO) && (offerSuggested === undefined || offerToView() == OFFER_MAPPING_DISPLAY[vehicle.characteristics.code]['CUST'])">
+							<label class="radio-inline  -orange">
+								<input name="" type="radio" ng-model="offer.flagSuspension" value="1">
+									<span class="label">
+										Moto Free
+										<a class="pop_layer_opener" data-ng-click="openModal('offer.popup.motofree.title', 'offer.popup.motofree.body')">
+										</a>
+									</span>
+							</label>
+							<label class="radio-inline  -orange">
+								<input name="pagamento" type="radio" ng-model="offer.flagSuspension" value="2">
+									<span class="label">
+										Moto Sempre
+										<a class="pop_layer_opener" data-ng-click="openModal('offer.popup.motosempre.title', 'offer.popup.motosempre.body')">
+										</a>
+									</span>
+							</label>
+						</div>
+						<div ng-if=" (vehicle.characteristics.code  == VEHICLE_CODE_MOTO) && (offerSuggested !==undefined && offerToView() == OFFER_MAPPING_DISPLAY[vehicle.characteristics.code]['SUGG'])">
+							<label class="radio-inline  -orange">
+								<input name="sospendibilita" type="radio" ng-disabled="true" ng-model="offerSuggested.flagSuspension" value="1">
+									<span class="label">
+										Moto Free
+										<a class="pop_layer_opener" data-ng-click="openModal('offer.popup.motofree.title', 'offer.popup.motofree.body')">
+										</a>
+									</span>
+							</label>
+							<label class="radio-inline  -orange">
+								<input name="pagamento" type="radio" ng-disabled="true" ng-model="offerSuggested.flagSuspension" value="2">
+									<span class="label">
+										Moto Sempre
+										<a class="pop_layer_opener" data-ng-click="openModal('offer.popup.motosempre.title', 'offer.popup.motosempre.body')">
+										</a>
+									</span>
+							</label>
+						</div>
+
+						<!-- ALL OTHER -->
+						<div ng-if="(vehicle.characteristics.code  != VEHICLE_CODE_MOTO)&& (offerSuggested === undefined || offerToView() == OFFER_MAPPING_DISPLAY[vehicle.characteristics.code]['CUST'])">
+							<label class="radio-inline  -orange">
+								<input name="pagamento" type="radio" ng-model="offer.paymentFrequency" value="{{PAYMENT_FREQUENCY_ANNUAL}}">
+									<span class="label">
+										Pagamento annuale
+									</span>
+							</label>
+							<label class="radio-inline  -orange">
+								<input name="pagamento" type="radio" ng-model="offer.paymentFrequency" value="{{PAYMENT_FREQUENCY_SEMESTRAL}}">
+									<span class="label">
+										Pagamento semestrale
+									</span>
+							</label>
+						</div>
+						<div ng-if="(vehicle.characteristics.code  != VEHICLE_CODE_MOTO) && (offerSuggested !==undefined && offerToView() == OFFER_MAPPING_DISPLAY[vehicle.characteristics.code]['SUGG'])">
+							<label class="radio-inline  -orange">
+								<input name="pagamento" type="radio" ng-disabled="true" ng-model="offerSuggested.paymentFrequency" value="{{PAYMENT_FREQUENCY_ANNUAL}}">
+									<span class="label">
+										Pagamento annuale
+									</span>
+							</label>
+							<label class="radio-inline  -orange">
+								<input name="pagamento" type="radio" ng-disabled="true" ng-model="offerSuggested.paymentFrequency" value="{{PAYMENT_FREQUENCY_SEMESTRAL}}">
+									<span class="label">
+										Pagamento semestrale
+									</span>
+							</label>
+						</div>
+
+
+						<div class="total">
+							<div class="total_price" ng-show="(!ricalcolaEnab || offerToView() == OFFER_MAPPING_DISPLAY[vehicle.characteristics.code]['SUGG'] ) && getOffer().paymentFrequency == PAYMENT_FREQUENCY_SEMESTRAL " >
+								<strong ng-bind="getOffer().grossPremium| puntoVirgolaEU"></strong>
+								€/semestrale
+							</div>
+							<div class="total_price" ng-show="!ricalcolaEnab || offerToView() == OFFER_MAPPING_DISPLAY[vehicle.characteristics.code]['SUGG']">
+								<strong ng-bind="(getOffer().paymentFrequency == PAYMENT_FREQUENCY_SEMESTRAL ? parseFloat(getOffer().grossPremium) * 2 : getOffer().grossPremium)| puntoVirgolaEU"></strong> €/anno
+							</div>
+						</div>
+						<div class="panel_ricalcola" ng-show="ricalcolaEnab && offerToView() != OFFER_MAPPING_DISPLAY[vehicle.characteristics.code]['SUGG']">
+							<a class="ricalcola" ng-click="recalculate('panel_ricalcola')">Ricalcola</a>
+						</div>
+					</td>
+				</tbody>
+			</table>
+		</div>
+
+
+		<section id="hofferta-import">
+			<span  ng-if="isDefaultData" >
+
+				<div class="row">
+					<div class="col-sm-12">
+						<h3 class="border" ><span res-data="offer.p.defaultData.quotationMessage.title"> </span></h3>
+						<p class="notice" res-data="offer.p.defaultData.quotationMessage.body"></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<h4></h4>
+
+						<ul class="cards" ng-if="vehicle.characteristics.code == VEHICLE_CODE_MOTO"> <!-- moto -->
+							<li>
+								<div class="wrapper">
+									<img src="app/img/card-09.png" alt="" class="img-responsive">
+									<h4 res-data="offer.h4.defaultData.bike.driverFormula"></h4>
+									<p res-data="offer.p.defaultData.bike.driverFormula"></p>
+								</div>
+							</li>
+							<li>
+								<div class="wrapper">
+									<img src="app/img/card-11.png" alt="" class="img-responsive">
+
+									<h4 res-data="offer.h4.defaultData.bike.antifurto"></h4>
+									<p res-data="offer.p.defaultData.bike.antifurto"></p>
+								</div>
+							</li>
+							<li>
+								<div class="wrapper">
+									<img src="app/img/card-10.png" alt="" class="img-responsive">
+									<h4 res-data="offer.h4.defaultData.bike.box"></h4>
+									<p res-data="offer.p.defaultData.bike.box"></p>
+								</div>
+							</li>
+							<li>
+								<div class="wrapper">
+									<img src="app/img/card-12.png" alt="" class="img-responsive">
+									<h4 res-data="offer.h4.defaultData.bike.delivery"></h4>
+									<p res-data="offer.p.defaultData.bike.delivery"></p>
+								</div>
+							</li>
+						</ul>
+
+						<ul class="cards" ng-if="vehicle.characteristics.code == VEHICLE_CODE_CAR  || vehicle.characteristics.code == VEHICLE_CODE_TRUCK"> <!-- auto e Autocarro -->
+							<li>
+								<div class="wrapper">
+									<img src="app/img/card-01.png" alt="" class="img-responsive">
+									<h4 res-data="offer.h4.defaultData.driverFormula"></h4>
+									<p res-data="offer.p.defaultData.driverFormula"></p>
+								</div>
+							</li>
+							<li>
+								<div class="wrapper">
+									<img src="app/img/card-02.png" alt="" class="img-responsive">
+
+									<h4 res-data="offer.h4.defaultData.percorrenza"></h4>
+									<p res-data="offer.p.defaultData.percorrenza"></p>
+								</div>
+							</li>
+							<li>
+								<div class="wrapper">
+									<img src="app/img/card-03.png" alt="" class="img-responsive">
+									<h4 res-data="offer.h4.defaultData.box"></h4>
+									<p res-data="offer.p.defaultData.box"></p>
+								</div>
+							</li>
+							<li>
+								<div class="wrapper">
+									<img src="app/img/card-04.png" alt="" class="img-responsive">
+									<h4 res-data="offer.h4.defaultData.gpl"></h4>
+									<p res-data="offer.p.defaultData.gpl"></p>
+								</div>
+							</li>
+							<li ng-if="vehicle.characteristics.code == VEHICLE_CODE_CAR">
+								<div class="wrapper">
+									<img src="app/img/card-05.png" alt="" class="img-responsive">
+									<h4 res-data="offer.h4.defaultData.impiego"></h4>
+									<p res-data="offer.p.defaultData.impiego"></p>
+								</div>
+							</li>
+							<li ng-if="vehicle.characteristics.code == VEHICLE_CODE_TRUCK">
+								<div class="wrapper">
+									<img src="app/img/card-06.png" alt="" class="img-responsive">
+									<h4 res-data="offer.h4.defaultData.uso"></h4>
+									<p res-data="offer.p.defaultData.uso"></p>
+								</div>
+							</li>
+							<li ng-if="vehicle.characteristics.code == VEHICLE_CODE_TRUCK">
+								<div class="wrapper">
+									<img src="app/img/card-07.png" alt="" class="img-responsive">
+									<h4 res-data="offer.h4.defaultData.attivita"></h4>
+									<p res-data="offer.p.defaultData.attivita"></p>
+								</div>
+							</li>
+							<li ng-if="vehicle.characteristics.code == VEHICLE_CODE_TRUCK">
+								<div class="wrapper">
+									<img src="app/img/card-08.png" alt="" class="img-responsive">
+									<h4 res-data="offer.h4.defaultData.gancio"></h4>
+									<p res-data="offer.p.defaultData.gancio"></p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="row" style="margin-bottom: 10px">
+					<div class="col-sm-9">
+						<h4 style="-margin-top: 0" class="borders"> <span res-data="offer.h4.defaultData.edit"></span><a class="orange" ng-click="editData()" style="cursor: pointer" res-data="offer.h4.defaultData.here"></a>.</h4>
+					</div>
+				</div>
+			</span>
+
+			<span  ng-if="!isDefaultData" >
+				<div class="row" style="margin-bottom: 10px">
+					<div class="col-sm-9">
+						<h4 style="-margin-top: 0" class="borders"> <span res-data="offer.h4.defaultData.edit"></span><a class="orange" ng-click="editData()" style="cursor: pointer" res-data="offer.h4.defaultData.here"></a>.</h4>
+					</div>
+				</div>
+			</span>
+
+			<!-- Accordion -->
+			<div class="accordion tab-accordion item-4 js-accordion" role="tablist" aria-multiselectable="true" ng-controller="accordionCtrl" style="margin-bottom: 20px">
+				<!--Dati Personali-->
+
+				<div class="panel">
+
+					<div class="accordion-panel-heading ng-class:{collapsed : isTabClosed('tab1')}" role="tab" ng-click="openTab('tab1')">
+						<span class="name" res-data="offer.span.riepilogo.datiPersonali"></span>
+						<span class="espandi"><b res-data="offer.b.riepilogo.espandi"></b> <i></i></span>
+						<span class="riduci"><b res-data="offer.b.riepilogo.riduci"></b> <i></i></span>
+					</div>
+
+					<div class="accordion-panel-collapse collapse js-collapse-1 ng-class:{in : !isTabClosed('tab1')}" role="tabpanel">
+						<div class="accordion-panel-body">
+							<table class="table"   cellspacing="0" cellpadding="0">
+								<tbody>
+								<tr>
+									<th scope="row" res-data="offer.th.riepilogo.datiPersonali.ruolo"></th>
+									<td>{{person.roleCode4Desc}}</td>
+								</tr>
+								<tr ng-if="!isPerson">
+									<th scope="row" res-data="offer.th.riepilogo.datiPersonali.tipo"></th>
+									<td res-data="offer.th.riepilogo.datiPersonali.company"></td>
+								</tr>
+								<tr ng-if="isPerson">
+									<th scope="row" res-data="offer.th.riepilogo.datiPersonali.nomeCognome"></th>
+									<td>
+										{{person.firstName}} {{person.lastName}}
+									</td>
+								</tr>
+								<tr ng-if="!isPerson">
+									<th scope="row" res-data="offer.th.riepilogo.datiPersonali.ragioneSociale"></th>
+									<td>{{ person.name}}</td>
+								</tr>
+								<tr ng-if="isPerson">
+									<th scope="row" res-data="offer.th.riepilogo.datiPersonali.sesso"></th>
+									<td>{{person.gender[0] | flagFM}}</td>
+								</tr>
+								<tr >
+									<th scope="row" res-data="offer.th.riepilogo.datiPersonali.data"></th>
+									<td>{{person.dateOfBirth | date : "dd/MM/yyyy"}}</td>
+								</tr>
+								<tr >
+									<th ng-if="isPerson"  scope="row" res-data="offer.th.riepilogo.datiPersonali.indirizzoResidenza"></th>
+									<th ng-if="!isPerson" scope="row" res-data="offer.th.riepilogo.datiPersonali.indirizzoLegale"></th>
+									<td>{{person.address.zipCode}}</td>
+								</tr>
+								<tr  ng-if="person.address.building">
+									<th scope="row" res-data="offer.th.riepilogo.datiPersonali.edificio"></th>
+									<td>{{person.address.building}}</td>
+								</tr>
+								<tr>
+									<th scope="row" res-data="offer.th.riepilogo.datiPersonali.cf"></th>
+									<td>{{person.socialSecurityNumber.toUpperCase()}}</td>
+								</tr>
+								<tr ng-if="vehicle.characteristics.code == VEHICLE_CODE_CAR">
+									<th scope="row" res-data="offer.th.riepilogo.datiPersonali.professione"></th>
+									<td>{{ person.occupation4Desc}}</td>
+								</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+
+				<div class="panel">
+					<div class="accordion-panel-heading ng-class:{collapsed : isTabClosed('tab2')}" role="tab" ng-click="openTab('tab2')">
+						<span class="name" res-data="offer.span.riepilogo.datiVeicolo"></span>
+						<span class="espandi"><b res-data="offer.b.riepilogo.espandi"></b> <i></i></span>
+						<span class="riduci"><b res-data="offer.b.riepilogo.riduci"></b> <i></i></span>
+					</div>
+					<div class="accordion-panel-collapse collapse js-collapse-2 ng-class:{in : !isTabClosed('tab2')}" role="tabpanel">
+						<div class="accordion-panel-body">
+							<table class="table"  cellspacing="0" cellpadding="0">
+								<tbody>
+								<tr>
+									<th scope="row" res-data="offer.th.riepilogo.datiVeicolo.tipo"></th>
+									<td>{{ getOffer().code4Desc}}</td>
+
+								</tr>
+								<tr>
+									<th scope="row" res-data="offer.th.riepilogo.datiVeicolo.marca"></th>
+									<td>{{vehicle.characteristics.vehicleBrand}}</td>
+								</tr>
+								<tr>
+									<th scope="row" res-data="offer.th.riepilogo.datiVeicolo.modello"></th>
+									<td>{{vehicle.characteristics.vehicleModel}}</td>
+								</tr>
+								<tr>
+									<th scope="row" res-data="offer.th.riepilogo.datiVeicolo.immatricolazione"></th>
+									<td>{{vehicle.initialRegistrationDate | date: 'MM/yyyy'}}</td>
+								</tr>
+								<tr>
+									<th scope="row" res-data="offer.th.riepilogo.datiVeicolo.targa"></th>
+									<td>{{vehicle.licensePlateNumber}}</td>
+								</tr>
+								<tr ng-if="vehicle.characteristics.code != VEHICLE_CODE_MOTO">
+									<th scope="row"  res-data="offer.th.riepilogo.datiVeicolo.cavalli"></th>
+									<td>{{vehicle.characteristics.taxHorsepower}}/{{vehicle.characteristics.power}}</td>
+								</tr>
+								<tr>
+									<th scope="row" res-data="offer.th.riepilogo.datiVeicolo.alimentazione"></th>
+									<td>{{vehicle.characteristics.fuelType4Desc}}</td>
+								</tr>
+								<tr ng-if="vehicle.characteristics.code != VEHICLE_CODE_MOTO">
+									<th scope="row" res-data="offer.th.riepilogo.datiVeicolo.gpl"></th>
+									<td>{{vehicle.characteristics.flagGpl | flagSN}}</td>
+								</tr>
+								<tr ng-if="vehicle.characteristics.code != VEHICLE_CODE_MOTO">
+									<th scope="row" res-data="offer.th.riepilogo.datiVeicolo.percorrenza"></th>
+									<td>{{ vehicle.characteristics.mileage4Desc}} Km</td>
+								</tr>
+								<tr>
+									<th scope="row" res-data="offer.th.riepilogo.datiVeicolo.valore"></th>
+									<td>{{ getOffer().commercialValue | currencyeuro }}</td>
+								</tr>
+								<tr>
+									<th scope="row" res-data="offer.th.riepilogo.datiVeicolo.garage"></th>
+									<td>{{vehicle.characteristics.box | flagSN}}</td>
+								</tr>
+								<tr>
+									<th scope="row" res-data="offer.th.riepilogo.datiVeicolo.uso"></th>
+									<td>{{vehicle.usage4Desc}}</td>
+								</tr>
+								<tr>
+									<th scope="row" res-data="offer.th.riepilogo.datiVeicolo.antifurto"></th>
+									<td>{{vehicle.characteristics.codeAlarmProtection4Desc}}</td>
+								</tr>
+								<tr ng-if="vehicle.characteristics.code == VEHICLE_CODE_TRUCK">
+									<th scope="row" res-data="offer.th.riepilogo.datiVeicolo.traino"></th>
+									<td>{{vehicle.characteristics.towHitch | flagSN}}</td>
+								</tr>
+								<tr ng-if="vehicle.characteristics.code == VEHICLE_CODE_TRUCK">
+									<th scope="row" res-data="offer.th.riepilogo.datiVeicolo.massa"></th>
+									<td>{{vehicle.characteristics.tare}}</td>
+								</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="panel">
+					<div class="accordion-panel-heading ng-class:{collapsed : isTabClosed('tab3')}" role="tab" ng-click="openTab('tab3')">
+						<span class="name" res-data="offer.span.riepilogo.datiAssicurativi"></span>
+						<span class="espandi"><b res-data="offer.b.riepilogo.espandi"></b> <i></i></span>
+						<span class="riduci"><b res-data="offer.b.riepilogo.riduci"></b> <i></i></span>
+					</div>
+					<div class="accordion-panel-collapse collapse js-collapse-3 ng-class:{in : !isTabClosed('tab3')}" role="tabpanel">
+						<div class="accordion-panel-body">
+							<table class="table"   cellspacing="0" cellpadding="0">
+								<tbody>
+								<tr>
+									<th scope="row" res-data="offer.th.riepilogo.datiAssicurativi.situazione"></th>
+									<td>{{getOffer().assignementReason4Desc}}</td>
+								</tr>
+								<tr>
+									<th scope="row" res-data="offer.th.riepilogo.datiAssicurativi.classeCu"></th>
+									<td>{{ vehicle.characteristics.atrClass }}</td>
+								</tr>
+								<tr>
+									<th scope="row" res-data="offer.th.riepilogo.datiAssicurativi.classeGenialloyd"></th>
+									<td>{{vehicle.lloydClass}}</td>
+								</tr>
+								<tr>
+									<th scope="row" res-data="offer.th.riepilogo.datiAssicurativi.sinistriAtr"></th>
+									<td>{{ vehicle.lastYearClaims4Desc}}</td>
+								</tr>
+								<tr ng-if="vehicle.characteristics.code != VEHICLE_CODE_MOTO">
+									<th scope="row" res-data="offer.th.riepilogo.datiAssicurativi.sinistri2anni"></th>
+									<td>{{vehicle.lastTwoYearsClaims4Desc}}</td>
+								</tr>
+								<tr>
+									<th scope="row" res-data="offer.th.riepilogo.datiAssicurativi.bersani"></th>
+									<td>{{getOffer().bersaniRelief4Desc}}</td>
+								</tr>
+								<tr>
+									<th scope="row" res-data="offer.th.riepilogo.datiAssicurativi.decorrenza"></th>
+									<td>{{ getOffer().effectDate | date: 'dd/MM/yyyy' }}</td>
+								</tr>
+								<tr ng-if="vehicle.characteristics.code != VEHICLE_CODE_MOTO">
+									<th scope="row" res-data="offer.th.riepilogo.datiAssicurativi.provenienza"></th>
+									<td>{{ getOffer().insuranceCompany4Desc }}</td>
+								</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="panel">
+					<div class="accordion-panel-heading ng-class:{collapsed : isTabClosed('tab6')}" role="tab" ng-click="openTab('tab6')">
+						<span class="name" res-data="offer.span.riepilogo.datiGuida"></span>
+						<span class="espandi"><b res-data="offer.b.riepilogo.espandi"></b> <i></i></span>
+						<span class="riduci"><b res-data="offer.b.riepilogo.riduci"></b> <i></i></span>
+					</div>
+					<div class="accordion-panel-collapse collapse js-collapse-6 ng-class:{in : !isTabClosed('tab6')}" role="tabpanel">
+						<div class="accordion-panel-body">
+							<table class="table"   cellspacing="0" cellpadding="0">
+								<tbody>
+								<tr>
+									<th scope="row" res-data="offer.th.riepilogo.datiGuida.guidaEsperta"></th>
+									<td>{{ vehicle.driverFormula4Desc}}</td>
+								</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //Accordion -->
+		</section>
+		<p res-data="offer.body.law.131"></p>
+		<div class="row" ng-if="false">
+
+			<div class="col-sm-5">
+				<div class="row" id="hofferta-promemoria">
+					<div class="col-sm-6"><a data-ng-click="openSendModal()" id="hofferta-promemoria-email"><strong>INVIA</strong><br />il promemoria<br />del prezzo</a></div>
+					<div class="col-sm-6"><a ng-click="print()" id="hofferta-promemoria-print"><strong>STAMPA</strong><br />il promemoria<br />del prezzo</a></div>
+				</div>
+			</div>
+
+		</div>
+		<div ng-show="!pageEnabled" style="position: fixed; top: 0px; left: 0px; z-index: 99999; height: 3000px; width: 3000px; background: transparent;"></div>
+	</div>
+</section>

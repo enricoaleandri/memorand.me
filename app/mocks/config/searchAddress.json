@@ -1,0 +1,186 @@
+{
+  "payload" : {
+    "streets": [
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "REMO                                                        ",
+        "zipCode": "62012",
+        "toponymCode": "0061 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "RETE                                                        ",
+        "zipCode": "62012",
+        "toponymCode": "0061 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "RICCI                                                       ",
+        "zipCode": "62012",
+        "toponymCode": "0062 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "ROCCA                                                       ",
+        "zipCode": "62012",
+        "toponymCode": "0062 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "ROMA                                                        ",
+        "zipCode": "62012",
+        "toponymCode": "0061 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "ROSSELLI                                                    ",
+        "zipCode": "62012",
+        "toponymCode": "0037 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "ROSSINI                                                     ",
+        "zipCode": "62012",
+        "toponymCode": "0061 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "RUFFINI                                                     ",
+        "zipCode": "62012",
+        "toponymCode": "0061 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "REGINA ELENA                                                ",
+        "zipCode": "62012",
+        "toponymCode": "0061 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "REGINA MARGHERITA                                           ",
+        "zipCode": "62012",
+        "toponymCode": "0061 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "REPUBBLICA                                                  ",
+        "zipCode": "62012",
+        "toponymCode": "0061 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "REPUBBLICA                                                  ",
+        "zipCode": "62012",
+        "toponymCode": "0064 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "RICCI MATTEO PADRE                                          ",
+        "zipCode": "62012",
+        "toponymCode": "0061 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "RIMEMBRANZA                                                 ",
+        "zipCode": "62012",
+        "toponymCode": "0064 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "ROMAGNA                                                     ",
+        "zipCode": "62012",
+        "toponymCode": "0061 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "ROSSELLI FRATELLI                                           ",
+        "zipCode": "62012",
+        "toponymCode": "0061 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "ROSSI LAURO                                                 ",
+        "zipCode": "62012",
+        "toponymCode": "0061 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "ARANCIO                                                     ",
+        "zipCode": "62012",
+        "toponymCode": "0062 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "ARCO                                                        ",
+        "zipCode": "62012",
+        "toponymCode": "0062 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "AREZZO                                                      ",
+        "zipCode": "62012",
+        "toponymCode": "0061 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "ARGANO                                                      ",
+        "zipCode": "62012",
+        "toponymCode": "0062 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "AURORA                                                      ",
+        "zipCode": "62012",
+        "toponymCode": "0061 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "D' ANNUNZIO GABRIELE                                        ",
+        "zipCode": "62012",
+        "toponymCode": "0061 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "D' AREZZO GUIDO                                             ",
+        "zipCode": "62012",
+        "toponymCode": "0061 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "EUROPA                                                      ",
+        "zipCode": "62012",
+        "toponymCode": "0064 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "F. T. MARINETTI                                             ",
+        "zipCode": "62012",
+        "toponymCode": "0061 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "ORAZIO                                                      ",
+        "zipCode": "62012",
+        "toponymCode": "0061 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "OROBONI                                                     ",
+        "zipCode": "62012",
+        "toponymCode": "0061 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "ORSINI                                                      ",
+        "zipCode": "62012",
+        "toponymCode": "0061 "
+      },
+      {
+        "eClass": "http://allianz.com/it.allianz.genialloyd.extlocation#//ExtStreet",
+        "name": "ORTO                                                        ",
+        "zipCode": "62012",
+        "toponymCode": "0062 "
+      }
+    ]
+  }
+}

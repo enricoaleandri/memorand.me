@@ -1,0 +1,47 @@
+﻿{
+    "version": "1.0",
+    "result": [
+        {
+            "resources": {
+                "prop": [
+                    {
+                        "key": "header.buy.breadcrumb.FIRST",
+                        "value": "1. TIPO PAGAMENTO"
+                    },
+                    {
+                        "key": "header.quote.breadcrumb.FIRST",
+                        "value": "1. Dati polizza"
+                    },
+                    {
+                        "key": "header.buy.breadcrumb.SECOND",
+                        "value": "2. PAGAMENTO"
+                    },
+                    {
+                        "key": "header.quote.breadcrumb.SECOND",
+                        "value": "2. Contatti"
+                    },
+                    {
+                        "key": "header.buy.breadcrumb.THIRT",
+                        "value": "3. CONFERMA ACQUISTO"
+                    },
+                    {
+                        "key": "header.quote.breadcrumb.THIRT",
+                        "value": "3. Riepilogo Dati"
+                    },
+                    {
+                        "key": "header.quote.label.PRICE4YOU",
+                        "value": "prezzo per te"
+                    },
+                    {
+                        "key": "header.quote.label.EUROANNO",
+                        "value": "&euro;/anno"
+                    },
+                    {
+                        "key": "header.quote.label.PREVENTIVO",
+                        "value" : "Preventivo"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,247 @@
+{
+	"messages": [],
+	"payload": {
+		"streets": [
+			{
+				"name": "BASSI UGO                                                   ",
+				"zipCode": "40121",
+				"toponymCode": "0026 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "BASSI UGO                                                   ",
+				"zipCode": "40121",
+				"toponymCode": "0061 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "CASSE                                                       ",
+				"zipCode": "40122",
+				"toponymCode": "0061 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "PASSO                                                       ",
+				"zipCode": "40127",
+				"toponymCode": "0062 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "TASSI                                                       ",
+				"zipCode": "40132",
+				"toponymCode": "0061 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "CASSINO                                                     ",
+				"zipCode": "40139",
+				"toponymCode": "0061 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "D' AZEGLIO MASSIMO                                          ",
+				"zipCode": "40123",
+				"toponymCode": "0061 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "MASSA CARRARA                                               ",
+				"zipCode": "40139",
+				"toponymCode": "0061 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "ANGELELLI MASSIMILIANO                                      ",
+				"zipCode": "40137",
+				"toponymCode": "0061 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "AZZOGUIDI BALDASSARRE                                       ",
+				"zipCode": "40138",
+				"toponymCode": "0061 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "BASSA DEI SASSI                                             ",
+				"zipCode": "40138",
+				"toponymCode": "0061 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "BASSANELLI SARIO                                            ",
+				"zipCode": "40129",
+				"toponymCode": "0061 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "BASSANI GIORGIO                                             ",
+				"zipCode": "40129",
+				"toponymCode": "0061 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "BASSANO DEL GRAPPA                                          ",
+				"zipCode": "40139",
+				"toponymCode": "0061 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "BASSI VERATTI LAURA                                         ",
+				"zipCode": "40137",
+				"toponymCode": "0061 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "BENASSI GIULIANO                                            ",
+				"zipCode": "40124",
+				"toponymCode": "0029 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "BRUNO MASSIMILIANO                                          ",
+				"zipCode": "40126",
+				"toponymCode": "0064 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "CADUTI DI NASSIRIYA                                         ",
+				"zipCode": "40126",
+				"toponymCode": "0061 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "CASSINI GIOVANNI DOMENICO                                   ",
+				"zipCode": "40133",
+				"toponymCode": "0061 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "COMMERCIO ASSOCIATO                                         ",
+				"zipCode": "40127",
+				"toponymCode": "0061 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "FRASSINAGO                                                  ",
+				"zipCode": "40123",
+				"toponymCode": "0061 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "GORKI MASSIMO                                               ",
+				"zipCode": "40128",
+				"toponymCode": "0061 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "GUARDASSONI ALESSANDRO                                      ",
+				"zipCode": "40133",
+				"toponymCode": "0061 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "MASIA MASSENZIO                                             ",
+				"zipCode": "40138",
+				"toponymCode": "0061 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "MASSARENTI GIUSEPPE                                         ",
+				"zipCode": "40138",
+				"toponymCode": "0061 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "MASSEI GIOVANNI                                             ",
+				"zipCode": "40124",
+				"toponymCode": "0061 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "MASSONE ALBERTO                                             ",
+				"zipCode": "40137",
+				"toponymCode": "0061 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "MELICONI MASSIMO                                            ",
+				"zipCode": "40136",
+				"toponymCode": "0064 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "PASSAROTTI BARTOLOMEO                                       ",
+				"zipCode": "40128",
+				"toponymCode": "0061 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			},
+			{
+				"name": "PASSEROTTI                                                  ",
+				"zipCode": "40128",
+				"toponymCode": "0061 ",
+				"positionFirst": "0",
+				"positionLast": "0",
+				"positionType": " "
+			}
+		]
+	}
+}

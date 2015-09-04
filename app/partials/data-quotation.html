@@ -1,0 +1,632 @@
+<section class="page">
+    <div class="container-fluid">
+        <div class="formWrapper">
+            <section class="form_step">
+                <ul class="steps ul_inline">
+                    <li>
+                        <span>DATI QUOTAZIONE GENIALCLICK</span>
+                        <svg svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" preserveAspectRatio="none"><rect fill="#004595" width="100%" height="100%" rx="3px" ry="3px"/></svg>
+                    </li>
+                </ul>
+            </section>
+            <section class="form-body">
+                <form   class="salva_preventivo_form custom_form"
+                        name="datiQuotazioneForm"
+                        id="datiQuotazioneForm"
+                        real-time-validate="false"
+                        novalidate>
+                    <fieldset class="border" ng-show="vehiclePropertyType == '0012' || vehiclePropertyType == '0002'">
+                        <h3 class="border"><span>MODIFICA I DATI PREIMPOSTATI</span></h3>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <label>Tipo Guida</label>
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="row">
+                                    <div class="col-sm-12" ng-show="!driveBlocked">
+                                        <label class="radio radio-inline">
+                                            <input id="tipo_guida1"
+                                                   name="tipo_guida"
+                                                   aria-label="tipo_guida"
+                                                   type="radio"
+                                                   value="N"
+                                                   tabindex="0"
+                                                   ng-model="vehicle.driverFormula"
+                                                   ng-disabled="driveBlocked"
+                                                   ng-required="vehiclePropertyType == '0012' || vehiclePropertyType == '0002'">
+											<span class="label">GUIDA ESPERTA
+												<br>
+												<p>L{{vehicleCharCode}} {{ vehicleName }} è guidata da te e da persone con più di 23 anni e patente da almeno 2 anni.</p>
+											</span>
+                                        </label>
+                                        <a class="pop_layer_opener pull-right" ng-click="openModal($event)" modal-body="#modale-avviso-guida-esperta" modal-title="Guida Esperta">
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <label class="radio radio-inline">
+                                            <input id="tipo_guida2"
+                                                   name="tipo_guida"
+                                                   aria-label="tipo_guida"
+                                                   type="radio"
+                                                   value="S"
+                                                   tabindex="0"
+                                                   ng-model="vehicle.driverFormula"
+                                                   ng-disabled="driveBlocked"
+                                                   ng-required="vehiclePropertyType == '0012' || vehiclePropertyType == '0002'">
+											<span class="label">GUIDA LIBERA
+												<br>
+												<p>L'{{ vehicleName }} è guidata anche dai meno esperti (meno di 23 anni e patente da meno di 2 anni).</p>
+											</span>
+                                        </label>
+                                        <a class="pop_layer_opener pull-right" ng-click="openModal($event)" modal-body="#modale-avviso-guida-libera" modal-title="Guida Libera">
+                                        </a>
+                                    </div>
+                                    <label class="error" ng-show="datiQuotazioneForm.$submitted && datiQuotazioneForm['tipo_guida'].$error.required">Obbligatorio</label>
+                                    <div type="text/ng-template" id="modale-avviso-guida-esperta" class="hidden">
+                                        <p>
+                                        È la formula assicurativa più adatta se la tua {{ vehicleName }} è guidata, oltre che dall’intestatario (con qualunque caratteristica), esclusivamente da altre persone esperte, ovvero con più di 23 anni di età e anzianità di patente superiore a 2 anni. Offre la completa copertura delle garanzie RCA ma, in caso di sinistro occorso con alla guida del veicolo una persona diversa dall’intestatario e con età inferiore a 23 anni e anzianità di patente inferiore a 2 anni, Genialloyd applicherà una rivalsa per le somme che abbia dovuto pagare ai terzi danneggiati fino a un massimo di 5.000,00 euro. 
+                                        </p><br />
+                                            <b>Per ulteriori informazioni consulta e scarica il Fascicolo Informativo.</b>
+                                    </div>
+                                    <div type="text/ng-template" id="modale-avviso-guida-libera" class="hidden">
+                                        <p>
+                                            È la formula che, attraverso il pagamento di un sovrapprezzo, in caso di sinistro RCA, esclude l’applicazione della rivalsa, chiunque sia legittimamente alla guida al momento dell’incidente. E’ quindi suggerita in tutti i casi in cui l’{{ vehicleName }} è guidata, oltre che dall’intestatario, anche da minori di 23 anni di età e patentati da meno di 2 anni.
+                                        </p><br />
+                                        <b>Per ulteriori informazioni consulta e scarica il Fascicolo Informativo</b>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="border" ng-show="vehiclePropertyType == '0004'">
+                        <h3 class="border"><span>MODIFICA I DATI PREIMPOSTATI</span></h3>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <label>Tipo Guida</label>
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="row">
+                                    <div class="col-sm-12" ng-show="!driveBlocked">
+                                        <label class="radio radio-inline">
+                                            <input id="tipo_guida3"
+                                                   name="tipo_guida"
+                                                   aria-label="tipo_guida"
+                                                   type="radio"
+                                                   value="01"
+                                                   tabindex="0"
+                                                   ng-model="vehicle.freeDrivingFormula"
+                                                   ng-disabled="driveBlocked"
+                                                   ng-required="">
+											<span class="label">No, il motociclo sar&agrave; guidato solo da guidatori identificati ( Guidatori Abituali )
+											</span>
+                                        </label>
+                                        <a class="pop_layer_opener pull-right" ng-click="openModal($event)" modal-body="#modale-avviso-abituale" modal-title="Guidatori abituali">
+                                        </a>
+                                        <script type="text/ng-template" id="modale-avviso-abituale">
+                                            <p>
+                                            Scegliendo la formula <b>Guidatori abituali</b> il motociclo assicurato può essere guidato esclusivamente dall’intestatario del motociclo e dall’eventuale conducente aggiuntivo indicati in polizza. Questa formula di guida prevede che Genialloyd si possa rivalere fino a un massimo di 5.000€ in caso di sinistro causato da un guidatore diverso da quelli indicati in polizza.Genialloyd rinuncia alla rivalsa relativa alla formula di guida nei seguenti casi: se il guidatore è un addetto preposto alla custodia o riparazione del motociclo;
+                                            motociclo in circolazione contro la volontà del proprietario a condizione che il fatto sia stato tempestivamente denunciato all’Autorità competente;
+                                            motociclo utilizzato in caso di stato di necessità adeguatamente documentato.
+                                            </p>
+                                        </script>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <label class="radio radio-inline">
+                                            <input id="tipo_guida4"
+                                                   name="tipo_guida"
+                                                   aria-label="tipo_guida"
+                                                   type="radio"
+                                                   value="02"
+                                                   tabindex="0"
+                                                   ng-model="vehicle.freeDrivingFormula"
+                                                   ng-disabled="driveBlocked"
+                                                   ng-required>
+											<span class="label">Si, a chiunque con pi&ugrave; di 30 anni (Guida Esperta)
+											</span>
+                                        </label>
+                                        <a class="pop_layer_opener pull-right" ng-click="openModal($event)" modal-body="#modale-avviso-guida-moto-esperta" modal-title="Guida Esperta">
+                                        </a>
+                                        <script type="text/ng-template" id="modale-avviso-guida-moto-esperta">
+                                            <p>
+                                                <b>Estensione guida esperta</b>: il motociclo può essere guidato da chiunque con età superiore a 30 anni. Questa formula di guida prevede che Genialloyd si possa rivalere fino a un massimo di 5.000€ in caso di sinistro causato da un guidatore con età inferiore ai 30 anni.Genialloyd rinuncia alla rivalsa relativa alla formula di guida nei seguenti casi: se il guidatore è un addetto preposto alla custodia o riparazione del motociclo;
+                                                motociclo in circolazione contro la volontà del proprietario a condizione che il fatto sia stato tempestivamente denunciato all’Autorità competente;
+                                                motociclo utilizzato in caso di stato di necessità adeguatamente documentato.
+                                            </p>
+                                        </script>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <label class="radio radio-inline">
+                                            <input id="tipo_guida5"
+                                                   name="tipo_guida"
+                                                   aria-label="tipo_guida"
+                                                   type="radio"
+                                                   value="03"
+                                                   tabindex="0"
+                                                   ng-model="vehicle.freeDrivingFormula"
+                                                   ng-disabled="driveBlocked"
+                                                   ng-required>
+											<span class="label">Si, a chiunque (Guida Libera)
+											</span>
+                                        </label>
+                                        <a class="pop_layer_opener pull-right" ng-click="openModal($event)" modal-body="#modale-avviso-guida-libera" modal-title="Guida Libera">
+                                        </a>
+                                    </div>
+                                    <label class="error" ng-show="datiQuotazioneForm.$submitted && datiQuotazioneForm['tipo_guida'].$error.required">Obbligatorio</label>
+                                    <script type="text/ng-template" id="modale-avviso-guida2">
+                                        <p><b>Estensione guida libera</b>: il motociclo può essere guidato da chiunque purchè abilitato alla guida. In caso di sinistro pertanto  non sarà applicata la rivalsa prevista per le formule di guida "Guidatori abituali" e "Guida Esperta".La rivalsa potrà comunque essere applicata nei casi previsti  dall’art.  “Cause di esclusione e rivalsa della garanzia Responsabilità Civile” riportato nelle Condizioni Generali e Particolari di Assicurazione del Fascicolo Informativo. </p>
+                                    </script>
+
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset ng-show="vehiclePropertyType == '0002'">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <label>Professione</label>
+                            </div>
+                            <div class="col-sm-4">
+                                <select id="professione"
+                                        class="form-control"
+                                        name="professione"
+                                        tabindex="0"
+                                        ng-model="occupationSelect"
+                                        ng-class="{'error' : datiQuotazioneForm.$submitted && datiQuotazioneForm['professione'].$error.required}"
+                                        ng-options="item.label for item in occupation track by item.value"
+                                        ng-required="vehiclePropertyType == '0002'">
+                                </select>
+                                <label class="error" ng-show="datiQuotazioneForm.$submitted && datiQuotazioneForm['professione'].$error.required">Obbligatorio</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset ng-show="vehiclePropertyType == '0012'">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <label>Settore Attivit&agrave;
+                                    <a class="pop_layer_opener pull-right" ng-click="openModal($event)" modal-body="#modale-avviso-settore-attivita" modal-title="Guida Libera">
+                                    </a>
+                                </label>
+                            </div>
+                            <div class="col-sm-4">
+                                <select id="attivita"
+                                        class="form-control"
+                                        name="attivita"
+                                        tabindex="0"
+                                        ng-model="branchesSelect"
+                                        ng-class="{'error' : datiQuotazioneForm.$submitted && datiQuotazioneForm['attivita'].$error.required}"
+                                        ng-options="item.label for item in branches track by item.value"
+                                        ng-required="vehiclePropertyType == '0012'">
+                                </select>
+                                <label class="error" ng-show="datiQuotazioneForm.$submitted && datiQuotazioneForm['attivita'].$error.required">Obbligatorio</label>
+                                <div class="hidden" id="modale-avviso-settore-attivita">
+                                    Indica la tipologia di attività svolta dalla tua azienda, scegliendola tra quelle in elenco.
+
+                                    Se non sai quale attività selezionare, puoi consultare il Certificato di attribuzione del numero di codice fiscale e di partita IVA rilasciato dall'agenzia delle entrate, sotto la voce tipo attività troverai il codice e la relativa descrizione.
+
+                                    Se hai dubbi o incertezze, puoi consultare il sito www.agenziaentrate.it, nella sezione documentazione troverai l'elenco completo dei codici attività.
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <label>
+                                    Allestimento {{ vehicleName }}
+                                    <a ng-if="vehiclePropertyType == '0002'" class="pop_layer_opener pull-right" ng-click="openModal($event)" modal-body="#modale-avviso-allestimento" modal-title="Allestimento">
+                                    </a>
+                                    <a ng-if="vehiclePropertyType == '0012'" class="pop_layer_opener pull-right" ng-click="openModal($event)" modal-body="#modale-avviso-allestimento-truck" modal-title="Allestimento">
+                                    </a>
+                                </label>
+                            </div>
+                            <div class="col-sm-4">
+                                <select id="allestimento"
+                                        class="form-control"
+                                        name="allestimento"
+                                        ng-class="{'error' : datiQuotazioneForm.$submitted && datiQuotazioneForm['allestimento'].$error.required}"
+                                        tabindex="0"
+                                        ng-model="vehicleModelSelect"
+                                        ng-options="item.docTitle for item in eurotaxDomainVehicle track by item.progModelBrand"
+                                        required>
+                                </select>
+                                <label class="error" ng-show="datiQuotazioneForm.$submitted && datiQuotazioneForm['allestimento'].$error.required">Obbligatorio</label>
+                            </div>
+                            <div ng-if="vehiclePropertyType == '0002'" type="text/ng-template" id="modale-avviso-allestimento" class="hidden">
+                                <p>Nella lista sono elencati tutti gli allestimenti di {{ vehicleName }} (che corrispondono a marca e modello da te indicati) presenti nel nostro database aggiornato da Quattroruote. </p>
+                                <br/>
+                                <b>Attenzione: l'anno indicato tra parentesi non è l'anno di immatricolazione della vostra macchina ma l'anno di inizio della produzione di quell’allestimento. </b>
+                                <br/>
+                                <br/>
+                                <p>
+                                    Per aiutarti ad interpretare correttamente le descrizioni, trovi qui sotto una legenda esemplificativa delle abbreviazioni utilizzate:
+                                    <ul>
+                                        <li>1.8 oppure 1800: Cilindrata 1800 cc</li>
+                                        <li>i: Iniezione</li>
+                                        <li>IE: Iniezione elettronica </li>
+                                        <li>TD: Turbo diesel</li>
+                                        <li>TDI: Turbo diesel iniezione</li>
+                                        <li>Cat: Marmitta catalitica</li>
+                                        <li>S.W.: Station Wagon</li>
+                                        <li>3P: tre porte</li>
+                                        <li>4WD: trazione quattro ruote motrici</li>
+                                        <li>16V : 16 valvole</li>
+                                        <li>(98): anno di inizio della produzione</li>
+                                    </ul>
+                                    Quindi ad esempio, avendo indicato marca Ford e modello Mondeo, l’allestimento <b>Mondeo 1.8 TD cat S.W. Ghia (1998)</b> sta per:
+                                <ul>
+                                <li>Cilindrata: 1.800 cc</li>
+                                <li>Alimentazione: Turbo diesel catalitica</li>
+                                <li>Tipo: Station Wagon Ghia produzione iniziata nel 1998</li>
+                                </ul>
+                                </p>
+                            </div>
+                            <div ng-if="vehiclePropertyType == '0012'" type="text/ng-template" id="modale-avviso-allestimento-truck" class="hidden">
+                                <ul>
+                                    <li>
+                                        <p>Nella lista sono elencati gli allestimenti di veicoli commerciali presenti nel nostro archivio aggiornato da Quattroruote e corrispondenti a marca e modello da te indicati.<br /> <br /> <strong>Attenzione: l&rsquo;anno indicato tra parentesi nell&rsquo;elenco, indica l&rsquo;anno di inizio di produzione dell&rsquo;allestimento e non l&rsquo;anno di immatricolazione del veicolo.<br /> </strong><br /> Di seguito troverai una breve legenda esemplificativa delle abbreviazioni utilizzate nell&rsquo;elenco:<br /> <br /> Fur.: Furgone&nbsp;<br /> Tel. Cab.: Telaio Cabinato&nbsp;<br /> Pian.: Pianale&nbsp;<br /> Scud.: Scudato&nbsp;<br /> P.Cab.: Pianale Cabianto&nbsp;<br /> G.V.: grande volume&nbsp;<br /> i.d.: iniezione diretta&nbsp;<br /> R.G.: ruote posteriori gemellate&nbsp;<br /> R.S.: ruote posteriori singole&nbsp;<br /> T.A.: tetto alto&nbsp;<br /> TD: turbodiesel&nbsp;<br /> T.M.: tetto medio&nbsp;<br /> C.F.: cassone fisso&nbsp;<br /> C.L.: cabina lunga&nbsp;<br /> D.C.: doppia&nbsp;<br /> R.B.: ribaltabile bilaterale&nbsp;<br /> R.P.: ribaltabile posteriore&nbsp;<br /> PU: pick-up&nbsp;<br /> cc: cabina corta&nbsp;<br /> cl: cabina lunga&nbsp;<br /> dc: doppia cabina&nbsp;<br /> cr: cassone ribaltabile&nbsp;<br /> sm: sospensioni meccaniche&nbsp;<br /> spp: sospensioni posteriori pneumatiche&nbsp;<br /> <br /> Quindi ad esempio, avendo indicato marca FIAT e modello Ducato, l'allestimento Ducato 10 2.0 JTD PC Pianale Cabinato (2001) sta per:<br /> <br /> Cilindrata: 2000<br /> Alimentazione: Diesel</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset ng-show="vehiclePropertyType == '0002' || vehiclePropertyType == '0012'">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <label>Percorrenza media annua</label>
+                            </div>
+                            <div class="col-sm-4">
+                                <select id="percorrenza"
+                                        class="form-control"
+                                        name="percorrenza"
+                                        ng-class="{'error' : datiQuotazioneForm.$submitted && datiQuotazioneForm['percorrenza'].$error.required}"
+                                        tabindex="0"
+                                        ng-model="mileageSelect"
+                                        ng-options="item.label for item in mileage track by item.value"
+                                        ng-required="vehiclePropertyType == '0002' || vehiclePropertyType == '0012'">
+                                </select>
+                                <label class="error" ng-show="datiQuotazioneForm.$submitted && datiQuotazioneForm['percorrenza'].$error.required">Obbligatorio</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset ng-show="vehiclePropertyType == '0012'">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <label>Tipo targa</label>
+                            </div>
+                            <div class="col-sm-4">
+                                <select id="targa"
+                                        class="form-control"
+                                        name="targa"
+                                        ng-class="{'error' : datiQuotazioneForm.$submitted && datiQuotazioneForm['targa'].$error.required}"
+                                        tabindex="0"
+                                        ng-model="plateSelect"
+                                        ng-options="item.label for item in plates track by item.value"
+                                        ng-required="vehiclePropertyType == '0012'">
+                                </select>
+                                <label class="error" ng-show="datiQuotazioneForm.$submitted && datiQuotazioneForm['targa'].$error.required">Obbligatorio</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset ng-show="vehiclePropertyType == '0012'">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <label>Tipo uso</label>
+                            </div>
+                            <div class="col-sm-4">
+                                <select id="usage"
+                                        class="form-control"
+                                        name="usage"
+                                        ng-class="{'error' : datiQuotazioneForm.$submitted && datiQuotazioneForm['usage'].$error.required}"
+                                        tabindex="0"
+                                        ng-model="usagesSelect"
+                                        ng-options="item.label for item in usages track by item.value"
+                                        ng-required="vehiclePropertyType == '0012'">
+                                </select>
+                                <label class="error" ng-show="datiQuotazioneForm.$submitted && datiQuotazioneForm['usage'].$error.required">Obbligatorio</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <label>
+                                    Tipo antifurto installato sull{{vehicleCharCode}} {{ vehicleName }}
+                                    <a class="pop_layer_opener pull-right" ng-if="vehiclePropertyType != '0004'" ng-click="openModal($event)" modal-body="#modale-avviso-antifurto" modal-title="Antifurto">
+                                    </a>
+                                    <a class="pop_layer_opener pull-right" ng-if="vehiclePropertyType == '0004'" ng-click="openModal($event)" modal-body="#modale-avviso-antifurto-moto" modal-title="Antifurto">
+                                    </a>
+                                </label>
+                                <div id="modale-avviso-antifurto" class="hide">
+                                    <p>Abbiamo selezionato automaticamente il tipo di antifurto presente di serie sull’allestimento della tua {{ vehicleName }}. Se successivamente hai installato un antifurto di tipo diverso cambia selezione.
+                                    </p>
+                                </div>
+                                <div id="modale-avviso-antifurto-moto" class="hide">
+                                    <p>
+                                    <ul>
+                                        <li>Se sul tuo motociclo &egrave; installato un antifurto seleziona:&nbsp;<br /> Nessuno/Meccanico: se l&rsquo;antifurto installato prevede il blocco del motociclo attraverso l&rsquo;uso di mezzi meccanici (es: catene, blocca dischi, ecc.)</li>
+                                        <li><strong>Immobilizer/elettronico:</strong>se l&rsquo;antifurto installato prevede il blocco della centralina elettronica del motore, il veicolo pu&ograve; essere messo in moto solo attraverso una trasmittente elettronica collocata all'interno della chiave dotata di un codice elettronico.</li>
+                                        <li><strong>Antifurto Satellitare:&nbsp;</strong>se l&rsquo;antifurto installato &egrave; un sistema che consente la localizzazione satellitare del veicolo. Il sistema dispone di sensori in grado di rilevare il sollevamento e lo spostamento del veicolo, nonch&eacute; la manomissione dell'impianto elettrico.&nbsp;</li>
+                                    </ul>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <select id="antifurto"
+                                        class="form-control"
+                                        name="antifurto"
+                                        ng-class="{'error' : datiQuotazioneForm.$submitted && datiQuotazioneForm['antifurto'].$error.required}"
+                                        tabindex="0"
+                                        ng-model="codeAlarmProtectionSelect"
+                                        ng-options="item.label for item in alarmProtection track by item.value"
+                                        required>
+                                </select>
+                                <label class="error" ng-show="datiQuotazioneForm.$submitted && datiQuotazioneForm['antifurto'].$error.required">Obbligatorio</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset ng-if="vehiclePropertyType != '0004'">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <label>L{{vehicleCharCode}}{{ vehicleName }} è alimentata anche a GPL o gas metano?</label>
+                            </div>
+                            <div class="col-sm-8">
+                                <label class="radio radio-inline">
+                                    <input
+                                            id="datiQuotazione-alimentazioneS"
+                                            name="datiQuotazione-alimentazione"
+                                            aria-label="datiQuotazione-alimentazione"
+                                            type="radio"
+                                            value="S"
+                                            tabindex="0"
+                                            ng-model="vehicle.characteristics.flagGpl"
+                                            required>
+                                    <span class="label">Si</span>
+                                </label>
+                                <label class="radio radio-inline">
+                                    <input
+                                            id="datiQuotazione-alimentazioneN"
+                                            name="datiQuotazione-alimentazione"
+                                            aria-label="datiQuotazione-alimentazione"
+                                            type="radio"
+                                            value="N"
+                                            tabindex="0"
+                                            ng-model="vehicle.characteristics.flagGpl"
+                                            required>
+                                    <span class="label">No</span>
+                                </label>
+                                <label class="error" ng-show="datiQuotazioneForm.$submitted && datiQuotazioneForm['datiQuotazione-alimentazione'].$error.required">Obbligatorio</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <label>L{{vehicleCharCode}} {{ vehicleName }} è custodita in un box o area recintata?</label>
+                            </div>
+                            <div class="col-sm-8">
+                                <label class="radio radio-inline">
+                                    <input id="datiQuotazione-custodiaS"
+                                           name="datiQuotazione-custodia"
+                                           aria-label="datiQuotazione-custodia"
+                                           type="radio"
+                                           value="S"
+                                           tabindex="0"
+                                           ng-model="vehicle.characteristics.box"
+                                           required>
+                                    <span class="label">Si</span>
+                                </label>
+                                <label class="radio radio-inline">
+                                    <input id="datiQuotazione-custodiaN"
+                                           name="datiQuotazione-custodia"
+                                           aria-label="datiQuotazione-custodia"
+                                           type="radio"
+                                           value="N"
+                                           tabindex="0"
+                                           ng-model="vehicle.characteristics.box"
+                                           required>
+                                    <span class="label">No</span>
+                                </label>
+                                <label class="error" ng-show="datiQuotazioneForm.$submitted && datiQuotazioneForm['datiQuotazione-custodia'].$error.required">Obbligatorio</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset ng-show="vehiclePropertyType == '0012'">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <label>Gancio</label>
+                            </div>
+                            <div class="col-sm-8">
+                                <label class="radio radio-inline">
+                                    <input id="datiQuotazione-gancioS"
+                                           name="datiQuotazione-gancio"
+                                           aria-label="datiQuotazione-gancio"
+                                           type="radio"
+                                           value="S"
+                                           tabindex="0"
+                                           ng-model="hitch"
+                                           ng-required="vehiclePropertyType == '0012'">
+                                    <span class="label">Si</span>
+                                </label>
+                                <label class="radio radio-inline">
+                                    <input id="datiQuotazione-gancioN"
+                                           name="datiQuotazione-gancio"
+                                           aria-label="datiQuotazione-gancio"
+                                           type="radio"
+                                           value="N"
+                                           tabindex="0"
+                                           ng-model="hitch"
+                                           ng-required="vehiclePropertyType == '0012'">
+                                    <span class="label">No</span>
+                                </label>
+                                <label class="error" ng-show="datiQuotazioneForm.$submitted && datiQuotazioneForm['datiQuotazione-gancio'].$error.required">Obbligatorio</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset ng-show="vehiclePropertyType == '0012' && hitch == 'S'">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <label>Rimorchi diversi da carrelli appendici?</label>
+                            </div>
+                            <div class="col-sm-8">
+                                <label class="radio radio-inline">
+                                    <input id="datiQuotazione-carrelloS"
+                                           name="datiQuotazione-carrello"
+                                           aria-label="datiQuotazione-carrello"
+                                           type="radio"
+                                           value="T"
+                                           tabindex="0"
+                                           ng-model="carrelloAppendice"
+                                           ng-required="vehiclePropertyType == '0012' && hitch == 'S'">
+                                    <span class="label">Si</span>
+                                </label>
+                                <label class="radio radio-inline">
+                                    <input id="datiQuotazione-carrelloN"
+                                           name="datiQuotazione-carrello"
+                                           aria-label="datiQuotazione-carrello"
+                                           type="radio"
+                                           value="A"
+                                           tabindex="0"
+                                           ng-model="carrelloAppendice"
+                                           ng-required="vehiclePropertyType == '0012' && hitch == 'S'">
+                                    <span class="label">No</span>
+                                </label>
+                                <label class="error" ng-show="datiQuotazioneForm.$submitted && datiQuotazioneForm['datiQuotazione-carrello'].$error.required">Obbligatorio</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset ng-show="vehiclePropertyType == '0012' && hitch == 'S' && carrelloAppendice == 'T'">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <label>Peso rimorchio</label>
+                            </div>
+                            <div class="col-sm-8">
+                                <label class="radio radio-inline">
+                                    <input
+                                            type="text"
+                                            id="datiQuotazione-tare"
+                                            name="datiQuotazione-tare"
+                                            ng-required="vehiclePropertyType == '0012' && hitch == 'S' && carrelloAppendice == 'T'"
+                                            class="form-control"
+                                            ng-model="vehicle.characteristics.declaredTowingMass"
+                                            ng-class="{'error' : datiQuotazioneForm.$submitted && ( datiQuotazioneForm['datiQuotazione-tare'].$error.required || datiQuotazioneForm['datiQuotazione-tare'].$error.towHireValidator )}"
+                                            tow-hire-validation
+                                            />
+                                    <label class="error" ng-show="datiQuotazioneForm.$submitted && datiQuotazioneForm['datiQuotazione-tare'].$error.required">Obbligatorio</label>
+                                    <label class="error" ng-show="datiQuotazioneForm.$submitted && datiQuotazioneForm['datiQuotazione-tare'].$error.towHireValidator">Valore non valido</label>
+                                </label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset ng-show="vehiclePropertyType == '0004'">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <label>Consegne a domicilio?</label>
+                            </div>
+                            <div class="col-sm-8">
+                                <label class="radio radio-inline">
+                                    <input id="datiQuotazione-consegneS"
+                                           name="datiQuotazione-consegne"
+                                           aria-label="datiQuotazione-consegne"
+                                           type="radio"
+                                           value="S"
+                                           tabindex="0"
+                                           ng-model="vehicle.characteristics.flagHomeDeliveries"
+                                           ng-required="vehiclePropertyType == '0004'">
+                                    <span class="label">Si</span>
+                                </label>
+                                <label class="radio radio-inline">
+                                    <input id="datiQuotazione-consegneN"
+                                           name="datiQuotazione-consegne"
+                                           aria-label="datiQuotazione-consegne"
+                                           type="radio"
+                                           value="N"
+                                           tabindex="0"
+                                           ng-model="vehicle.characteristics.flagHomeDeliveries"
+                                           ng-required="vehiclePropertyType == '0004'">
+                                    <span class="label">No</span>
+                                </label>
+                                <label class="error" ng-show="datiQuotazioneForm.$submitted && datiQuotazioneForm['datiQuotazione-consegne'].$error.required">Obbligatorio</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset ng-show="dataModel.vehicle.characteristics.atrClass == '1' && vehiclePropertyType != '0012'">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <label>
+                                    Indica da quanti anni sei in classe 1
+                                    <a class="pop_layer_opener pull-right" ng-click="openModal($event)" modal-body="#modale-avviso-classe" modal-title="Anni in classe 1">
+                                    </a>
+                                </label>
+                                <div class="hidden" id="modale-avviso-classe">
+                                    <p>Ricordati che <b style="font-weight:bold;color:#000">Genialloyd premia i bravi guidatori!</b> Se la classe di assegnazione CU riportata sul tuo Attestato di Rischio è la 1 e ti trovi in questa classe da più anni, seleziona dal menù a tendina il numero di anni in cui sei in classe 1, fino a un massimo consentito di 5 anni.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="input-group">
+                                    <!--<input type="text" class="form-control" id="classe1" name="n_civico" placeholder="es. 5" tabindex="0" ng-model="datiQuotazione.classe1">-->
+                                    <select
+                                            id="datiQuotazione-classe1"
+                                            name="datiQuotazione-classe1"
+                                            ng-model="lloydClass"
+                                            tabindex="0"
+                                            class="required"
+                                            ng-class="{'error' : datiQuotazioneForm.$submitted && datiQuotazioneForm['datiQuotazione-classe1'].$error.required}"
+                                            ng-required="dataModel.vehicle.characteristics.atrClass == '1' && vehiclePropertyType != '0012'"
+                                            ng-options="item.label for item in classes track by item.value">
+                                        <option value>Seleziona l'anno</option>
+                                    </select>
+                                    <label class="error" ng-show="datiQuotazioneForm.$submitted && datiQuotazioneForm['datiQuotazione-classe1'].$error.required">Obbligatorio</label>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div  data-footer="sharedPageSectionService.footer" class="stickPoint" footer-directive=""></div>
+                </form>
+            </section>
+        </div>
+    </div>
+</section>
+
+<script type="text/ng-template" id="base-modal.html">
+    <div id="modalTpl">
+        <div class="modal-header">
+            <button type="button" class="btn btn-default close" ng-click="cancel()">
+                <span class="glyphicon glyphicon-cross"></span><span class="sr-only">Close</span>
+            </button>
+            <strong class="modal-title"><h2>{{title}}</h2></strong>
+        </div>
+    </div>
+</script>
+
+<!-- MODAL -->
+
+<div class="modal fade help1" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn btn-default close" data-dismiss="modal"><span class="glyphicon glyphicon-cross"></span><span class="sr-only">Close</span></button>
+                <strong class="modal-title"><h2>Edificio</h2></strong>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="redirectToGenialloyd" class="hide" modal-title="RECUPERO INFORMAZIONI DALLE BANCHE DATI" modal-body="#redirectToGenialloyd-body">
+</div>
+<div id="redirectToGenialloyd-body" class="hide">
+    A seguito delle modifiche attuate la Banca Dati ANIA non è stata in grado di restituire le informazioni necessarie per proporti la quotazione del prodotto a marchio GenialClick.
+    <br />
+    Premendo il tasto prosegui potrai ottenere un preventivo per il tuo veicolo sul sito www.genialloyd.it
+    <br />
+    <div class="row">
+        <div class="col-sm-4 col-sm-offset-4">
+            <div class="input-group">
+                <a href="#" class="btn-direct btn btn-primary btn-submit btn-allcaps genialloyd-link" ng-click="cancel()">Continua</a>
+            </div>
+        </div>
+    </div>
+</div>

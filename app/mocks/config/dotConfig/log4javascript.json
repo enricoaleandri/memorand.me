@@ -1,0 +1,27 @@
+{
+	"endPointPath" : "http://10.134.227.24:8181/az-direct-IT-LOGGING-services-war/",
+	"technicalHeader": {
+		"applicationId" : "az-direct-IT-QUOTE-all",
+		"dialogName": "quote",
+		"serviceId": "toSet",
+		"componentId": "toSet"
+	},
+	"performanceLog" :
+	{
+		"path": "restservice/tracing",
+		"logLevel" : "DEBUG",
+		"enabled" : true
+	},
+	"applicationLog" :
+	{
+		"path": "restservice/logging",
+		"logLevel" : "DEBUG",
+		"enabled" : true
+	},
+	"statisticsLog":
+	{
+		"path": "restservice/profile",
+		"logLevel" : "DEBUG",
+		"enabled" : false
+	}
+}
