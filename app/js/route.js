@@ -1,11 +1,4 @@
-/**
- * @ngdoc overview
- * @name az-direct-IT-QUOTE-all.config:routes
- * @author  Alessandro Aeberli  <alessandro.aeberli@avanade.com>
- * @description Configures which controller and view should be loaded on a specific path
- * @requires $routeProvider
- * @requires $locationProvider
- */
+
 
 'use strict';
 

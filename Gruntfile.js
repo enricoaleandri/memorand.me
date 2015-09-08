@@ -1,5 +1,5 @@
 /**
- * @author  <%=author.name%>  <<%=author.email%>>
+ * @author  Enrico Aleandri <aleandrienrico@gmail.com>
  * @desc    Grunt configuration file
  */
 

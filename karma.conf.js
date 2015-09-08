@@ -20,16 +20,9 @@ module.exports = function (config) {
             'app/js/app.js',
             'app/js/route.js',
             'app/js/**/*.js',
-            'app/mocks/az-direct-IT-QUOTE-allMocks.js',
             'app/tests/app/**/*.js'
         ],
 
-        // list of files to exclude
-        //exclude: ['app/scripts/route.js'],
-
-        // use dots reporter, as travis terminal does not support escaping sequences
-        // possible values: 'dots', 'progress'
-        // CLI --reporters progress
         reporters: [
             'story',
             'junit'

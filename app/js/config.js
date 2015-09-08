@@ -1,10 +1,4 @@
-/**
- * @ngdoc overview
- * @name azDirectITQUOTEContactData.config:config
- * @author  AZDirect  <azdirect@allianz.it>
- * @description Configures which controller and view should be loaded on a specific path
- * @requires $translateProvider
- */
+
 
 'use strict';
 

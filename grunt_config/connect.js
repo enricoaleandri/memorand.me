@@ -1,5 +1,5 @@
 /**
- * @author  Alessandro Aeberli  <alessandro.aeberli@avanade.com>
+ * @author  Enrico Aleandri <aleandrienrico@gmail.com>
  * @desc    this grunt task starts a http-serve and serve your destination folder,
  *          and redirects all request which can't be respond to the server in the proxy configuration,
  *          it also have a livereload which recognize changes and reload the site

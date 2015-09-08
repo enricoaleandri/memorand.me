@@ -1,5 +1,5 @@
 /**
- * @author  Alessandro Aeberli  <alessandro.aeberli@avanade.com>
+ * @author  Enrico Aleandri <aleandrienrico@gmail.com>
  * @desc    this grunt task configures LESS for dev and dist
  */
 

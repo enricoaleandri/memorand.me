@@ -1,5 +1,5 @@
 /**
- * @author  Alessandro Aeberli  <alessandro.aeberli@avanade.com>
+ * @author  Enrico Aleandri <aleandrienrico@gmail.com>
  * @desc    this grunt task generates the index.properties file.
  */
 

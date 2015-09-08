@@ -1,5 +1,5 @@
 /**
- * @author  Alessandro Aeberli  <alessandro.aeberli@avanade.com>
+ * @author  Enrico Aleandri <aleandrienrico@gmail.com>
  * @desc    this grunt task runs karma with the given configuration from the karma.conf.js file,
  *          and create a jUnitXMLReport (test-results.xml).
  */

@@ -1,5 +1,5 @@
 /**
- * @author  Alessandro Aeberli  <alessandro.aeberli@avanade.com>
+ * @author  Enrico Aleandri <aleandrienrico@gmail.com>
  * @desc    this module defines and maps all libs that are needed in dev and dist,
  *          it is used in htmlbuild.js
  */

@@ -1,8 +1,8 @@
 /**
  * @ngdoc overview
- * @name az-direct-IT-QUOTE-all
+ * @name memorand.me
  * @author  Enrico Aleandri
- * @description Creates the az-direct-IT-QUOTE-all module and injects all dpendencies
+ * @description Creates the az-direct-IT-QUOTE-all module and injects all dependencies
  */
 
 'use strict';

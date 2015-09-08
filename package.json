@@ -1,5 +1,5 @@
 {
-    "name": "az-direct-IT-QUOTE-all",
+    "name": "memorand.me",
     "version": "0.0.1",
     "devDependencies": {
         "angular": "1.4.1",
@@ -38,10 +38,6 @@
         "moment": "^2.10.3",
         "ncp": "^2.0.0",
         "protractor": "^1.3.1",
-        "rimraf": "^2.3.2",
-        "spin.js": "^2.1.2",
-        "jasmine-reporters": "^1.0.1",
-        "selenium-wrapper": "git+https://scm.onewebuxp.allianz/scm/git/core/frontend/node-selenium-wrapper#c4fbda660c9798041ad0c27e3141f48fb769418f",
         "underscore": "^1.6.0"
     },
     "homepage": "http://memorand.me",

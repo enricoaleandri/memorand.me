@@ -1,5 +1,5 @@
 /**
- * @author  Alessandro Aeberli  <alessandro.aeberli@avanade.com>
+ * @author  Enrico Aleandri <aleandrienrico@gmail.com>
  * @desc    this grunt task just watches the files and folders, and executes tasks on change
  */
 
@@ -14,14 +14,6 @@ module.exports = function(options, grunt) {
             files: "" + paths.app + "/js/**/*.js",
             tasks: ["sync:dev_js", "htmlbuild:dev", /*"karma:dev"*/]
         },
-        //tests: {
-        //    files: "" + paths.app + "tests/**/*.js",
-        //    tasks: ["karma:dev"]
-        //},
-        //less: {
-        //    files: "" + paths.app + "/less/**/*.less",
-        //    tasks: ["less:dev", "htmlbuild:dev"]
-        //},
         index: {
             files: ["" + paths.app + "/index.html"],
             tasks: ["htmlbuild:dev"]

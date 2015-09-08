@@ -1,5 +1,5 @@
 /**
- * @author  Alessandro Aeberli  <alessandro.aeberli@avanade.com>
+ * @author  Enrico Aleandri <aleandrienrico@gmail.com>
  * @desc    this grunt task add AngularJS dependency injection annotations.
  * @example
  * angular.module('az-direct-IT-QUOTE-all')

@@ -1,5 +1,5 @@
 /**
- * @author  Alessandro Aeberli  <alessandro.aeberli@avanade.com>
+ * @author  Enrico Aleandri <aleandrienrico@gmail.com>
  * @desc    this grunt task copy the changed files from the source to the destination folder
  */
 
@@ -81,7 +81,6 @@ module.exports = function(options, grunt) {
 				{
 				    expand: true,
                     // substitute this row to add mocks
-					//src: ["**/*.{ico,png,jpg}", "fonts/**/*", "mocks/**/*", "partials/**/*"],
 					src: ["**/*.{ico,png,jpg,jpeg,bmp,gif}", "fonts/**/*", "partials/**/*"],
 					cwd: paths.app,
 					dest: "" + paths.dist + "/app"
