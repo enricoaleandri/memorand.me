@@ -9,7 +9,6 @@
 
 angular.module('memorand.me', [
     'ngRoute',
-    'ngCookies',
 	'memorand.me.controllersModule',
 	'memorand.me.servicesModule',
 	"memorand.me.filtersModule"

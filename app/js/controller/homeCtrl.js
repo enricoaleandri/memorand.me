@@ -1,7 +1,7 @@
 /**
  * @ngdoc controller
  * @name emptyNgApp.controller:quoteCtrl
- * @author  AZDirect  <azdirect@allianz.it>
+ * @author  Enrico Aleandri <aleandrienrico@gmail.com>
  * @description Creates the controller for the quote view
  * @requires $scope
  * @requires $location
@@ -12,7 +12,7 @@
 
 'use strict';
 
-angular.module('memorand.me.controllersModule.homeCtrlModule')
+angular.module('memorand.me.controllersModule.homeCtrlModule',[])
     .controller('homeCtrl',['$scope', '$location', 'objectModel',
 		function ($scope, $location, objectModel) {
 

@@ -6,7 +6,7 @@
 
 (function (ng) {
     'use strict';
-	ng.module('az-direct-IT-QUOTE-all')
+	ng.module('memorand.me')
         .config(function($provide) {
             $provide.decorator('$httpBackend', ng.mock.e2e.$httpBackendDecorator);
         })
