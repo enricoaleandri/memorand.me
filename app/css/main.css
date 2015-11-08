@@ -61,9 +61,10 @@ body{
 {
     top:0px;
     left : 0px;
+    float: left;
     height : 100vh;
     width : 300px;
-    display : block;
+    display : inline-block;
     border-right : 1px solid #000;
 
 }
@@ -71,6 +72,7 @@ body{
     width: 100%;
     left: 300px;
     height: 100vh;
+    float: right;
     position: absolute;
     z-index: 0;
 }

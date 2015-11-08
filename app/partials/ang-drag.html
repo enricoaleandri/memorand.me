@@ -1,0 +1,21 @@
+
+
+<section class="main-desk">
+    <header class="sidebar" ng-model="list1" jqyoui-droppable data-drop="true" data-jqyoui-options >
+
+        <div>
+            <div id="draggable" class="ui-widget-content note" data-drag="true" data-jqyoui-options="{revert: 'invalid'}" ng-model="list1"
+                 jqyoui-draggable="{animate:true}" ng-hide="!list1.title">{{list1.title}}
+            </div>
+
+        </div>
+    </header>
+    <article class="working-desk"  data-drop="true" data-jqyoui-options ng-model="list2" jqyoui-droppable>
+
+
+        <div class="note " data-drag="true" data-jqyoui-options ng-model="list2" jqyoui-draggable
+             ng-hide="!list2.title">{{list2.title}}
+        </div>
+    </article>
+</section>
+

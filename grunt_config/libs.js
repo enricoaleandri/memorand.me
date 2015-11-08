@@ -26,7 +26,9 @@ module.exports = function (options) {
             "moment/moment.js : moment/min/moment.min.js",
             //"spin.js/spin.js : spin.js/spin.min.js",
 
-            "../vendor/codfiscale.js : ../vendor/codfiscale.js",
+            "../app/libs/log4javascript.1.4.11.js : ../app/libs/log4javascript.1.4.11.js",
+            "../app/libs/angular-dragdrop/angular-dragdrop.js : ../app/libs/angular-dragdrop/angular-dragdrop.js",
+            "../app/libs/jquery-ui/jquery-ui.js : ../app/libs/jquery-ui/jquery-ui.js",
             // Angular Bootstrap
             /*"angular-bootstrap/dist/ui-bootstrap.js : angular-bootstrap/dist/ui-bootstrap.min.js",
             "angular-bootstrap/dist/ui-bootstrap-tpls.js : angular-bootstrap/dist/ui-bootstrap-tpls.min.js",

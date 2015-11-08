@@ -9,6 +9,7 @@
 
 angular.module('memorand.me', [
     'ngRoute',
+    'ngDragDrop',
 	'memorand.me.controllersModule',
 	'memorand.me.servicesModule',
 	"memorand.me.filtersModule",
