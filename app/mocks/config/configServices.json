@@ -1,0 +1,30 @@
+{
+    "endPoint": "/",
+    "services":
+    {
+        "addPostItService":
+        {
+            "name": "addPostIt",
+            "method": "POST",
+            "path": "postit/add",
+            "timeout": 200,
+            "headers":
+            {
+                "Content-Type": "application/json; charset=UTF-8",
+                "sessionid" : "seessionsid"
+            }
+        },
+        "removePostItService":
+        {
+          "name": "removePostIt",
+          "method": "POST",
+          "path": "postit/remove",
+          "timeout": 200,
+          "headers":
+          {
+            "Content-Type": "application/json; charset=UTF-8",
+            "sessionid" : "seessionsid"
+          }
+        }
+    }
+}

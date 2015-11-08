@@ -1,0 +1,15 @@
+{
+	"endPoint" : "/",
+	"performanceLog" :
+	{
+		"path": "restservice/tracing",
+		"logLevel" : "DEBUG",
+		"enabled" : true
+	},
+	"applicationLog" :
+	{
+		"path": "restservice/logging",
+		"logLevel" : "DEBUG",
+		"enabled" : true
+	}
+}

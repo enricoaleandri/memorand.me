@@ -12,37 +12,21 @@ angular.module("memorand.me")
 					{
                         //here initialaize the controller
 					}],
-					objectModel: ['$q','azLog',
-						function ($q, azLog)
+					objectModel: ['$q','logger',
+						function ($q, logger)
 						{
                             var deferred = $q.defer();
                             //azLog.profilingStart("sessionService", (new Date()).getTime());
-							//deferred.resolve(policyData);
+							deferred.resolve({});
 
 							return deferred.promise;
-						}],
-					dialogName : function(){ return "quote"}
+						}]
 				},
 				templateUrl: "app/partials/home.html",
 				controller: "homeCtrl"
 
-			})
-			.when("/", {
-                resolve: {
-                    init : [ function () {
-
-                    }],
-                    objectModel: ['$q','azLog',
-                        function ($q, azLog)
-                        {
-                            var deferred = $q.defer();
-                            //azLog.profilingStart("sessionService", (new Date()).getTime());
-                            //deferred.resolve(policyData);
-
-                            return deferred.promise;
-                        }]
-                },
-				controller: "homeCtrl",
-				templateUrl: "app/partials/home.html"
-			})
+			}).
+            otherwise({
+                redirectTo: '/home'
+            });
     });

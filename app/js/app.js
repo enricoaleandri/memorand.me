@@ -11,5 +11,6 @@ angular.module('memorand.me', [
     'ngRoute',
 	'memorand.me.controllersModule',
 	'memorand.me.servicesModule',
-	"memorand.me.filtersModule"
+	"memorand.me.filtersModule",
+    "memorand.me.loggerModule"
 ]);

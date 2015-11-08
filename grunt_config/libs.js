@@ -21,7 +21,7 @@ module.exports = function (options) {
             //"angular-cookies/angular-cookies.js : angular-cookies/angular-cookies.min.js",
             //"angular-translate/dist/angular-translate.js : angular-translate/dist/angular-translate.min.js",
             //"angular-translate/dist/angular-translate-loader-partial/angular-translate-loader-partial.js : angular-translate/dist/angular-translate-loader-partial/angular-translate-loader-partial.min.js",
-            //"angular-mocks/angular-mocks.js : ''",
+            "angular-mocks/angular-mocks.js : ''",
             //"../toolkit/bootstrap.js : ../toolkit/bootstrap.js",
             "moment/moment.js : moment/min/moment.min.js",
             //"spin.js/spin.js : spin.js/spin.min.js",

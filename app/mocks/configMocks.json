@@ -1,10 +1,16 @@
 {
 	"mocks": [
-		{
-			"method": "GET",
-			"match": "(.*\\/)?log4javascript\\.json",
-			"file": "app/mocks/config/dotConfig/log4javascript.json",
-			"enabled": true
-		}
+        {
+          "method": "GET",
+          "match": "(.*\\/)?log4javascript\\.json",
+          "file": "app/mocks/config/log4javascript.json",
+          "enabled": true
+        },
+        {
+          "method": "GET",
+          "match": "(.*\\/)?configServices\\.json",
+          "file": "app/mocks/config/configServices.json",
+          "enabled": true
+        }
 	]
 }

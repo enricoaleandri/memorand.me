@@ -31,6 +31,10 @@ angular.module('memorand.me.controllersModule.homeCtrlModule',[])
 
 				$scope.driverFormulaCheck = this.Function;
 				$scope.moment = window.moment;
+
+
+                $( "#draggable" ).draggable();
+
 			};
 			self.Init($scope, objectModel);
     }]);

@@ -27,7 +27,7 @@ module.exports = function(options, grunt) {
 				{
 					expand: true,
 					cwd: paths.libs_src,
-					src: options.jsLibs.concat(options.cssLibs),
+					src: options.jsLibs,
 					dest: "" + paths.dev + "/lib"
 				}
 			]
@@ -36,7 +36,7 @@ module.exports = function(options, grunt) {
 			files: [
 				{
 					expand: true,
-					src: ["**/*.{ico,png,jpg,jpeg,bmp,gif}", "fonts/**/*", "mocks/**/*", "partials/**/*", "toolkit/**/*"],
+					src: ["**/*.{ico,png,jpg,jpeg,bmp,gif}", "fonts/**/*", "css/**/*", "mocks/**/*", "partials/**/*", "toolkit/**/*"],
 					cwd: paths.app,
 					dest: paths.dev + "/app"
 				}
@@ -71,7 +71,7 @@ module.exports = function(options, grunt) {
 				{
 					expand: true,
 					cwd: paths.libs_src,
-					src: options.jsLibsMin.concat(options.cssLibsMin),
+					src: options.jsLibsMin,
 					dest: "" + paths.dist + "/lib"
 				}
 			]
@@ -81,7 +81,7 @@ module.exports = function(options, grunt) {
 				{
 				    expand: true,
                     // substitute this row to add mocks
-					src: ["**/*.{ico,png,jpg,jpeg,bmp,gif}", "fonts/**/*", "partials/**/*"],
+					src: ["**/*.{ico,png,jpg,jpeg,bmp,gif}", "fonts/**/*","css/**/*", "partials/**/*"],
 					cwd: paths.app,
 					dest: "" + paths.dist + "/app"
 				}
