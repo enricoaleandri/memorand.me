@@ -10,8 +10,10 @@
 angular.module('memorand.me', [
     'ngRoute',
     'ngDragDrop',
+    'firebase',
 	'memorand.me.controllersModule',
 	'memorand.me.servicesModule',
 	"memorand.me.filtersModule",
+    "memorand.me.directivesModule",
     "memorand.me.loggerModule"
 ]);

@@ -23,12 +23,14 @@ angular.module("memorand.me")
                         }]
                 },
                 templateUrl: "app/partials/home.html",
-                controller: "homeCtrl"
+                controller: "homeCtrl",
+                controllerAs: 'ctrl'
 
             })
             .when("/angDrag", {
                 templateUrl: "app/partials/ang-drag.html",
-                controller: "angDragCtrl"
+                controller: "angDragCtrl",
+                controllerAs: 'ctrl'
 
             })
             .otherwise({

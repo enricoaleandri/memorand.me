@@ -1,6 +1,14 @@
-
+#ancor-post-it
+{
+    float:left;
+    z-index: -10;
+}
+#draggable
+{
+    position:absolute;
+}
 .note {
-    position: relative;
+    position: absolute;
     width: 134px;
     height: 134px;
     padding: 23px;
@@ -9,7 +17,9 @@
     background: #F2EB4E;
     overflow: hidden;
     border:0px;
+    z-index: 10;
 }
+
 .note:hover:after {
     transition: transform 0.6s;
     transform: translate(20px,-20px) scale(9,9);
@@ -48,7 +58,11 @@
     -moz-border-radius: 0 0 0 5px;
     border-radius: 0 0 0 5px;
 }
-
+.note .dropped
+{
+    position: relative;
+    float : left;
+}
 body{
     margin : 0px;
 }

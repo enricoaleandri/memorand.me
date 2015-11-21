@@ -1,20 +1,34 @@
 
 
 <section class="main-desk">
-    <header class="sidebar" ng-model="list1" jqyoui-droppable data-drop="true" data-jqyoui-options >
+    <header class="sidebar" >
 
         <div>
-            <div id="draggable" class="ui-widget-content note" data-drag="true" data-jqyoui-options="{revert: 'invalid'}" ng-model="list1"
-                 jqyoui-draggable="{animate:true}" ng-hide="!list1.title">{{list1.title}}
+            <div id="draggable1"
+                 class="ui-widget-content note"
+                 data-drag="true"
+                 data-jqyoui-options="{revert: 'invalid'}"
+                 ng-model="ctrl.empty"
+                 jqyoui-draggable="{{ctrl.dragConfig}}" >{{ctrl.newPost.text}}
             </div>
 
         </div>
     </header>
-    <article class="working-desk"  data-drop="true" data-jqyoui-options ng-model="list2" jqyoui-droppable>
+    <article class="working-desk"
+             data-drop="true"
+             data-jqyoui-options
+             ng-model="ctrl.postList"
+             jqyoui-droppable="{{ctrl.dropConfig}}">
 
-
-        <div class="note " data-drag="true" data-jqyoui-options ng-model="list2" jqyoui-draggable
-             ng-hide="!list2.title">{{list2.title}}
+        <div class="note dropped "
+             data-drag="true"
+             data-jqyoui-options
+             ng-model="ctrl.postList"
+             jqyoui-draggable
+             id="dropped--{{$index}}"
+             style="top : {{post.position.top}}px; left : {{post.position.left-300}}px;"
+             ng-repeat="post in ctrl.postList track by $index">
+            {{post.text}}
         </div>
     </article>
 </section>

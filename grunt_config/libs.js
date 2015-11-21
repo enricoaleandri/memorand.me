@@ -16,11 +16,8 @@ module.exports = function (options) {
             "underscore/underscore.js : underscore/underscore-min.js",
             "angular/angular.js : angular/angular.min.js",
             "angular-route/angular-route.js : angular-route/angular-route.min.js",
-            //"angular-animate/angular-animate.js : angular-animate/angular-animate.min.js",
-            //"angular-resource/angular-resource.js : angular-resource/angular-resource.min.js",
-            //"angular-cookies/angular-cookies.js : angular-cookies/angular-cookies.min.js",
-            //"angular-translate/dist/angular-translate.js : angular-translate/dist/angular-translate.min.js",
-            //"angular-translate/dist/angular-translate-loader-partial/angular-translate-loader-partial.js : angular-translate/dist/angular-translate-loader-partial/angular-translate-loader-partial.min.js",
+            "firebase/lib/firebase-web.js : firebase/lib/firebase-web.js",
+            "angularfire/dist/angularfire.js : angularfire/dist/angularfire.js",
             "angular-mocks/angular-mocks.js : ''",
             //"../toolkit/bootstrap.js : ../toolkit/bootstrap.js",
             "moment/moment.js : moment/min/moment.min.js",
@@ -29,21 +26,6 @@ module.exports = function (options) {
             "../app/libs/log4javascript.1.4.11.js : ../app/libs/log4javascript.1.4.11.js",
             "../app/libs/angular-dragdrop/angular-dragdrop.js : ../app/libs/angular-dragdrop/angular-dragdrop.js",
             "../app/libs/jquery-ui/jquery-ui.js : ../app/libs/jquery-ui/jquery-ui.js",
-            // Angular Bootstrap
-            /*"angular-bootstrap/dist/ui-bootstrap.js : angular-bootstrap/dist/ui-bootstrap.min.js",
-            "angular-bootstrap/dist/ui-bootstrap-tpls.js : angular-bootstrap/dist/ui-bootstrap-tpls.min.js",
-            "angular-bootstrap/template/datepicker/datepicker.html.js : angular-bootstrap/template/datepicker/datepicker.html.js",
-            "angular-bootstrap/template/datepicker/popup.html.js : angular-bootstrap/template/datepicker/popup.html.js",
-            "angular-bootstrap/template/datepicker/day.html.js : angular-bootstrap/template/datepicker/day.html.js",
-            "angular-bootstrap/template/datepicker/month.html.js : angular-bootstrap/template/datepicker/month.html.js",
-            "angular-bootstrap/template/datepicker/year.html.js : angular-bootstrap/template/datepicker/year.html.js",*/
-
-            //"'' : jquery/dist/jquery.min.map",
-            //"'' : angular/angular.min.js.map",
-            //"'' : angular-route/angular-route.min.js.map",
-            //"'' : angular-animate/angular-animate.min.js.map",
-            //"'' : angular-resource/angular-resource.min.js.map",
-            //"'' : angular-cookies/angular-cookies.min.js.map"
 		],
 		staticLibs = [
 			{
