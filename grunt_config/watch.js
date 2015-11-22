@@ -14,6 +14,10 @@ module.exports = function(options, grunt) {
             files: "" + paths.app + "/js/**/*.js",
             tasks: ["sync:dev_js", "htmlbuild:dev", /*"karma:dev"*/]
         },
+        css: {
+            files: "" + paths.app + "/css/**/*.css",
+            tasks: ["sync:dev_js", "htmlbuild:dev", /*"karma:dev"*/]
+        },
         index: {
             files: ["" + paths.app + "/index.html"],
             tasks: ["htmlbuild:dev"]

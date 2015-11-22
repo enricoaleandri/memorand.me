@@ -1,29 +1,64 @@
+
+<div id="fb-root"></div>
+
+
 <section class="main-desk">
     <header class="sidebar">
 
-        <div>
-            <div class="ui-widget-content note" id="ancor-post-it" >
+        <div class="logo">
+            <a class="navbar-brand page-scroll" href="#page-top">Memorand Me</a>
+        </div>
+        
+        <div class="col-lg-12">
+            <div class="input-group">
+                <input type="text" class="form-control" id="searchBar" ng-model="ctrl.searchBar"  placeholder="Search for...">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">Go!</button>
+                  </span>
+            </div>
+            <!-- /input-group -->
+        </div>
+        <!-- /.col-lg-6 -->
+
+        <div class="menu">
+            <ul>
+                <li><a class="h4"> Registrati</a></li>
+                <li><a class="h4">Accedi</a></li>
+                <li><a class="h4">Contatti</a></li>
+                <li><a class="h4">FAQ</a></li>
+            </ul>
+        </div>
+
+        <div class="dropped-note">
+            <div class="ui-widget-content note" id="ancor-post-it">
                 <p>Drag me around</p>
             </div>
-            <div  id="draggable"
-                  class="ui-widget-content note">
+            <div id="draggable"
+                 class="ui-widget-content note">
                 <textarea name="_text" style="display: none; height:100px; width:130px"></textarea>
+
+
                 <p class="text">Drag me around</p>
             </div>
         </div>
-        <pre>
-            {{ctrl.listPost | json}}
-        </pre>
     </header>
     <article class="working-desk">
-        <div  id="{{key}}"
-              class="ui-widget-content note"
-              style="top :{{post.position.top}}px; left : {{post.position.left}}px;"
-              ng-repeat="(key,post) in ctrl.listPostFromFire track by $index"
-              on-finish-render="ngRepeatFinished">
-            <textarea name="_text" style="display: none; height:100px; width:130px; " ng-model="ctrl.listPost[key].text"></textarea>
-            <p class="text">{{post.text}}</p>
+        <div id="{{post.ui_id}}"
+             class="ui-widget-content note"
+             style="top :{{post.position.top}}px; left : {{post.position.left}}px;"
+             ng-repeat="(key,post) in ctrl.listPostFromFire | objToArray | filter : ctrl.searchBar "
+             on-finish-render="ngRepeatFinished"
+             ng-class="{'current-post' : ctrl.currentPost == post.ui_id}"   >
+            <textarea name="_text" style="display: none; height:100px; width:130px; "
+                      ng-model="ctrl.listPost[post.ui_id].text"
+                      ng-maxlength="255"></textarea>
+
+            <p class="text" style="height: 88%;">{{post.text}}</p>
+            <div class="fb-share-button" data-href="{{window.location.origin+window.location.pathname}}#/home?ui_id={{post.ui_id}}" data-layout="icon"></div>
+            <a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="{{window.location.origin+window.location.pathname}}#/home?ui_id={{post.ui_id}}" data-text="'{{post.text | limitTo:30}}'">Tweet</a>
+
         </div>
     </article>
 </section>
+
 

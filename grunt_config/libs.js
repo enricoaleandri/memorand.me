@@ -9,7 +9,7 @@ var _ = require("underscore");
 module.exports = function (options) {
     var libs = options.paths.libs,
 		cssmapping = [
-
+            "bootstrap/dist/css/bootstrap.css : bootstrap/dist/css/bootstrap.css"
 		],
 		mapping = [
             "jquery/dist/jquery.js : jquery/dist/jquery.min.js",

@@ -13,8 +13,8 @@
 'use strict';
 
 angular.module('memorand.me.controllersModule.homeCtrlModule',[])
-    .controller('homeCtrl',['$scope', '$location','$compile','$firebaseObject','$timeout',
-		function ($scope, $location, $compile, $firebaseObject, $timeout) {
+    .controller('homeCtrl',['$scope', '$location','$compile','$firebaseObject','$timeout','$routeParams',
+		function ($scope, $location, $compile, $firebaseObject, $timeout ,$routeParams) {
 
             var selfPrivate = {};
             var selfPublic = this;
@@ -28,6 +28,9 @@ angular.module('memorand.me.controllersModule.homeCtrlModule',[])
                 // click on `index.html` above to see it used in the DOM!
                 syncObject.$bindTo($scope, "ctrl.listPost")
                 selfPublic.listPostFromFire = {};
+                selfPublic.searchBar = "";
+                selfPublic.currentPost = $routeParams.ui_id;
+                $scope.window = window;
 
                 syncObject.$loaded(
                     function(data) {
@@ -113,14 +116,18 @@ angular.module('memorand.me.controllersModule.homeCtrlModule',[])
                         var newId = "draggable-"+i;
                         selfPublic.listPost[newId] = {
                             text: "Drag me",
-                            position : ui.position
+                            position : ui.position,
+                            "ui_id" :"draggable-"+i
                         };
 
                         replaced.insertBefore($("#ancor-post-it"));
                         replaced.removeAttr("style");
                         ui.helper.attr("id", newId)
+                        ui.helper.attr("ng-hide", "ctrl.searchBar != '' &&  ctrl.listPost['"+newId+"'].text.indexOf(ctrl.searchBar) ==-1");
+
                         ui.helper.find("[name=_text]").attr("ng-model", "ctrl.listPost['"+newId+"'].text");
                         ui.helper.css("left",ui.helper.css("left").substring(0,ui.helper.css("left").length-2)-300);
+
 
                         ui.helper.detach().appendTo($(".working-desk"));
                         ui.helper.replaceWith($compile(ui.helper[0].outerHTML)($scope));
@@ -143,6 +150,18 @@ angular.module('memorand.me.controllersModule.homeCtrlModule',[])
                         $("#" + filtred[i]).draggable(configDraggablePostedIt);
                         $("#" + filtred[i]).dblclick(editPostIt);
                     }
+
+
+                    (function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s); js.id = id;
+                        js.src = "//connect.facebook.net/it_IT/sdk.js#xfbml=1&version=v2.5&appId=1640255559579852";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'))
+
+                    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs')
+
                 });
 
                 /*$scope.$watch('ctrl.listPostFromFire', function(newVal,oldVal) {

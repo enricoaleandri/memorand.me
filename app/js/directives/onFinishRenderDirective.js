@@ -9,7 +9,7 @@ angular.module('memorand.me.directivesModule.onFinishRenderModule', [])
                 if (scope.$last === true) {
                     $timeout(function () {
                         scope.$emit('ngRepeatFinished');
-                    });
+                    },1);
                 }
             }
         }

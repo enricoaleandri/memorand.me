@@ -22,18 +22,12 @@ angular.module("memorand.me.filtersModule", [])
 				return input;
 		};
 	})
-	.filter('flagFM', function() {
+	.filter('objToArray', function() {
 		return function(input) {
-			return input[0] == 'F'? 'Femmina' : 'Maschio';
-		};
-	})
-	.filter('flagNessuno', function() {
-		return function(input) {
-			if(input)
-				return input == "0" ? 'Nessuno' : input;
-			else
-				return "";
+            var resArray = [];
+            for(var key in input)
+                resArray.push(input[key]);
+			return resArray;
 		};
 	});
-
 
