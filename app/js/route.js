@@ -20,7 +20,22 @@ angular.module("memorand.me")
                             deferred.resolve({});
 
                             return deferred.promise;
-                        }]
+                        }],
+                    config : ["configService","$q", function(configService, $q)
+                    {
+                        var deferred = $q.defer();
+                        configService.getConfiguration('config.json').then(
+                            function(config)
+                            {
+                                deferred.resolve(config);
+                            },
+                            function(error)
+                            {
+                                deferred.reject(error);
+                            }
+                        );
+                        return deferred.promise;
+                    }]
                 },
                 templateUrl: "app/partials/home.html",
                 controller: "homeCtrl",

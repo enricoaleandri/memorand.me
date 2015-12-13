@@ -1,16 +1,22 @@
 {
-	"mocks": [
-        {
-          "method": "GET",
-          "match": "(.*\\/)?log4javascript\\.json",
-          "file": "app/mocks/config/log4javascript.json",
-          "enabled": true
-        },
-        {
-          "method": "GET",
-          "match": "(.*\\/)?configServices\\.json",
-          "file": "app/mocks/config/configServices.json",
-          "enabled": true
-        }
-	]
+  "mocks": [
+    {
+      "method": "GET",
+      "match": "(.*\\/)?log4javascript\\.json",
+      "file": "app/mocks/config/log4javascript.json",
+      "enabled": true
+    },
+    {
+      "method": "GET",
+      "match": "(.*\\/)?configServices\\.json",
+      "file": "app/mocks/config/configServices.json",
+      "enabled": true
+    },
+    {
+      "method": "GET",
+      "match": "(.*\\/)?config\\.json",
+      "file": "app/mocks/config/config.json",
+      "enabled": true
+    }
+  ]
 }

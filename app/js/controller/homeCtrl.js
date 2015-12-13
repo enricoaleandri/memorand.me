@@ -13,17 +13,40 @@
 'use strict';
 
 angular.module('memorand.me.controllersModule.homeCtrlModule',[])
-    .controller('homeCtrl',['$scope', '$location','$compile','$firebaseObject','$timeout','$routeParams',
-		function ($scope, $location, $compile, $firebaseObject, $timeout ,$routeParams) {
+    .controller('homeCtrl',['$scope', '$location','$compile','$firebaseObject','$timeout','$routeParams','config',
+		function ($scope, $location, $compile, $firebaseObject, $timeout ,$routeParams, config) {
 
             var selfPrivate = {};
             var selfPublic = this;
 
+            selfPublic.submitLogin = function(username, password)
+            {
+                selfPublic.loginForm.error = "";
+                selfPrivate.fireBaseObject.authWithPassword({
+                    email    : username,
+                    password : password
+                }, function(error, authData) {
+
+                    selfPublic.authData = selfPrivate.fireBaseObject.getAuth();
+                    if(error)
+                        selfPublic.loginForm.error = error;
+                    $scope.$apply();
+                }, {
+                    remember: "sessionOnly"
+                });
+            };
+            selfPublic.submitLogout = function()
+            {
+                selfPrivate.fireBaseObject.unauth();
+                selfPublic.authData = selfPrivate.fireBaseObject.getAuth();
+            }
             selfPrivate.Init = function($scope )
             {
-                var ref = new Firebase("https://boiling-torch-9811.firebaseio.com/post");
+                 selfPrivate.fireBaseObject = new Firebase("https://"+config.firebaseId+".firebaseio.com/post");
+                 selfPublic.authData = selfPrivate.fireBaseObject.getAuth();
+
                 // download the data into a local object
-                 var syncObject= $firebaseObject(ref);
+                 var syncObject= $firebaseObject(selfPrivate.fireBaseObject);
                 // synchronize the object with a three-way data binding
                 // click on `index.html` above to see it used in the DOM!
                 syncObject.$bindTo($scope, "ctrl.listPost")
@@ -112,12 +135,12 @@ angular.module('memorand.me.controllersModule.homeCtrlModule',[])
 
                         var replaced = $(ui.helper[0].outerHTML);
                         var i;
-                        for(i = 0; angular.isDefined(selfPublic.listPost["draggable-"+i]); i++ );
-                        var newId = "draggable-"+i;
+                        for(i = 0; angular.isDefined(selfPublic.listPost["draggable"+i]); i++ );
+                        var newId = "draggable"+i;
                         selfPublic.listPost[newId] = {
                             text: "Drag me",
                             position : ui.position,
-                            "ui_id" :"draggable-"+i
+                            "ui_id" :"draggable"+i
                         };
 
                         replaced.insertBefore($("#ancor-post-it"));

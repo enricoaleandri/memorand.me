@@ -23,7 +23,18 @@
         <div class="menu">
             <ul>
                 <li><a class="h4"> Registrati</a></li>
-                <li><a class="h4">Accedi</a></li>
+                <li ng-show="!ctrl.authData">
+                    <a class="h4" ng-init="ctrl.loginForm.showForm = false;" ng-click="ctrl.loginForm.showForm = !ctrl.loginForm.showForm;">Accedi</a>
+                    <span class="input-group loginForm"  ng-show="ctrl.loginForm.showForm" >
+                        <div> Email</div>
+                        <div><input ng-model="ctrl.loginForm.username" class="form-control" name="username" type="text" size="30" maxlength="50"/></div>
+                        <div> Password</div>
+                        <div><input ng-model="ctrl.loginForm.password" class="form-control" name="password" type="password" size="30" maxlength="50"/></div>
+                        <div ng-show="ctrl.loginForm.error"><p class="error" ng-bind="ctrl.loginForm.error"></p></div>
+                        <div><button class="btn btn-default" type="button" ng-click="ctrl.submitLogin(ctrl.loginForm.username, ctrl.loginForm.password)">Login</button></div>
+                    </span>
+                </li>
+                <li ng-show="ctrl.authData"><a class="h4" ng-click="ctrl.submitLogout()">Logout</a></a></li>
                 <li><a class="h4">Contatti</a></li>
                 <li><a class="h4">FAQ</a></li>
             </ul>

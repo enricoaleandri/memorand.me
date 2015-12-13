@@ -29,6 +29,24 @@
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #fed136;
 }
+.menu ul li a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.menu ul li .loginForm {
+    background-color: rgba(51, 45, 84, 0.24);
+    padding: 15px;
+}
+
+.menu ul li .loginForm .bnt{
+    margin: 10px 10px 0 0;
+    float: right;
+}
+.menu ul li .error{
+    color: #ff6259;
+    font-weight: bold;
+    font-size: 21px;
+}
 .note.current-post{
     z-index : 9999;
     border :#F00 3px solid;
