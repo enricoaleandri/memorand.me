@@ -13,8 +13,10 @@
 'use strict';
 
 angular.module('memorand.me.controllersModule.homeCtrlModule',[])
-    .controller('homeCtrl',['$scope', '$location','$compile','$firebaseObject','$timeout','$routeParams','config',
-		function ($scope, $location, $compile, $firebaseObject, $timeout ,$routeParams, config) {
+    .controller('homeCtrl',['$scope', '$location','$compile','$firebaseObject','$timeout',
+                '$routeParams','config', '$uibModal',
+		function ($scope, $location, $compile, $firebaseObject, $timeout ,$routeParams,
+                  config, $uibModal) {
 
             var selfPrivate = {};
             var selfPublic = this;
@@ -26,10 +28,22 @@ angular.module('memorand.me.controllersModule.homeCtrlModule',[])
                     email    : username,
                     password : password
                 }, function(error, authData) {
-
                     selfPublic.authData = selfPrivate.fireBaseObject.getAuth();
-                    if(error)
-                        selfPublic.loginForm.error = error;
+                    if (error) {
+                        switch (error.code) {
+                            case "INVALID_EMAIL":
+                                selfPublic.loginForm.error = "The specified user account email is invalid.";
+                                break;
+                            case "INVALID_PASSWORD":
+                                selfPublic.loginForm.error = "The specified user account password is incorrect.";
+                                break;
+                            case "INVALID_USER":
+                                selfPublic.loginForm.error = "The specified user account does not exist.";
+                                break;
+                            default:
+                                console.log("Error logging user in:", error);
+                        }
+                    }
                     $scope.$apply();
                 }, {
                     remember: "sessionOnly"
@@ -39,6 +53,25 @@ angular.module('memorand.me.controllersModule.homeCtrlModule',[])
             {
                 selfPrivate.fireBaseObject.unauth();
                 selfPublic.authData = selfPrivate.fireBaseObject.getAuth();
+            };
+            selfPublic.submitContact = function(){
+                var modalInstance = $uibModal.open({
+                    animation: true,
+                    templateUrl: 'contactModal.html',
+                    controller: 'contactModalInstanceCtrl',
+
+                    resolve: {
+                        items: function () {
+                            return {};
+                        }
+                    }
+                });
+
+                modalInstance.result.then(function (result) {
+
+                }, function () {
+                    console.info('Modal dismissed at: ' + new Date());
+                });
             }
             selfPrivate.Init = function($scope )
             {
@@ -123,6 +156,7 @@ angular.module('memorand.me.controllersModule.homeCtrlModule',[])
 
                     },
                     drag : function(event, ui){
+
                         $scope.ctrl.listPost[ui.helper.attr("id")].position = ui.position;
                         $scope.$apply();
 

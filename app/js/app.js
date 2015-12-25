@@ -11,6 +11,8 @@ angular.module('memorand.me', [
     'ngRoute',
     'ngDragDrop',
     'firebase',
+    "ngAnimate",
+    'ui.bootstrap',
 	'memorand.me.controllersModule',
 	'memorand.me.servicesModule',
 	"memorand.me.filtersModule",

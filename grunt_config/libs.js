@@ -15,11 +15,12 @@ module.exports = function (options) {
             "jquery/dist/jquery.js : jquery/dist/jquery.min.js",
             "underscore/underscore.js : underscore/underscore-min.js",
             "angular/angular.js : angular/angular.min.js",
+            "angular-animate/angular-animate.js : angular-animate/angular-animate.js",
             "angular-route/angular-route.js : angular-route/angular-route.min.js",
             "firebase/lib/firebase-web.js : firebase/lib/firebase-web.js",
             "angularfire/dist/angularfire.js : angularfire/dist/angularfire.js",
             "angular-mocks/angular-mocks.js : ''",
-            //"../toolkit/bootstrap.js : ../toolkit/bootstrap.js",
+            "angular-ui-bootstrap/ui-bootstrap.min.js : angular-ui-bootstrap/ui-bootstrap.min.js",
             "moment/moment.js : moment/min/moment.min.js",
             //"spin.js/spin.js : spin.js/spin.min.js",
 
